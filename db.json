@@ -842,6 +842,32 @@
                     "description":"The Xiaomi OLED Vision TV is available in a single size of 55 inches, and has an Ultra-HD OLED display at a price that undercuts much of the competition from brands such as LG and Sony. "
                     }
                     ],
+                    "headphones":[
+                      
+{"image": "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1664476935/Croma%20Assets/Communication/Headphones%20and%20Earphones/Images/243228_luuxjq.png/mxw_1440,f_auto","name":"boAt Rockerz 558","id":1,
+"desc":"Bluetooth Headset with Mic (Dual Connectivity, Over Ear, Black)","price":"₹1,799.00","category":"headphone"},
+{"image":"https://th.bing.com/th/id/R.329de009afd46098ee24cb6b004a89d1?rik=CLcM1sylVTpOlg&riu=http%3a%2f%2fwww.bhphotovideo.com%2fimages%2fimages2500x2500%2fbeats_by_dr_dre_900_00108_01_studio_wireless_headphones_white_1016366.jpg&ehk=%2fBwHdKJ0eGmmpzE7oTrCNsim037FuKZAmyeWVDddWhg%3d&risl=&pid=ImgRaw&r=0","name":"Beats Headphone","id":2,"desc":"Wireless Bluetooth headphone with high quality speakers","price":"₹26,000","category":"headphone"},
+{"image":"https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5739/5739304_rd.jpg","name":"Sony XB950B1","id":3,"desc":"Wireless over the ear bluetooth speaker","price":"₹22,000","category":"headphone"},
+{"image":"https://d2xamzlzrdbdbn.cloudfront.net/products/f4710a3c-6d3f-4487-88ac-e9aa3b34a0a422160956.jpg","name":"Boats Airdopes 381","id":4,"desc":" In Ear Wireless Earbuds Flawless sound with Bluetooth v5.0 (Blue)","price":"₹1,600","category":"Airdopes"},
+{"image":"https://d2xamzlzrdbdbn.cloudfront.net/products/570d6976-1df3-4f2f-a4a6-fca24616051422071146_416x416.jpg","name":"JBL Tune 710BT","id":5,"desc":"Wireless Headphones with Mic, 50 Hours Playtime (Black)","price":"₹6,000","category":"headphone"},
+{"image":"https://d2xamzlzrdbdbn.cloudfront.net/products/b14f1d55-868d-4eeb-90a2-512bb1f818d322100831.jpg","name":"boAt Immortal IM1000D","id":6,"desc":"RTL Gaming Headphones with 7.1 Channel Surround Audio, Dolby Atmos, 50mm Drivers (Black Sabre)","price":"2,200","category":"headphone"},
+{"image":"https://d2xamzlzrdbdbn.cloudfront.net/products/00ce26f1-987c-4429-aed1-d4e0a80a79a0_416x416.jpg","name":"JBL T175BT","id":7,"desc":" Bluetooth Headset (Blue) Neckband","price":"₹1,499","category":"Neckband"},
+{"image":"https://d2xamzlzrdbdbn.cloudfront.net/products/7ac15915-391f-4e1a-9de2-00c8a1c2883022211112_416x416.jpg","name":"Sony WF-1000XM4","id":8,"desc":"Industry-leading Digital Noise Canceling Truly Wireless Earbuds with Exceptional Sound Quality (Black)","price":"₹19,990","category":"Airdopes"},
+{"image":"https://d2xamzlzrdbdbn.cloudfront.net/products/74152ac3-317d-4030-9fd5-b2a15878526c22101104.jpg","name":"boAt Rockerz 255","id":9,"desc":"RTL Bluetooth Wireless in Ear Earphones with Mic, boAt Signature Audio (Active Black)","price":"₹1,299","category":"Neckband"},
+{"image":"https://d2xamzlzrdbdbn.cloudfront.net/products/a032d75b-d597-419f-9033-cc580d14d37e22231258_416x416.jpg","name":"Realme Buds Wireless 2S ","id":10,"desc":"AI ENC Noise Cancellation for Calls, 24 Hours Long Battery Life, 88ms Ultra-Low Latency (Black)","price":"₹2,500","category":"Neckband"},
+{"image":"https://d2xamzlzrdbdbn.cloudfront.net/products/7e5afa58-8528-4624-9e19-ca6949bcd28921021343_416x416.jpg","name":"Marshall Monitor","id":11,"desc":" ANC Wireless Bluetooth Headphone with Microphone (Black)","price":"₹24,000","category":"headphone"},
+{"image":"https://d2xamzlzrdbdbn.cloudfront.net/products/e5cdd0d0-d673-44c1-b3c4-368f9a3cdeb522101235.jpg","name":"Marshall Motif ANC","id":12,"desc":"wireless Earbuds with Active Noise Cancellation, Fast Charging, IPX5 in earbuds. IPX4 in case (Black)","price":"₹19,000","category":"Airdopes"},
+{"image":"https://d2xamzlzrdbdbn.cloudfront.net/products/7cd18a08-924b-472d-95d3-7e4ba73a2a5122210550.jpg","name":"Sony WH-1000XM5 ","id":13,"desc":"Wireless Industry Leading Noise Canceling Headphones with Auto Noise Canceling, Up To 30 Hours Battery Life (Black)","price":"₹29,990","category":"headphone"},
+{"image":"https://d2xamzlzrdbdbn.cloudfront.net/products/f4b0831e-1faa-4aa3-93b2-73fb57e9609622271240.jpg","name":"Skullcandy Cassette","id":14,"desc":"Wireless On-Ear Headphone with Up to 22 Hours of Battery Life, Plush On-Ear Cushions (Cobalt Blue)","price":"₹1,999","category":"headphone"},
+{"image":"https://th.bing.com/th/id/OIP.Zsh0T-Wskz0t9OgKaiC6TgHaHa?pid=ImgDet&rs=1","name":"Beats by Dr. Dre Studio3","id":15,"desc":"Wireless Bluetooth Headphones (Gray / Core)","price":"₹16,000","category":"headphone"},
+{"image":"https://th.bing.com/th/id/OIP.o9CHRh0g7qlpTAdA1TSMnQHaHa?pid=ImgDet&rs=1","name":"Overtime Remix On Ear Headphones ","id":16,"desc":"Lightweight Over The Ear Wired Headphone with 3.5mm Jack (Pink)","price":"₹1,500","category":"headphone"},
+{"image":"https://th.bing.com/th/id/OIP.ZaZk-vThCGy1AXw_52L52wHaHa?pid=ImgDet&rs=1","name":"Marshall","id":17,"desc":"Mid Bluetooth aptX Headphones (Black)","price":"₹13,000","category":"headphone"},
+{"image":"https://th.bing.com/th/id/OIP.HJHYDQIhU45AFsUcvviygQHaHa?pid=ImgDet&rs=1","name":"Bose SoundLink","id":18,"desc":" Around-Ear Bluetooth (AE2w) Headphones","price":"₹17,000","category":"headphone"},
+{"image":"https://th.bing.com/th/id/OIP.Tjd920WE02NzWBq2-bu_5wHaHa?pid=ImgDet&rs=1","name":"Beats by Dr. Dre Studio 2.0","id":19,"desc":"Over-Ear Wired Headphones (Champagne)","price":"₹11,000","category":"headphone"},
+{"image":"https://d2xamzlzrdbdbn.cloudfront.net/products/f69f6069-8130-4ed0-a3ed-1ce9871ae459.jpg","name":"LG Tone Free FN5","id":20,"desc":"Wireless Earbuds with Noise Isolation, UVnano 99.9% Bacteria-Free, Prestigious British Meridian Sound, IPX4 Water Resistance (White)","price":"₹9,999","category":"headphone"}
+
+
+                    ],
                 "ac": [
                         {
                             "name": "Haier",
