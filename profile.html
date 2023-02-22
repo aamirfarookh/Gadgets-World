@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gadgets World | User Profile</title>
+    <style>
+/* Reset styles */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+/* Header styles */
+header {
+	background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	color: #1a1919;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	padding: 0.2rem;
+	position: fixed;
+	top:0;
+	width:100vw;
+}
+.logo{
+    width:30%;
+}
+
+.logo img {
+width:50%;
+}
+
+nav {
+    width:65%;
+    display: flex;
+    justify-content: space-around;
+}
+nav a {
+	color: red;
+	text-decoration: none;
+    font-size: 18px;
+}
+
+/* Main content styles */
+main {
+	max-width: 965px;
+	margin: 2rem auto;
+	padding: 0 1rem;
+	/* display: flex;
+	justify-content: space-between; */
+}
+
+/* User profile section styles */
+.profile {
+	text-align: center;
+	margin-bottom: 2rem;
+	margin-top: 5rem;	
+}
+
+.profile img {
+    width:10%;
+	border-radius: 50%;
+	margin-bottom: 1rem;
+}
+
+.profile h2 {
+	margin-top: 0.5rem;
+	margin-bottom: 0.25rem;
+}
+
+.profile p {
+	margin-bottom: 0.5rem;
+}
+
+.profile button {
+	background-color: red;
+	color: #fff;
+	border: none;
+	padding: 0.5rem 1rem;
+	border-radius: 0.25rem;
+	cursor: pointer;
+}
+
+/* Order history section styles */
+.orders {
+	margin-bottom: 2rem;
+}
+
+.orders h1 {
+	margin-bottom: 1rem;
+}
+
+.orders table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.orders th,
+.orders td {
+	border: 1px solid #ccc;
+	padding: 0.5rem;
+	text-align: left;
+}
+
+.orders th {
+	background-color: red;
+	color: #fff;
+}
+
+.orders tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+#logout-btn{
+    padding: 0.4rem;
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+/* Edit form styles */
+
+.container {
+	background-color: #fff;
+	padding: 20px;
+	margin: 50px auto;
+	max-width: 500px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.container h1 {
+	text-align: center;
+	color: #333;
+	margin-bottom: 30px;
+}
+
+.container label {
+	display: block;
+	margin-bottom: 5px;
+	color: #666;
+}
+
+.container input[type="text"],
+.container input[type="email"],
+.container input[type="tel"],
+.container textarea {
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	width: 100%;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+}
+
+.container input[type="submit"] {
+	background-color: red;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.container input[type="submit"]:hover {
+	background-color: red;
+}
+
+.display-none{
+	display: none;
+}
+.display-visible{
+	display: block;
+}
+
+/* Footer styles
+footer {
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	padding: 1rem;
+	position: relative;
+	bottom: 0;
+  
+} */
+
+    </style>
+</head>
+<body>
+    <header>
+		<div class="logo">
+			<img src="Logo.png" alt="">
+		</div>
+		<nav>
+			
+				<a href="dashboard.html">Home</a>
+				<a href="#">Products</a>
+				<a href="cart.html">Cart</a>
+                <button id="logout-btn">Logout</button>
+		</nav>
+	</header>
+	<main>
+		<section class="profile">
+			<h1>User Profile</h1>
+			<img src="https://i.pinimg.com/564x/19/99/e0/1999e052d1f7263e4674294285f7c576.jpg" alt="Profile Picture">
+			<h2 id="name-data">Amir Bhat</h2>
+			<p id="email-data">Email: amir.bhat@example.com</p>
+			<p id="phone-data">Phone: 123-456-7890</p>
+			<p id="address-data">Address: 123 Main St, Anytown, USA</p>
+			<button id="edit-btn">Edit Profile</button>
+		</section>
+		<section class="orders">
+			<div class="table">
+				<h1>Order History</h1>
+				<table>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Order Number</th>
+							<th>Product Name</th>
+							<th>Quantity</th>
+							<th>Price</th>
+						</tr>
+					</thead>
+					<tbody>
+					  <tr>
+						<td>Delivered</td>
+						<td>12121</td>
+						<td>Mobile</td>
+						<td>2</td>
+						<td>19999</td>
+					  </tr>
+					</tbody>
+				</table>
+			</div>
+			
+			<div class="container display-none">
+				<h1>Edit User Profile</h1>
+				<form >
+					<label for="fname">First Name:</label>
+					<input type="text" id="fname" name="fname" value="Amir"><br>
+			
+					<label for="lname">Last Name:</label>
+					<input type="text" id="lname" name="lname" value="Bhat"><br>
+			
+					<label for="email">Email:</label>
+					<input type="email" id="email" name="email" value="amir.bhat@example.com"><br>
+			
+					<label for="img-url">Image Url:</label>
+					<input type="text" id="img-url" name="img-url" value="https://i.pinimg.com/564x/19/99/e0/1999e052d1f7263e4674294285f7c576.jpg"><br>
+			
+					<label for="phone">Phone Number:</label>
+					<input type="tel" id="phone" name="phone" value="+1-555-555-5555"><br>
+			
+					<label for="address">Address:</label>
+					<textarea id="address" name="address">123 Main St, Anytown USA</textarea><br>
+			
+					<input type="submit" value="Save Changes" id="">
+				</form>
+			</div>
+		</section>
+	</main>
+	<!-- <footer>
+		<p>&copy; 2023 Gadgets World</p>
+	</footer> -->
+</body>
+<script>
+	//base Server Url here !!!
+    let baseServerUrl = `http://localhost:8080/`;
+	//base Server Url here !!!
+
+    let tbody = document.querySelector("tbody");
+	let table = document.querySelector(".table");
+    let orderSection = document.querySelector(".orders");
+    let editBtn = document.getElementById("edit-btn");
+    let logoutBtn = document.getElementById("logout-btn");
+
+	// catching edit form elements here
+	let editFormSection = document.querySelector(".container")
+    let editForm = document.querySelector(".container>form");
+	let fnameInput = document.getElementById("fname");
+	let lnameInput = document.getElementById("lname");
+	let emailInput = document.getElementById("email");
+	let imgUrlInput = document.getElementById("img-url")
+	let phoneInput = document.getElementById("phone");
+	let addressInput = document.getElementById("address")
+    // catching edit form elements here
+
+	//catching elements from profile section
+     let profileName = document.getElementById("name-data");
+	 let profileEmail = document.getElementById("email-data");
+	 let profilePhone = document.getElementById("phone-data");
+	 let profileAddress = document.getElementById("address-data");
+     //catching elements from profile section
+
+  //function to make row of orders
+    function makeRow(status,name,quantity,price){
+    let row = `<tr>
+        <td>${status}</td>
+		<td>${Math.floor(Math.random()*1000)}</td>
+			<td>${name}</td>
+				<td>${quantity}</td>
+					<td>${price}</td>
+        </tr>`;
+		return row;
+    }
+
+	//function to render all rows to dom
+	function renderRows(data){
+		tbody.innerHTML="";
+		let allRows = data.map((ele)=>{
+			return makeRow(ele.status,ele.name,ele.quantity,ele.price)
+		}).join("")
+		tbody.innerHTML= allRows
+	}
+
+
+	//function to fetch data from server
+    async function fetchorders(){
+        try {
+            let res = await fetch(`${baseServerUrl}users/1`);
+        let data = await res.json();
+        console.log(data.orders)
+		renderRows(data.orders)
+        } catch (error) { 
+			console.log(error)     
+        }
+    }
+   
+	// calling fetchData and getUserDetails function on window load
+	window.addEventListener("load",()=>{
+		fetchorders()
+		getUserDetails()
+	})
+
+// edit profile button event listener
+ editBtn.addEventListener("click",()=>{
+	table.classList.add("display-none");
+	editFormSection.classList.add("display-visible")
+    window.location.href="#edit-profile-form"
+ })
+
+ 
+
+ // fetching details of users and rendering them on profile section and form section
+ async function getUserDetails(){
+   try {
+	let res = await fetch(`${baseServerUrl}users/1`);
+	let data = await res.json();
+	fnameInput.value = data.first_name;
+	lnameInput.value= data.last_name;
+	emailInput.value = data.email;
+	phoneInput.value = data.phone_number;
+	addressInput.value = data.address;
+	profileName.textContent = `${data.first_name} ${data.last_name}`;
+	profileEmail.textContent = data.email;
+	profilePhone.textContent = data.phone_number;
+	profileAddress.textContent = data.address
+   } catch (error) {
+	
+   }
+ }
+
+
+
+</script>
+</html>
+
+
