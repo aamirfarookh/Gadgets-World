@@ -28,7 +28,7 @@ userBtn.addEventListener("click",()=>{
     window.location.href = "cart.html"
  })
 
- // Event listener for user profile btn
+ // Event listener for logout  btn
 logoutBtn.addEventListener("click",()=>{
     if(confirm("Are you sure you want to logout?")===true){
         window.location.href= "index.html"

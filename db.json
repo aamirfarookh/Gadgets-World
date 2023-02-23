@@ -847,7 +847,7 @@
       "Power_Consumption": "704 W",
       "id": 1,
       "Rating": 0,
-      "Price": 27294,
+      "price": 27294,
       "image": "https://rukminim1.flixcart.com/image/312/312/l1ch4sw0/air-conditioner-new/0/j/f/-original-imagcxh3d6ezzqhp.jpeg?q=70"
     },
     {
@@ -856,7 +856,7 @@
       "Power_Consumption": "1304 W",
       "id": 2,
       "Rating": 4.2,
-      "Price": 38999,
+      "price": 38999,
       "image": "https://rukminim1.flixcart.com/image/312/312/l2krs7k0/air-conditioner-new/v/x/g/-original-imagdwym4y6wb4vu.jpeg?q=70"
     },
     {
@@ -865,7 +865,7 @@
       "Power_Consumption": "1570 W",
       "id": 3,
       "Rating": 3.8,
-      "Price": 28490,
+      "price": 28490,
       "image": "https://rukminim1.flixcart.com/image/312/312/l1pc3gw0/air-conditioner-new/y/e/h/-original-imagd7qhxffd2ksw.jpeg?q=70"
     },
     {
@@ -874,7 +874,7 @@
       "Power_Consumption": "1095 W",
       "id": 4,
       "Rating": 4.3,
-      "Price": 32999,
+      "price": 32999,
       "image": "https://rukminim1.flixcart.com/image/312/312/l0sgyvk0/air-conditioner-new/4/8/i/-original-imagchbyyxgnsztk.jpeg?q=70"
     },
     {
@@ -883,7 +883,7 @@
       "Power_Consumption": "712.59 kWh",
       "id": 5,
       "Rating": 4,
-      "Price": 27490,
+      "price": 27490,
       "image": "https://rukminim1.flixcart.com/image/312/312/kzfvzww0/air-conditioner-new/j/p/s/-original-imagbgbzyx7vkpvj.jpeg?q=70"
     },
     {
@@ -892,7 +892,7 @@
       "Power_Consumption": "840.75 kWh",
       "id": 6,
       "Rating": 4.3,
-      "Price": 42990,
+      "price": 42990,
       "image": "https://rukminim1.flixcart.com/image/312/312/l0r1j0w0/air-conditioner-new/n/i/w/-original-imagcgg5ktjp2p3j.jpeg?q=70"
     },
     {
@@ -901,7 +901,7 @@
       "Power_Consumption": "1056.45 W",
       "id": 7,
       "Rating": 4.2,
-      "Price": 35990,
+      "price": 35990,
       "image": "https://rukminim1.flixcart.com/image/312/312/kltryq80/air-conditioner-new/l/l/y/cs-ru18xkytw-cu-ru18xkytw-split-panasonic-inverter-original-imagyugnrnv2djmk.jpeg?q=70"
     },
     {
@@ -910,7 +910,7 @@
       "Power_Consumption": "704.42 kWh",
       "id": 8,
       "Rating": 0,
-      "Price": 32490,
+      "price": 32490,
       "image": "https://rukminim1.flixcart.com/image/312/312/l1tmf0w0/air-conditioner-new/p/a/b/-original-imagdaxefv3jtghq.jpeg?q=70"
     },
     {
@@ -919,7 +919,7 @@
       "Power_Consumption": "1649 W",
       "id": 9,
       "Rating": 4.3,
-      "Price": 28990,
+      "price": 28990,
       "image": "https://rukminim1.flixcart.com/image/312/312/jelpg280/air-conditioner-new/g/y/e/183czp-1-5-window-voltas-original-imaf39axfkmh9avk.jpeg?q=70"
     },
     {
@@ -928,7 +928,7 @@
       "Power_Consumption": "920 W",
       "id": 10,
       "Rating": 4.3,
-      "Price": 30990,
+      "price": 30990,
       "image": "https://rukminim1.flixcart.com/image/312/312/ky1vl3k0/air-conditioner-new/t/h/q/-original-imagad5yffnyfyvh.jpeg?q=70"
     },
     {
@@ -937,7 +937,7 @@
       "Power_Consumption": "990 W",
       "id": 11,
       "Rating": 4.3,
-      "Price": 36490,
+      "price": 36490,
       "image": "https://rukminim1.flixcart.com/image/312/312/l0sgyvk0/air-conditioner-new/4/8/i/-original-imagchbyyxgnsztk.jpeg?q=70"
     },
     {
@@ -946,7 +946,7 @@
       "Power_Consumption": "1106.26 kWh",
       "id": 12,
       "Rating": 4,
-      "Price": 36499,
+      "price": 36499,
       "image": "https://rukminim1.flixcart.com/image/312/312/l1fc0i80/air-conditioner-new/z/j/m/-original-imagczgshsskqzqy.jpeg?q=70"
     },
     {
@@ -955,7 +955,7 @@
       "Power_Consumption": "1155 W",
       "id": 13,
       "Rating": 4.1,
-      "Price": 34990,
+      "price": 34990,
       "image": "https://rukminim1.flixcart.com/image/312/312/l2krs7k0/air-conditioner-new/v/i/s/-original-imagdvx8q3m8erbj.jpeg?q=70"
     },
     {
@@ -964,7 +964,7 @@
       "Power_Consumption": "974.21 kWh",
       "id": 14,
       "Rating": 4.3,
-      "Price": 39400,
+      "price": 39400,
       "image": "https://rukminim1.flixcart.com/image/312/312/l01blow0/air-conditioner-new/g/w/z/-original-imagbwxsvzh3phfu.jpeg?q=70"
     },
     {
@@ -973,7 +973,7 @@
       "Power_Consumption": "1770 W",
       "id": 15,
       "Rating": 4.3,
-      "Price": 36990,
+      "price": 36990,
       "image": "https://rukminim1.flixcart.com/image/312/312/l0r1j0w0/air-conditioner-new/n/i/w/-original-imagcgg5ktjp2p3j.jpeg?q=70"
     },
     {
@@ -982,7 +982,7 @@
       "Power_Consumption": "932 W",
       "id": 16,
       "Rating": 4,
-      "Price": 43990,
+      "price": 43990,
       "image": "https://rukminim1.flixcart.com/image/312/312/k98tdow0/air-conditioner-new/a/6/d/ih418safu-1-5-split-inverter-blue-star-original-imafr3f8ep9nyxwz.jpeg?q=70"
     },
     {
@@ -991,7 +991,7 @@
       "Power_Consumption": "642.93 kWh",
       "id": 17,
       "Rating": 4,
-      "Price": 28790,
+      "price": 28790,
       "image": "https://rukminim1.flixcart.com/image/312/312/l1pc3gw0/air-conditioner-new/7/u/r/-original-imagd7zw3xxwqpt6.jpeg?q=70"
     },
     {
@@ -1000,7 +1000,7 @@
       "Power_Consumption": "840.75 kWh",
       "id": 18,
       "Rating": 4.3,
-      "Price": 42990,
+      "price": 42990,
       "image": "https://rukminim1.flixcart.com/image/312/312/l0r1j0w0/air-conditioner-new/n/i/w/-original-imagcgg5ktjp2p3j.jpeg?q=70"
     },
     {
@@ -1009,7 +1009,7 @@
       "Power_Consumption": "1570 W",
       "id": 19,
       "Rating": 3.8,
-      "Price": 28490,
+      "price": 28490,
       "image": "https://rukminim1.flixcart.com/image/312/312/l1pc3gw0/air-conditioner-new/y/e/h/-original-imagd7qhxffd2ksw.jpeg?q=70"
     },
     {
@@ -1018,7 +1018,7 @@
       "Power_Consumption": "1070 W",
       "id": 20,
       "Rating": 4,
-      "Price": 28490,
+      "price": 28490,
       "image": "https://rukminim1.flixcart.com/image/312/312/l1pc3gw0/air-conditioner-new/6/5/h/-original-imagd7qhswkpenpg.jpeg?q=70"
     }
   ],
@@ -1026,11 +1026,11 @@
     {
       "id": 1,
       "username": "amir321",
-      "first_name": "Amir",
-      "last_name": "Bhat",
-      "email": " aamirfarooqbhatt@gmail.com",
+      "first_name": "Avinaw",
+      "last_name": "Kumar",
+      "email": "aamirfarooqbhatt@gmail.com",
       "phone_number": "+91 8899990966",
-      "address": "Srinagar J&K",
+      "address": "Srinagar, J&K, 190015",
       "password": "12345",
       "orders": [
         {
@@ -1046,26 +1046,16 @@
           "ton": "1",
           "Power_Consumption": "704 W",
           "Rating": 4.3,
-          "Price": 27294,
+          "price": 27294,
           "image": "https://rukminim1.flixcart.com/image/312/312/l1ch4sw0/air-conditioner-new/0/j/f/-original-imagcxh3d6ezzqhp.jpeg?q=70",
           "status": "ordered",
           "quantity": 2
         }
-      ]
+      ],
+      "avatar": "https://media.licdn.com/dms/image/D4D03AQHNcVYwr9c0_Q/profile-displayphoto-shrink_400_400/0/1668674780101?e=1682553600&v=beta&t=2EWlv91PODhIMWuDrfwgipoQcaFTE6NFpMkVuxM4vLc"
     }
   ],
-  "cart": [
-    {
-      "title": "POCO C31 (Royal Blue, 64 GB)",
-      "brand": "POCO",
-      "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9iaWxlJTIwcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-      "id": "MOBG73E7GKQK4KZP",
-      "description": "4 GB RAM | 64 GB ROM | Expandable Upto 512 GB 16.59 cm (6.53 inch) HD+ Display 13MP + 2MP + 2MP | 5MP Front Camera 5000 mAh Lithium-ion Polymer Battery MediaTek Helio G35 Processor",
-      "price": 11999,
-      "quantity": 1,
-      "rating": 4.4
-    }
-  ],
+  "cart": [],
   "admin": [
     {
       "username": "admin",
