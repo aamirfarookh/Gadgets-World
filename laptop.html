@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-              body {
+
+body {
     margin: 0;
     padding: 0;
   }
@@ -108,7 +109,7 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 width: 50%;
 }
 #container>div img{
-width: 60%;
+width: 70%;
 
 }
 #container button{
@@ -207,7 +208,7 @@ width: 60%;
 <script>
   let cont=document.getElementById("container");
 
-let api=" http://localhost:8080/tv";
+let api="http://localhost:8080/laptops";
 
 
 async function get(api){
@@ -248,7 +249,7 @@ function filtered(data){
     cont.innerHTML="";
  let find = document.getElementById("sear");
  data = data.filter((ele)=>{
-   let input = ele.name;
+   let input = ele.title;
 
   let res = find.value;
 
@@ -279,14 +280,27 @@ data.forEach((ele) => {
     let desc=document.createElement("p");
     let price=document.createElement("h2");
     let cartBtn=document.createElement("button");
-    img.setAttribute("src",ele.image);
+    img.setAttribute("src",ele.img);
      imgDiv.append(img)
 
-     name.innerText=ele.name;
-     desc.innerText=ele.description;
+     name.innerText=ele.title;
+     desc.innerText=ele.RAM;
      price.innerText=`₹${ele.price}`;
      cartBtn.innerText="Add to cart";
 
+     cartBtn.addEventListener("click",async function(){
+    try {
+     await fetch("http://localhost:8080/cart",{
+      method:"POST",
+      body:JSON.stringify(ele),
+      headers:{
+        "content-type":"application/json"
+      }
+     })
+    } catch (error) {
+      console.log(error)
+    }
+     })
 elDiv.append(name,desc,price,cartBtn)
      card.append(imgDiv,elDiv);
  cont.append(card);

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-              body {
+        body {
     margin: 0;
     padding: 0;
   }
@@ -74,18 +74,23 @@
     text-decoration: underline;
     font-size: 22px;
   }
+
+ 
+ 
+  
         .searchD {
     width: 20%;
     margin: auto;
     display:flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 100px;
     margin-bottom: 20px;
 }
 .searchD > button {
     background-color: red;
     color: white;
+    border: red;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
  #main {
@@ -103,9 +108,12 @@ display: flex;
 width: 100%;
 margin-top: 20px;
 box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
 }
+
 #container >div>div{
 width: 50%;
+
 }
 #container>div img{
 width: 60%;
@@ -179,6 +187,7 @@ width: 60%;
         <a href="#">Refrigerators</a>
         <a href="#">Air Coolers</a>
       </div>
+     
         
     <div class="searchD">
         <input id="sear" type="text" placeholder="Search Your Products...">
@@ -207,7 +216,7 @@ width: 60%;
 <script>
   let cont=document.getElementById("container");
 
-let api=" http://localhost:8080/tv";
+let api="http://localhost:8080/headphones";
 
 
 async function get(api){
@@ -280,13 +289,27 @@ data.forEach((ele) => {
     let price=document.createElement("h2");
     let cartBtn=document.createElement("button");
     img.setAttribute("src",ele.image);
+    imgDiv.setAttribute("id","imgDiv")
      imgDiv.append(img)
 
      name.innerText=ele.name;
-     desc.innerText=ele.description;
-     price.innerText=`₹${ele.price}`;
+     desc.innerText=ele.desc;
+     price.innerText=ele.price;
      cartBtn.innerText="Add to cart";
 
+     cartBtn.addEventListener("click",async function(){
+    try {
+     await fetch("http://localhost:8080/cart",{
+      method:"POST",
+      body:JSON.stringify(ele),
+      headers:{
+        "content-type":"application/json"
+      }
+     })
+    } catch (error) {
+      console.log(error)
+    }
+     })
 elDiv.append(name,desc,price,cartBtn)
      card.append(imgDiv,elDiv);
  cont.append(card);
