@@ -1,296 +1,296 @@
-{    
-                "mobiles": [
-        {
-            "title": "POCO C31 (Royal Blue, 64 GB)",
-            "brand": "POCO",
-            "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9iaWxlJTIwcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-            "id": "MOBG73E7GKQK4KZP",
-            "description": "4 GB RAM | 64 GB ROM | Expandable Upto 512 GB 16.59 cm (6.53 inch) HD+ Display 13MP + 2MP + 2MP | 5MP Front Camera 5000 mAh Lithium-ion Polymer Battery MediaTek Helio G35 Processor",
-            "availability": "IN_STOCK",
-            "price": 11999,
-            "rating": 4.4
-        },
-        {
-            "title": "POCO C31 (Shadow Gray, 64 GB)",
-            "brand": "POCO",
-            "image": "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bW9iaWxlJTIwcGhvbmV8ZW58MHx8MHx8&w=1000&q=80",
-            "id": "MOBG73E7UBFXXMCH",
-            "description": "4 GB RAM | 64 GB ROM | Expandable Upto 512 GB 16.59 cm (6.53 inch) HD+ Display 13MP + 2MP + 2MP | 5MP Front Camera 5000 mAh Lithium-ion Polymer Battery MediaTek Helio G35 Processor",
-            "availability": "IN_STOCK",
-            "price": 11999,
-            "rating": 4.4
-        },
-        {
-            "title": "realme C35 (Glowing Green, 64 GB)",
-            "brand": "realme",
-            "image": "https://i.pinimg.com/564x/73/02/9a/73029a3ec1a3421d8ee4103b064fbb41.jpg",
-            "id": "MOBGBTHFSKHF8RAU",
-            "description": "4 GB RAM | 64 GB ROM | Expandable Upto 1 TB 16.76 cm (6.6 inch) Full HD+ Display 50MP + 2MP + 0.3MP | 8MP Front Camera 5000 mAh Lithium Polymer Battery Unisoc Tiger T616 Processor",
-            "availability": "IN_STOCK",
-            "price": 13999,
-            "rating": 4.4
-        },
-        {
-            "title": "OPPO K10 (Black Carbon, 128 GB)",
-            "brand": "OPPO",
-            "image": "https://i.pinimg.com/564x/95/fc/76/95fc76efe2a0cbcb0127d25c11ddcb61.jpg",
-            "id": "MOBGCFUHMDFSCM9W",
-            "description": "6 GB RAM | 128 GB ROM | Expandable Upto 1 TB 16.74 cm (6.59 inch) Full HD+ Display 50MP + 2MP + 2MP | 16MP Front Camera 5000 mAh Lithium Ion Battery Qualcomm Snapdragon 680 Processor 33W SUPERVOOC Charger | Dual Speaker | Super Adaptive Refresh Rate AI Photo Suite | OPPO Glow Design with Dirt and Scratch Resistant",
-            "availability": "COMING_SOON",
-            "price": 18999,
-            "rating": 0
-        },
-        {
-            "title": "MOTOROLA G60 (Soft Silver, 128 GB)",
-            "brand": "MOTOROLA",
-            "image": "https://i.pinimg.com/564x/03/e5/f8/03e5f8a565850f71efc22c71e8360267.jpg",
-            "id": "MOBG9CJ6G5GCFAH4",
-            "description": "6 GB RAM | 128 GB ROM 17.22 cm (6.78 inch) Full HD+ Display 108MP + 8MP + 2MP | 32MP Front Camera 6000 mAh Battery Qualcomm Snapdragon 732G Processor 120Hz Refresh Rate Stock Android Experience",
-            "availability": "IN_STOCK",
-            "price": 21999,
-            "rating": 4.2
-        },
-        {
-            "title": "realme C20 (Cool Grey, 32 GB)",
-            "brand": "realme",
-            "image": "https://i.pinimg.com/564x/63/a5/6d/63a56dcc7a8878bf99d06fc3891e47e6.jpg",
-            "id": "MOBGF489SQZCFHYA",
-            "description": "2 GB RAM | 32 GB ROM | Expandable Upto 256 GB 16.51 cm (6.5 inch) HD+ Display 8MP Rear Camera | 5MP Front Camera 5000 mAh Battery MediaTek Helio G35 Processor",
-            "availability": "IN_STOCK",
-            "price": 7999,
-            "rating": 4.4
-        },
-        {
-            "title": "realme C20 (Cool Blue, 32 GB)",
-            "brand": "realme",
-            "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9iaWxlJTIwcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-            "id": "MOBGF4894MEWZJGV",
-            "description": "2 GB RAM | 32 GB ROM | Expandable Upto 256 GB 16.51 cm (6.5 inch) HD+ Display 8MP Rear Camera | 5MP Front Camera 5000 mAh Battery MediaTek Helio G35 Processor",
-            "availability": "IN_STOCK",
-            "price": 7999,
-            "rating": 4.4
-        },
-        {
-            "title": "POCO C31 (Royal Blue, 32 GB)",
-            "brand": "POCO",
-            "image": "https://i.pinimg.com/564x/ee/e2/74/eee274e164bedd2bfb64390bd3c89331.jpg",
-            "id": "MOBG73E7ZBHHQ3RB",
-            "description": "3 GB RAM | 32 GB ROM | Expandable Upto 512 GB 16.59 cm (6.53 inch) HD+ Display 13MP + 2MP + 2MP | 5MP Front Camera 5000 mAh Lithium-ion Polymer Battery MediaTek Helio G35 Processor",
-            "availability": "IN_STOCK",
-            "price": 10999,
-            "rating": 4.4
-        },
-        {
-            "title": "realme 9i (Prism Blue, 64 GB)",
-            "brand": "realme",
-            "image": "https://i.pinimg.com/564x/6c/91/5c/6c915caa5b49bf56a0995fcd6cce28da.jpg",
-            "id": "MOBG9VGVKUM4XNRR",
-            "description": "4 GB RAM | 64 GB ROM | Expandable Upto 1 TB 16.76 cm (6.6 inch) Full HD+ Display 50MP + 2MP + 2MP | 16MP Front Camera 5000 mAh Lithium ion Battery Qualcomm Snapdragon 680 (SM6225) Processor",
-            "availability": "IN_STOCK",
-            "price": 15999,
-            "rating": 4.5
-        },
-        {
-            "title": "realme 9i (Prism Black, 64 GB)",
-            "brand": "realme",
-            "image": "https://i.pinimg.com/564x/d4/e3/70/d4e3705e003a37c3064e7dfaa54b8f89.jpg",
-            "id": "MOBG9VGVYG2XHZGR",
-            "description": "4 GB RAM | 64 GB ROM | Expandable Upto 1 TB 16.76 cm (6.6 inch) Full HD+ Display 50MP + 2MP + 2MP | 16MP Front Camera 5000 mAh Lithium ion Battery Qualcomm Snapdragon 680 (SM6225) Processor",
-            "availability": "IN_STOCK",
-            "price": 15999,
-            "rating": 4.5
-        },
-        {
-            "title": "realme C35 (Glowing Black, 128 GB)",
-            "brand": "realme",
-            "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9iaWxlJTIwcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-            "id": "MOBGBTHFZZN4ADNF",
-            "description": "4 GB RAM | 128 GB ROM | Expandable Upto 1 TB 16.76 cm (6.6 inch) Full HD+ Display 50MP + 2MP + 0.3MP | 8MP Front Camera 5000 mAh Lithium Polymer Battery Unisoc Tiger T616 Processor",
-            "availability": "IN_STOCK",
-            "price": 14999,
-            "rating": 4.4
-        },
-        {
-            "title": "REDMI 10 (Caribbean Green, 128 GB)",
-            "brand": "REDMI",
-            "image": "https://i.pinimg.com/564x/63/a5/6d/63a56dcc7a8878bf99d06fc3891e47e6.jpg",
-            "id": "MOBGC9GYQVJHKH76",
-            "description": "6 GB RAM | 128 GB ROM | Expandable Upto 1 TB 17.02 cm (6.7 inch) HD+ Display 50MP + 2MP | 5MP Front Camera 6000 mAh Lithium Polymer Battery Qualcomm Snapdragon 680 Processor",
-            "availability": "IN_STOCK",
-            "price": 16999,
-            "rating": 4.6
-        },
-        {
-            "title": "realme 9i (Prism Black, 128 GB)",
-            "brand": "realme",
-            "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9iaWxlJTIwcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-            "id": "MOBGBMZH9X7PQZJZ",
-            "description": "4 GB RAM | 128 GB ROM | Expandable Upto 1 TB 16.76 cm (6.6 inch) Full HD+ Display 50MP + 2MP + 2MP | 16MP Front Camera 5000 mAh Lithium ion Battery Qualcomm Snapdragon 680 (SM6225) Processor",
-            "availability": "IN_STOCK",
-            "price": 16999,
-            "rating": 4.5
-        },
-        {
-            "title": "REDMI 10 (Midnight Black, 128 GB)",
-            "brand": "REDMI",
-            "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9iaWxlJTIwcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-            "id": "MOBGC9GYX2QQXKWK",
-            "description": "6 GB RAM | 128 GB ROM | Expandable Upto 1 TB 17.02 cm (6.7 inch) HD+ Display 50MP + 2MP | 5MP Front Camera 6000 mAh Lithium Polymer Battery Qualcomm Snapdragon 680 Processor",
-            "availability": "IN_STOCK",
-            "price": 16999,
-            "rating": 4.6
-        },
-        {
-            "title": "POCO M3 Pro 5G (Power Black, 64 GB)",
-            "brand": "POCO",
-            "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9iaWxlJTIwcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-            "id": "MOBG3P4Z3ZQSVWZZ",
-            "description": "4 GB RAM | 64 GB ROM | Expandable Upto 1 TB 16.51 cm (6.5 inch) Full HD+ Display 48MP + 2MP + 2MP | 8MP Front Camera 5000 mAh Lithium-ion Polymer Battery MediaTek Dimensity 700 Processor Multiple Hands-free Voice Assistant",
-            "availability": "IN_STOCK",
-            "price": 15999,
-            "rating": 4.3
-        },
-        {
-            "title": "POCO M3 Pro 5G (Yellow, 64 GB)",
-            "brand": "POCO",
-            "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9iaWxlJTIwcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-            "id": "MOBG3P55T4HQZBGC",
-            "description": "4 GB RAM | 64 GB ROM | Expandable Upto 1 TB 16.51 cm (6.5 inch) Full HD+ Display 48MP + 2MP + 2MP | 8MP Front Camera 5000 mAh Lithium-ion Polymer Battery MediaTek Dimensity 700 Processor Multiple Hands-free Voice Assistant",
-            "availability": "IN_STOCK",
-            "price": 15999,
-            "rating": 4.3
-        },
-        {
-            "title": "REDMI 9i Sport (Carbon Black, 64 GB)",
-            "brand": "REDMI",
-            "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9iaWxlJTIwcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-            "id": "MOBG6WQWRGRRDBH6",
-            "description": "4 GB RAM | 64 GB ROM | Expandable Upto 512 GB 16.59 cm (6.53 inch) HD+ Display 13MP Rear Camera | 5MP Front Camera 5000 mAh Li-Polymer Battery MediaTek Helio G25 Processor",
-            "availability": "IN_STOCK",
-            "price": 9999,
-            "rating": 4.4
-        },
-        {
-            "title": "POCO M3 Pro 5G (Cool Blue, 128 GB)",
-            "brand": "POCO",
-            "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9iaWxlJTIwcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-            "id": "MOBG3P4ZMCSJNSAY",
-            "description": "6 GB RAM | 128 GB ROM | Expandable Upto 1 TB 16.51 cm (6.5 inch) Full HD+ Display 48MP + 2MP + 2MP | 8MP Front Camera 5000 mAh Lithium-ion Polymer Battery MediaTek Dimensity 700 Processor Multiple Hands-free Voice Assistant",
-            "availability": "IN_STOCK",
-            "price": 17999,
-            "rating": 4.2
-        },
-        {
-            "title": "POCO M3 Pro 5G (Cool Blue, 64 GB)",
-            "brand": "POCO",
-            "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9iaWxlJTIwcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-            "id": "MOBG3P4ZGGVECRZK",
-            "description": "4 GB RAM | 64 GB ROM | Expandable Upto 1 TB 16.51 cm (6.5 inch) Full HD+ Display 48MP + 2MP + 2MP | 8MP Front Camera 5000 mAh Lithium-ion Polymer Battery MediaTek Dimensity 700 Processor Multiple Hands-free Voice Assistant",
-            "availability": "IN_STOCK",
-            "price": 15999,
-            "rating": 4.3
-        },
-        {
-            "title": "realme 9i (Prism Blue, 128 GB)",
-            "brand": "realme",
-            "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9iaWxlJTIwcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-            "id": "MOBG9VGV2Q9PDXHN",
-            "description": "6 GB RAM | 128 GB ROM | Expandable Upto 1 TB 16.76 cm (6.6 inch) Full HD+ Display 50MP + 2MP + 2MP | 16MP Front Camera 5000 mAh Lithium ion Battery Qualcomm Snapdragon 680 (SM6225) Processor",
-            "availability": "IN_STOCK",
-            "price": 17999,
-            "rating": 4.3
-        },
-        {
-            "title": "realme C25Y (Metal Grey, 64 GB)",
-            "brand": "realme",
-            "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9iaWxlJTIwcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-            "id": "MOBG7984TB3SBGAG",
-            "description": "4 GB RAM | 64 GB ROM | Expandable Upto 256 GB 16.51 cm (6.5 inch) HD+ Display 50MP + 2MP + 2MP | 8MP Front Camera 5000 mAh Battery Unisoc T610 Octa Core Processor",
-            "availability": "IN_STOCK",
-            "price": 12999,
-            "rating": 4.5
-        },
-        {
-            "title": "SAMSUNG Galaxy F23 5G (Forest Green, 128 GB)",
-            "brand": "SAMSUNG",
-            "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9iaWxlJTIwcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-            "id": "MOBGBKQF3QM4GHWN",
-            "description": "6 GB RAM | 128 GB ROM | Expandable Upto 1 TB 16.76 cm (6.6 inch) Full HD+ Display 50MP + 8MP + 2MP | 8MP Front Camera 5000 mAh Lithium Ion Battery Qualcomm Snapdragon 750G Processor",
-            "availability": "IN_STOCK",
-            "price": 23999,
-            "rating": 4.2
-        },
-        {
-            "title": "SAMSUNG Galaxy F23 5G (Aqua Blue, 128 GB)",
-            "brand": "SAMSUNG",
-            "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9iaWxlJTIwcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-            "id": "MOBGBKQF45XPEUHA",
-            "description": "6 GB RAM | 128 GB ROM | Expandable Upto 1 TB 16.76 cm (6.6 inch) Full HD+ Display 50MP + 8MP + 2MP | 8MP Front Camera 5000 mAh Lithium Ion Battery Qualcomm Snapdragon 750G Processor",
-            "availability": "IN_STOCK",
-            "price": 23999,
-            "rating": 4.2
-        },
-        {
-            "title": "realme C21Y (Cross Blue, 64 GB)",
-            "brand": "realme",
-            "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9iaWxlJTIwcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-            "id": "MOBG5ZGKRUBBZFBR",
-            "description": "4 GB RAM | 64 GB ROM | Expandable Upto 256 GB 16.51 cm (6.5 inch) HD+ Display 13MP + 2MP + 2MP | 5MP Front Camera 5000 mAh Battery Unisoc T610 Processor",
-            "availability": "IN_STOCK",
-            "price": 10999,
-            "rating": 4.5
-        },
-        {
-            "title": "realme C21Y (Cross Black, 32 GB)",
-            "brand": "realme",
-            "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9iaWxlJTIwcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-            "id": "MOBG5ZGKG2HRSQB8",
-            "description": "3 GB RAM | 32 GB ROM | Expandable Upto 256 GB 16.51 cm (6.5 inch) HD+ Display 13MP + 2MP + 2MP | 5MP Front Camera 5000 mAh Battery Unisoc T610 Processor",
-            "availability": "IN_STOCK",
-            "price": 9999,
-            "rating": 4.6
-        },
-        {
-            "title": "vivo T1 5G (Starlight Black, 128 GB)",
-            "brand": "vivo",
-            "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9iaWxlJTIwcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-            "id": "MOBGB9TYNDFYKNQ6",
-            "description": "4 GB RAM | 128 GB ROM | Expandable Upto 1 TB 16.71 cm (6.58 inch) Full HD+ Display 50MP + 2MP + 2MP | 16MP Front Camera 5000 mAh Lithium Battery Qualcomm Snapdragon 695 Processor",
-            "availability": "IN_STOCK",
-            "price": 19990,
-            "rating": 4.3
-        },
-        {
-            "title": "vivo T1 5G (Starlight Black, 128 GB)",
-            "brand": "vivo",
-            "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9iaWxlJTIwcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-            "id": "MOBGB9TYF7P7RNYX",
-            "description": "6 GB RAM | 128 GB ROM | Expandable Upto 1 TB 16.71 cm (6.58 inch) Full HD+ Display 50MP + 2MP + 2MP | 16MP Front Camera 5000 mAh Lithium Battery Qualcomm Snapdragon 695 Processor",
-            "availability": "IN_STOCK",
-            "price": 20990,
-            "rating": 4.4
-        },
-        {
-            "title": "vivo T1 5G (Rainbow Fantasy, 128 GB)",
-            "brand": "vivo",
-            "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9iaWxlJTIwcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-            "id": "MOBGB9TYGW5NGXVH",
-            "description": "4 GB RAM | 128 GB ROM | Expandable Upto 1 TB 16.71 cm (6.58 inch) Full HD+ Display 50MP + 2MP + 2MP | 16MP Front Camera 5000 mAh Lithium Battery Qualcomm Snapdragon 695 Processor",
-            "availability": "IN_STOCK",
-            "price": 19990,
-            "rating": 0
-        },
-        {
-            "title": "realme C21Y (Cross Blue, 32 GB)",
-            "brand": "realme",
-            "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9iaWxlJTIwcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-            "id": "MOBG5ZGKXCGFB9HP",
-            "description": "3 GB RAM | 32 GB ROM | Expandable Upto 256 GB 16.51 cm (6.5 inch) HD+ Display 13MP + 2MP + 2MP | 5MP Front Camera 5000 mAh Battery Unisoc T610 Processor",
-            "availability": "IN_STOCK",
-            "price": 9999,
-            "rating": 4.6
-        }
-                 ],
+{
+  "mobiles": [
+    {
+      "title": "POCO C31 (Royal Blue, 64 GB)",
+      "brand": "POCO",
+      "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9iaWxlJTIwcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "id": "MOBG73E7GKQK4KZP",
+      "description": "4 GB RAM | 64 GB ROM | Expandable Upto 512 GB 16.59 cm (6.53 inch) HD+ Display 13MP + 2MP + 2MP | 5MP Front Camera 5000 mAh Lithium-ion Polymer Battery MediaTek Helio G35 Processor",
+      "availability": "IN_STOCK",
+      "price": 11999,
+      "rating": 4.4
+    },
+    {
+      "title": "POCO C31 (Shadow Gray, 64 GB)",
+      "brand": "POCO",
+      "image": "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bW9iaWxlJTIwcGhvbmV8ZW58MHx8MHx8&w=1000&q=80",
+      "id": "MOBG73E7UBFXXMCH",
+      "description": "4 GB RAM | 64 GB ROM | Expandable Upto 512 GB 16.59 cm (6.53 inch) HD+ Display 13MP + 2MP + 2MP | 5MP Front Camera 5000 mAh Lithium-ion Polymer Battery MediaTek Helio G35 Processor",
+      "availability": "IN_STOCK",
+      "price": 11999,
+      "rating": 4.4
+    },
+    {
+      "title": "realme C35 (Glowing Green, 64 GB)",
+      "brand": "realme",
+      "image": "https://i.pinimg.com/564x/73/02/9a/73029a3ec1a3421d8ee4103b064fbb41.jpg",
+      "id": "MOBGBTHFSKHF8RAU",
+      "description": "4 GB RAM | 64 GB ROM | Expandable Upto 1 TB 16.76 cm (6.6 inch) Full HD+ Display 50MP + 2MP + 0.3MP | 8MP Front Camera 5000 mAh Lithium Polymer Battery Unisoc Tiger T616 Processor",
+      "availability": "IN_STOCK",
+      "price": 13999,
+      "rating": 4.4
+    },
+    {
+      "title": "OPPO K10 (Black Carbon, 128 GB)",
+      "brand": "OPPO",
+      "image": "https://i.pinimg.com/564x/95/fc/76/95fc76efe2a0cbcb0127d25c11ddcb61.jpg",
+      "id": "MOBGCFUHMDFSCM9W",
+      "description": "6 GB RAM | 128 GB ROM | Expandable Upto 1 TB 16.74 cm (6.59 inch) Full HD+ Display 50MP + 2MP + 2MP | 16MP Front Camera 5000 mAh Lithium Ion Battery Qualcomm Snapdragon 680 Processor 33W SUPERVOOC Charger | Dual Speaker | Super Adaptive Refresh Rate AI Photo Suite | OPPO Glow Design with Dirt and Scratch Resistant",
+      "availability": "COMING_SOON",
+      "price": 18999,
+      "rating": 0
+    },
+    {
+      "title": "MOTOROLA G60 (Soft Silver, 128 GB)",
+      "brand": "MOTOROLA",
+      "image": "https://i.pinimg.com/564x/03/e5/f8/03e5f8a565850f71efc22c71e8360267.jpg",
+      "id": "MOBG9CJ6G5GCFAH4",
+      "description": "6 GB RAM | 128 GB ROM 17.22 cm (6.78 inch) Full HD+ Display 108MP + 8MP + 2MP | 32MP Front Camera 6000 mAh Battery Qualcomm Snapdragon 732G Processor 120Hz Refresh Rate Stock Android Experience",
+      "availability": "IN_STOCK",
+      "price": 21999,
+      "rating": 4.2
+    },
+    {
+      "title": "realme C20 (Cool Grey, 32 GB)",
+      "brand": "realme",
+      "image": "https://i.pinimg.com/564x/63/a5/6d/63a56dcc7a8878bf99d06fc3891e47e6.jpg",
+      "id": "MOBGF489SQZCFHYA",
+      "description": "2 GB RAM | 32 GB ROM | Expandable Upto 256 GB 16.51 cm (6.5 inch) HD+ Display 8MP Rear Camera | 5MP Front Camera 5000 mAh Battery MediaTek Helio G35 Processor",
+      "availability": "IN_STOCK",
+      "price": 7999,
+      "rating": 4.4
+    },
+    {
+      "title": "realme C20 (Cool Blue, 32 GB)",
+      "brand": "realme",
+      "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9iaWxlJTIwcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "id": "MOBGF4894MEWZJGV",
+      "description": "2 GB RAM | 32 GB ROM | Expandable Upto 256 GB 16.51 cm (6.5 inch) HD+ Display 8MP Rear Camera | 5MP Front Camera 5000 mAh Battery MediaTek Helio G35 Processor",
+      "availability": "IN_STOCK",
+      "price": 7999,
+      "rating": 4.4
+    },
+    {
+      "title": "POCO C31 (Royal Blue, 32 GB)",
+      "brand": "POCO",
+      "image": "https://i.pinimg.com/564x/ee/e2/74/eee274e164bedd2bfb64390bd3c89331.jpg",
+      "id": "MOBG73E7ZBHHQ3RB",
+      "description": "3 GB RAM | 32 GB ROM | Expandable Upto 512 GB 16.59 cm (6.53 inch) HD+ Display 13MP + 2MP + 2MP | 5MP Front Camera 5000 mAh Lithium-ion Polymer Battery MediaTek Helio G35 Processor",
+      "availability": "IN_STOCK",
+      "price": 10999,
+      "rating": 4.4
+    },
+    {
+      "title": "realme 9i (Prism Blue, 64 GB)",
+      "brand": "realme",
+      "image": "https://i.pinimg.com/564x/6c/91/5c/6c915caa5b49bf56a0995fcd6cce28da.jpg",
+      "id": "MOBG9VGVKUM4XNRR",
+      "description": "4 GB RAM | 64 GB ROM | Expandable Upto 1 TB 16.76 cm (6.6 inch) Full HD+ Display 50MP + 2MP + 2MP | 16MP Front Camera 5000 mAh Lithium ion Battery Qualcomm Snapdragon 680 (SM6225) Processor",
+      "availability": "IN_STOCK",
+      "price": 15999,
+      "rating": 4.5
+    },
+    {
+      "title": "realme 9i (Prism Black, 64 GB)",
+      "brand": "realme",
+      "image": "https://i.pinimg.com/564x/d4/e3/70/d4e3705e003a37c3064e7dfaa54b8f89.jpg",
+      "id": "MOBG9VGVYG2XHZGR",
+      "description": "4 GB RAM | 64 GB ROM | Expandable Upto 1 TB 16.76 cm (6.6 inch) Full HD+ Display 50MP + 2MP + 2MP | 16MP Front Camera 5000 mAh Lithium ion Battery Qualcomm Snapdragon 680 (SM6225) Processor",
+      "availability": "IN_STOCK",
+      "price": 15999,
+      "rating": 4.5
+    },
+    {
+      "title": "realme C35 (Glowing Black, 128 GB)",
+      "brand": "realme",
+      "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9iaWxlJTIwcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "id": "MOBGBTHFZZN4ADNF",
+      "description": "4 GB RAM | 128 GB ROM | Expandable Upto 1 TB 16.76 cm (6.6 inch) Full HD+ Display 50MP + 2MP + 0.3MP | 8MP Front Camera 5000 mAh Lithium Polymer Battery Unisoc Tiger T616 Processor",
+      "availability": "IN_STOCK",
+      "price": 14999,
+      "rating": 4.4
+    },
+    {
+      "title": "REDMI 10 (Caribbean Green, 128 GB)",
+      "brand": "REDMI",
+      "image": "https://i.pinimg.com/564x/63/a5/6d/63a56dcc7a8878bf99d06fc3891e47e6.jpg",
+      "id": "MOBGC9GYQVJHKH76",
+      "description": "6 GB RAM | 128 GB ROM | Expandable Upto 1 TB 17.02 cm (6.7 inch) HD+ Display 50MP + 2MP | 5MP Front Camera 6000 mAh Lithium Polymer Battery Qualcomm Snapdragon 680 Processor",
+      "availability": "IN_STOCK",
+      "price": 16999,
+      "rating": 4.6
+    },
+    {
+      "title": "realme 9i (Prism Black, 128 GB)",
+      "brand": "realme",
+      "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9iaWxlJTIwcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "id": "MOBGBMZH9X7PQZJZ",
+      "description": "4 GB RAM | 128 GB ROM | Expandable Upto 1 TB 16.76 cm (6.6 inch) Full HD+ Display 50MP + 2MP + 2MP | 16MP Front Camera 5000 mAh Lithium ion Battery Qualcomm Snapdragon 680 (SM6225) Processor",
+      "availability": "IN_STOCK",
+      "price": 16999,
+      "rating": 4.5
+    },
+    {
+      "title": "REDMI 10 (Midnight Black, 128 GB)",
+      "brand": "REDMI",
+      "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9iaWxlJTIwcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "id": "MOBGC9GYX2QQXKWK",
+      "description": "6 GB RAM | 128 GB ROM | Expandable Upto 1 TB 17.02 cm (6.7 inch) HD+ Display 50MP + 2MP | 5MP Front Camera 6000 mAh Lithium Polymer Battery Qualcomm Snapdragon 680 Processor",
+      "availability": "IN_STOCK",
+      "price": 16999,
+      "rating": 4.6
+    },
+    {
+      "title": "POCO M3 Pro 5G (Power Black, 64 GB)",
+      "brand": "POCO",
+      "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9iaWxlJTIwcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "id": "MOBG3P4Z3ZQSVWZZ",
+      "description": "4 GB RAM | 64 GB ROM | Expandable Upto 1 TB 16.51 cm (6.5 inch) Full HD+ Display 48MP + 2MP + 2MP | 8MP Front Camera 5000 mAh Lithium-ion Polymer Battery MediaTek Dimensity 700 Processor Multiple Hands-free Voice Assistant",
+      "availability": "IN_STOCK",
+      "price": 15999,
+      "rating": 4.3
+    },
+    {
+      "title": "POCO M3 Pro 5G (Yellow, 64 GB)",
+      "brand": "POCO",
+      "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9iaWxlJTIwcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "id": "MOBG3P55T4HQZBGC",
+      "description": "4 GB RAM | 64 GB ROM | Expandable Upto 1 TB 16.51 cm (6.5 inch) Full HD+ Display 48MP + 2MP + 2MP | 8MP Front Camera 5000 mAh Lithium-ion Polymer Battery MediaTek Dimensity 700 Processor Multiple Hands-free Voice Assistant",
+      "availability": "IN_STOCK",
+      "price": 15999,
+      "rating": 4.3
+    },
+    {
+      "title": "REDMI 9i Sport (Carbon Black, 64 GB)",
+      "brand": "REDMI",
+      "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9iaWxlJTIwcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "id": "MOBG6WQWRGRRDBH6",
+      "description": "4 GB RAM | 64 GB ROM | Expandable Upto 512 GB 16.59 cm (6.53 inch) HD+ Display 13MP Rear Camera | 5MP Front Camera 5000 mAh Li-Polymer Battery MediaTek Helio G25 Processor",
+      "availability": "IN_STOCK",
+      "price": 9999,
+      "rating": 4.4
+    },
+    {
+      "title": "POCO M3 Pro 5G (Cool Blue, 128 GB)",
+      "brand": "POCO",
+      "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9iaWxlJTIwcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "id": "MOBG3P4ZMCSJNSAY",
+      "description": "6 GB RAM | 128 GB ROM | Expandable Upto 1 TB 16.51 cm (6.5 inch) Full HD+ Display 48MP + 2MP + 2MP | 8MP Front Camera 5000 mAh Lithium-ion Polymer Battery MediaTek Dimensity 700 Processor Multiple Hands-free Voice Assistant",
+      "availability": "IN_STOCK",
+      "price": 17999,
+      "rating": 4.2
+    },
+    {
+      "title": "POCO M3 Pro 5G (Cool Blue, 64 GB)",
+      "brand": "POCO",
+      "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9iaWxlJTIwcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "id": "MOBG3P4ZGGVECRZK",
+      "description": "4 GB RAM | 64 GB ROM | Expandable Upto 1 TB 16.51 cm (6.5 inch) Full HD+ Display 48MP + 2MP + 2MP | 8MP Front Camera 5000 mAh Lithium-ion Polymer Battery MediaTek Dimensity 700 Processor Multiple Hands-free Voice Assistant",
+      "availability": "IN_STOCK",
+      "price": 15999,
+      "rating": 4.3
+    },
+    {
+      "title": "realme 9i (Prism Blue, 128 GB)",
+      "brand": "realme",
+      "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9iaWxlJTIwcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "id": "MOBG9VGV2Q9PDXHN",
+      "description": "6 GB RAM | 128 GB ROM | Expandable Upto 1 TB 16.76 cm (6.6 inch) Full HD+ Display 50MP + 2MP + 2MP | 16MP Front Camera 5000 mAh Lithium ion Battery Qualcomm Snapdragon 680 (SM6225) Processor",
+      "availability": "IN_STOCK",
+      "price": 17999,
+      "rating": 4.3
+    },
+    {
+      "title": "realme C25Y (Metal Grey, 64 GB)",
+      "brand": "realme",
+      "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9iaWxlJTIwcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "id": "MOBG7984TB3SBGAG",
+      "description": "4 GB RAM | 64 GB ROM | Expandable Upto 256 GB 16.51 cm (6.5 inch) HD+ Display 50MP + 2MP + 2MP | 8MP Front Camera 5000 mAh Battery Unisoc T610 Octa Core Processor",
+      "availability": "IN_STOCK",
+      "price": 12999,
+      "rating": 4.5
+    },
+    {
+      "title": "SAMSUNG Galaxy F23 5G (Forest Green, 128 GB)",
+      "brand": "SAMSUNG",
+      "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9iaWxlJTIwcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "id": "MOBGBKQF3QM4GHWN",
+      "description": "6 GB RAM | 128 GB ROM | Expandable Upto 1 TB 16.76 cm (6.6 inch) Full HD+ Display 50MP + 8MP + 2MP | 8MP Front Camera 5000 mAh Lithium Ion Battery Qualcomm Snapdragon 750G Processor",
+      "availability": "IN_STOCK",
+      "price": 23999,
+      "rating": 4.2
+    },
+    {
+      "title": "SAMSUNG Galaxy F23 5G (Aqua Blue, 128 GB)",
+      "brand": "SAMSUNG",
+      "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9iaWxlJTIwcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "id": "MOBGBKQF45XPEUHA",
+      "description": "6 GB RAM | 128 GB ROM | Expandable Upto 1 TB 16.76 cm (6.6 inch) Full HD+ Display 50MP + 8MP + 2MP | 8MP Front Camera 5000 mAh Lithium Ion Battery Qualcomm Snapdragon 750G Processor",
+      "availability": "IN_STOCK",
+      "price": 23999,
+      "rating": 4.2
+    },
+    {
+      "title": "realme C21Y (Cross Blue, 64 GB)",
+      "brand": "realme",
+      "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9iaWxlJTIwcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "id": "MOBG5ZGKRUBBZFBR",
+      "description": "4 GB RAM | 64 GB ROM | Expandable Upto 256 GB 16.51 cm (6.5 inch) HD+ Display 13MP + 2MP + 2MP | 5MP Front Camera 5000 mAh Battery Unisoc T610 Processor",
+      "availability": "IN_STOCK",
+      "price": 10999,
+      "rating": 4.5
+    },
+    {
+      "title": "realme C21Y (Cross Black, 32 GB)",
+      "brand": "realme",
+      "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9iaWxlJTIwcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "id": "MOBG5ZGKG2HRSQB8",
+      "description": "3 GB RAM | 32 GB ROM | Expandable Upto 256 GB 16.51 cm (6.5 inch) HD+ Display 13MP + 2MP + 2MP | 5MP Front Camera 5000 mAh Battery Unisoc T610 Processor",
+      "availability": "IN_STOCK",
+      "price": 9999,
+      "rating": 4.6
+    },
+    {
+      "title": "vivo T1 5G (Starlight Black, 128 GB)",
+      "brand": "vivo",
+      "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9iaWxlJTIwcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "id": "MOBGB9TYNDFYKNQ6",
+      "description": "4 GB RAM | 128 GB ROM | Expandable Upto 1 TB 16.71 cm (6.58 inch) Full HD+ Display 50MP + 2MP + 2MP | 16MP Front Camera 5000 mAh Lithium Battery Qualcomm Snapdragon 695 Processor",
+      "availability": "IN_STOCK",
+      "price": 19990,
+      "rating": 4.3
+    },
+    {
+      "title": "vivo T1 5G (Starlight Black, 128 GB)",
+      "brand": "vivo",
+      "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9iaWxlJTIwcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "id": "MOBGB9TYF7P7RNYX",
+      "description": "6 GB RAM | 128 GB ROM | Expandable Upto 1 TB 16.71 cm (6.58 inch) Full HD+ Display 50MP + 2MP + 2MP | 16MP Front Camera 5000 mAh Lithium Battery Qualcomm Snapdragon 695 Processor",
+      "availability": "IN_STOCK",
+      "price": 20990,
+      "rating": 4.4
+    },
+    {
+      "title": "vivo T1 5G (Rainbow Fantasy, 128 GB)",
+      "brand": "vivo",
+      "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9iaWxlJTIwcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "id": "MOBGB9TYGW5NGXVH",
+      "description": "4 GB RAM | 128 GB ROM | Expandable Upto 1 TB 16.71 cm (6.58 inch) Full HD+ Display 50MP + 2MP + 2MP | 16MP Front Camera 5000 mAh Lithium Battery Qualcomm Snapdragon 695 Processor",
+      "availability": "IN_STOCK",
+      "price": 19990,
+      "rating": 0
+    },
+    {
+      "title": "realme C21Y (Cross Blue, 32 GB)",
+      "brand": "realme",
+      "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9iaWxlJTIwcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "id": "MOBG5ZGKXCGFB9HP",
+      "description": "3 GB RAM | 32 GB ROM | Expandable Upto 256 GB 16.51 cm (6.5 inch) HD+ Display 13MP + 2MP + 2MP | 5MP Front Camera 5000 mAh Battery Unisoc T610 Processor",
+      "availability": "IN_STOCK",
+      "price": 9999,
+      "rating": 4.6
+    }
+  ],
   "laptops": [
     [
       {
@@ -1049,11 +1049,26 @@
     },
     {
       "username": "avinaw123",
-      "full-name": "Avinaw Kumar",
-      "password": "12345",
+      "first_name": "Avinaw",
+      "last_name": "Kumar",
       "email": "kumaravinaw210@gmail.com",
-      "id": 3
+      "phone_number": "1212121212",
+      "address": "gaya,bihar",
+      "password": "12345",
+      "id": 4
+    },
+    {
+      "username": "vivek123",
+      "first_name": "vivek",
+      "last_name": "raj",
+      "email": "123@gmail.com",
+      "phone_number": "0987654321",
+      "address": "bangluru",
+      "password": "12345",
+      "id": 5
     }
+    
+    
   ],
   "cart": [
     {
@@ -1074,6 +1089,4 @@
       "password": "admin"
     }
   ]
-    
-  
 }
