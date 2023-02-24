@@ -172,9 +172,9 @@ justify-content: space-between; */
 
  
   .order-status>div:nth-child(odd){
-    width:180px;
-    height: 180px;
-    border-radius: 10%;
+    width:200px;
+    height: 200px;
+    border-radius: 100%;
     text-align: center;
     color:black;
     padding: 2rem;

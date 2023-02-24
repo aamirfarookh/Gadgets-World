@@ -8,7 +8,7 @@
     let editBtn = document.getElementById("edit-btn");
     let logoutBtn = document.getElementById("logout-btn");
     let profileImg = document.querySelector(".profile img");
-
+    let ordersData =[]
     // catching edit form elements here
     let editFormSection = document.querySelector(".container");
     let editForm = document.querySelector(".container>form");
@@ -63,21 +63,26 @@
     //function to fetch data from server
     async function fetchorders() {
       try {
-        let res = await fetch(`${baseServerUrl}users/1`);
+        let res = await fetch(`${baseServerUrl}orders`);
         let data = await res.json();
-        renderRows(data.orders);
+        data.forEach((order)=>{
+          if(order.user_id==1){
+           ordersData.push(order)
+          }
+        });
+        renderRows(ordersData)
         let statusBtns = document.querySelectorAll(".table button");
         console.log(statusBtns);
         statusBtns.forEach((button,index)=>{
 		   button.addEventListener("click",()=>{
 			table.innerHTML=""
 			orderStatusSection.classList.add("display-flex")
-			data.orders.forEach((order,ind)=>{
+			data.forEach((order,ind)=>{
 			if(ind==index){
 				if(order.status=="ordered"){
 				setInterval(() => {
           processingDiv.style.backgroundColor="orange"
-					processingDiv.textContent=`YOUR ORDER NO. (${orderNumber}) IS UNDER PROCESS`
+					processingDiv.textContent=`Your order for ${order.name.toUpperCase()} is packed and ready for shipping`
           processingToIntransit.style.backgroundColor="green"
 				}, 500);
 				}
@@ -85,31 +90,31 @@
 				if(order.status=="in-transit"){
 					setInterval(() => {
             processingDiv.style.backgroundColor="orange"
-					processingDiv.textContent="YOUR ORDER HAS BEEN PROCESSED & REACHED NEAREST PORT"
+					processingDiv.textContent="Your order has processed and reached reached nearest port"
 					processingToIntransit.style.backgroundColor="green"
           processingToIntransit.style.backgroundColor="green"
 				}, 1000);
 				setInterval(() => {
           inTransitDiv.style.backgroundColor="yellow"
-					inTransitDiv.textContent=`YOUR ORDER (${orderNumber}) WILL BE DELIVERED WITHIN NEXT 2 DAYS`
+					inTransitDiv.textContent=`Your order for <<${order.name.toUpperCase()}>> will be delivered in next 2 days`
 				}, 3000);
 				}
 
 				if(order.status=="delivered"){
 					setInterval(() => {
             processingDiv.style.backgroundColor="orange"
-					processingDiv.textContent="YOUR ORDER HAS BEEN PROCESSED & REACHED NEAREST PORT"
+					processingDiv.textContent="Your order has processed and reached reached nearest port"
 					processingToIntransit.style.backgroundColor="green"
 				}, 1000);
 				setInterval(() => {
           inTransitDiv.style.backgroundColor="yellow"
-					inTransitDiv.textContent="YOUR ORDER HAS REACHED IT'S DESTINATION"
+					inTransitDiv.textContent="Your product has reached it's destination"
 					
 				},3000);
 				setInterval(() => {
           deliveredDiv.style.backgroundColor="green"
 					inTransitToDelivered.style.backgroundColor="green"
-					deliveredDiv.textContent=`YOUR ORDER (${orderNumber}) HAS BEEN DELIVERED`
+					deliveredDiv.textContent=`Your order for ${order.name.toUpperCase()} has been delivered`
 					
 				},5000);
 

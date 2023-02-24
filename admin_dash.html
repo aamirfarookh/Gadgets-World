@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard</title>
+  <style>
+    /* CSS styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      /* background:url("https://images.unsplash.com/photo-1650016883397-1225cb4e47b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+      background-position:center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height:100vh; */
+    }
+    header {
+        background-color: #faf5f5;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      color: #121212;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 60px;
+      padding: 0 20px;
+      margin-bottom: 0.2rem;
+      /* background: transparent; */
+    }
+    header img {
+      height: 40px;
+    }
+    nav {
+      background-color: #a09e9e;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 40px;
+      padding: 0 20px;
+      /* background: transparent; */
+    }
+    nav ul {
+        width:80%;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: space-evenly;
+      background-color: #a09e9e;
+      /* background: transparent; */
+      color:rgb(242, 66, 66);
+    }
+    nav li {
+      margin-right: 20px;
+      border-left: 2px solid rgb(242, 66, 66);
+      padding:5px;
+    }
+    nav a{
+        text-decoration: none;
+        color:rgb(242, 66, 66)
+    }
+    nav a:hover{
+        text-decoration: underline;
+    }
+    main{
+        width:80%;
+        margin:2rem  auto;
+    }
+    main h2{
+        color:rgb(242, 66, 66);
+    }
+    .filters{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    th, td {
+      text-align: left;
+      padding: 8px;
+      border-bottom: 1px solid #ddd;
+    }
+    tr:nth-child(even){
+        background-color: #d4d1d1;
+
+    }
+    tr:nth-child(odd){
+        background-color: #eee;
+    }
+    th {
+      background-color: #eee;
+    }
+    input[type="submit"]{
+        background-color: rgb(242, 66, 66);
+        padding:0.5rem;
+        border:none;
+        border-radius: 5px;
+        color:white;
+    }
+    input[type="submit"]:hover{
+        background-color: rgb(245, 54, 54);
+        font-size: 16.5px;
+    }
+    input[type="text"]{
+        width:15rem;
+        padding:0.5rem;
+        border-radius: 10px;
+        border:1px solid black;
+        background-color: rgb(212, 209, 209);
+        color:black;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Logo">
+    <h1>Admin Dashboard</h1>
+  </header>
+  <nav>
+    <p id="admin-name"></p>
+    <ul>
+      <li><a href="#">Add Products</a></li>
+      <li><a href="admin_signup.html">Add Admin</a></li>
+      <li><a href="#">Sales</a></li>
+      <li><a href="#">Check Feedback</a></li>
+      <li><a href="#">Order Management</a></li>
+      <li><a href="">Manage Users</a></li>
+      <li><a href="admin_login.html">LOGOUT</a></li>  
+    </ul>
+    
+  </nav>
+  <main>
+    <div class="filters">
+        <h2>Orders Summary</h2>
+        <form action="">
+            <input type="text" id="search">
+            <input type="submit" value="Search">
+        </form>
+        <select name="status-filter" id="status-filter">
+            <option value="">Filter by order status</option>
+            <option value="ordered">Ordered</option>
+            <option value="in-transit">In Transit</option>
+            <option value="delivered">Delivered</option>
+        </select>
+        <select name="price-sort" id="price-sort">
+            <option value="">Sort by Price</option>
+            <option value="asc">Low-High</option>
+            <option value="desc">High-Low</option>
+        </select>
+    </div>
+    
+    <table>
+      <thead>
+        <tr>
+          <th>Order ID</th>
+          <th>User ID</th>
+          <th>Product Name</th>
+          <th>Quantity</th>
+          <th>Price</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>12345</td>
+          <td>iPhone X</td>
+          <td>2</td>
+          <td>$2000</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>54321</td>
+          <td>Samsung Galaxy S9</td>
+          <td>1</td>
+          <td>$1000</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>67890</td>
+          <td>Google Pixel 3</td>
+          <td>3</td>
+          <td>$1500</td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+</body>
+<script>
+    let baseServerUrl =`http://localhost:8080/`
+    let admin_name = localStorage.getItem("admin-name");
+    let adminNameInput = document.getElementById("admin-name");
+    adminNameInput.innerHTML =`<strong>Welcome, ${admin_name}</strong>`
+    let tbody = document.querySelector("tbody");
+    let sortFilter = document.getElementById("price-sort")
+    let statusFilter = document.getElementById("status-filter")
+    let ordersData=[]
+
+    async function fetchAllOrders(){
+        try {
+            let res = await fetch(`${baseServerUrl}orders`);
+            let data = await res.json();
+            ordersData =data
+             renderRows(data)
+            
+        } catch (error) {
+            
+        }
+    }
+   
+    function makeRow(order_id,user_id,product_name,quantity,price,status){
+     let row = `<tr>
+    <td>${order_id}</td>
+    <td>${user_id}</td>
+    <td>${product_name}</td>
+    <td>${quantity}</td>
+    <td>${price}</td>
+    <td>${status}</td>
+    
+</tr>`;
+return row;
+    }
+ 
+function renderRows(data){
+let allrows=data.map((order)=>{
+    return makeRow(order.id,order.user_id,order.name,order.quantity,order.price,order.status.toUpperCase())
+}).join("");
+tbody.innerHTML=allrows
+}
+
+
+// event listener to fetch and render orders on window load
+    window.addEventListener("load",()=>{
+       fetchAllOrders()
+    })
+
+// event listener for Sort
+sortFilter.addEventListener("change",()=>{
+    if(sortFilter.value==""){
+        fetchAllOrders()
+    }
+    else if(sortFilter.value=="asc"){
+        let ascSorted = ordersData.sort((a,b)=>a.price-b.price)
+        renderRows(ascSorted)
+    }
+    else if(sortFilter.value=="desc"){
+        let descSorted = ordersData.sort((a,b)=>b.price-a.price)
+        renderRows(descSorted)
+    }
+    
+})
+
+statusFilter.addEventListener("change",()=>{
+    if(statusFilter.value==""){
+        fetchAllOrders()
+    }
+    else if(statusFilter.value=="ordered"){
+        let orderedData = ordersData.filter((order)=>{
+            if(order.status=="ordered"){
+                return true
+            }
+            else{
+                return false
+            }
+        })
+        renderRows(orderedData)
+    }
+    else if(statusFilter.value=="in-transit"){
+        let inTransitData = ordersData.filter((order)=>{
+            if(order.status=="in-transit"){
+                return true
+            }
+            else{
+                return false
+            }
+        })
+        renderRows(inTransitData)
+    }
+    else if(statusFilter.value=="delivered"){
+        let inTransitData = ordersData.filter((order)=>{
+            if(order.status=="delivered"){
+                return true
+            }
+            else{
+                return false
+            }
+        })
+        renderRows(inTransitData)
+    }
+    
+})
+
+</script>
+</html>
+
+
+
+
+<!-- <td><select>
+    <option value="">Change Status</option>
+    <option value="in-transit">In-Transit</option>
+    <option value="delivered">Delivered</option>
+    </select>
+    <td> -->

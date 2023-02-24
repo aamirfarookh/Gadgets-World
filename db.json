@@ -1,7 +1,7 @@
 {
   "mobiles": [
     {
-      "title": "POCO C31 (Royal Blue, 64 GB)",
+      "name": "POCO C31 (Royal Blue, 64 GB)",
       "brand": "POCO",
       "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9iaWxlJTIwcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "id": "MOBG73E7GKQK4KZP",
@@ -11,7 +11,7 @@
       "rating": 4.4
     },
     {
-      "title": "POCO C31 (Shadow Gray, 64 GB)",
+      "name": "POCO C31 (Shadow Gray, 64 GB)",
       "brand": "POCO",
       "image": "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bW9iaWxlJTIwcGhvbmV8ZW58MHx8MHx8&w=1000&q=80",
       "id": "MOBG73E7UBFXXMCH",
@@ -21,7 +21,7 @@
       "rating": 4.4
     },
     {
-      "title": "realme C35 (Glowing Green, 64 GB)",
+      "name": "realme C35 (Glowing Green, 64 GB)",
       "brand": "realme",
       "image": "https://i.pinimg.com/564x/73/02/9a/73029a3ec1a3421d8ee4103b064fbb41.jpg",
       "id": "MOBGBTHFSKHF8RAU",
@@ -31,7 +31,7 @@
       "rating": 4.4
     },
     {
-      "title": "OPPO K10 (Black Carbon, 128 GB)",
+      "name": "OPPO K10 (Black Carbon, 128 GB)",
       "brand": "OPPO",
       "image": "https://i.pinimg.com/564x/95/fc/76/95fc76efe2a0cbcb0127d25c11ddcb61.jpg",
       "id": "MOBGCFUHMDFSCM9W",
@@ -41,7 +41,7 @@
       "rating": 0
     },
     {
-      "title": "MOTOROLA G60 (Soft Silver, 128 GB)",
+      "name": "MOTOROLA G60 (Soft Silver, 128 GB)",
       "brand": "MOTOROLA",
       "image": "https://i.pinimg.com/564x/03/e5/f8/03e5f8a565850f71efc22c71e8360267.jpg",
       "id": "MOBG9CJ6G5GCFAH4",
@@ -51,7 +51,7 @@
       "rating": 4.2
     },
     {
-      "title": "realme C20 (Cool Grey, 32 GB)",
+      "name": "realme C20 (Cool Grey, 32 GB)",
       "brand": "realme",
       "image": "https://i.pinimg.com/564x/63/a5/6d/63a56dcc7a8878bf99d06fc3891e47e6.jpg",
       "id": "MOBGF489SQZCFHYA",
@@ -61,7 +61,7 @@
       "rating": 4.4
     },
     {
-      "title": "realme C20 (Cool Blue, 32 GB)",
+      "name": "realme C20 (Cool Blue, 32 GB)",
       "brand": "realme",
       "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9iaWxlJTIwcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "id": "MOBGF4894MEWZJGV",
@@ -71,7 +71,7 @@
       "rating": 4.4
     },
     {
-      "title": "POCO C31 (Royal Blue, 32 GB)",
+      "name": "POCO C31 (Royal Blue, 32 GB)",
       "brand": "POCO",
       "image": "https://i.pinimg.com/564x/ee/e2/74/eee274e164bedd2bfb64390bd3c89331.jpg",
       "id": "MOBG73E7ZBHHQ3RB",
@@ -81,7 +81,7 @@
       "rating": 4.4
     },
     {
-      "title": "realme 9i (Prism Blue, 64 GB)",
+      "name": "realme 9i (Prism Blue, 64 GB)",
       "brand": "realme",
       "image": "https://i.pinimg.com/564x/6c/91/5c/6c915caa5b49bf56a0995fcd6cce28da.jpg",
       "id": "MOBG9VGVKUM4XNRR",
@@ -91,7 +91,7 @@
       "rating": 4.5
     },
     {
-      "title": "realme 9i (Prism Black, 64 GB)",
+      "name": "realme 9i (Prism Black, 64 GB)",
       "brand": "realme",
       "image": "https://i.pinimg.com/564x/d4/e3/70/d4e3705e003a37c3064e7dfaa54b8f89.jpg",
       "id": "MOBG9VGVYG2XHZGR",
@@ -101,7 +101,7 @@
       "rating": 4.5
     },
     {
-      "title": "realme C35 (Glowing Black, 128 GB)",
+      "name": "realme C35 (Glowing Black, 128 GB)",
       "brand": "realme",
       "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9iaWxlJTIwcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "id": "MOBGBTHFZZN4ADNF",
@@ -111,7 +111,7 @@
       "rating": 4.4
     },
     {
-      "title": "REDMI 10 (Caribbean Green, 128 GB)",
+      "name": "REDMI 10 (Caribbean Green, 128 GB)",
       "brand": "REDMI",
       "image": "https://i.pinimg.com/564x/63/a5/6d/63a56dcc7a8878bf99d06fc3891e47e6.jpg",
       "id": "MOBGC9GYQVJHKH76",
@@ -121,7 +121,7 @@
       "rating": 4.6
     },
     {
-      "title": "realme 9i (Prism Black, 128 GB)",
+      "name": "realme 9i (Prism Black, 128 GB)",
       "brand": "realme",
       "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9iaWxlJTIwcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "id": "MOBGBMZH9X7PQZJZ",
@@ -131,7 +131,7 @@
       "rating": 4.5
     },
     {
-      "title": "REDMI 10 (Midnight Black, 128 GB)",
+      "name": "REDMI 10 (Midnight Black, 128 GB)",
       "brand": "REDMI",
       "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9iaWxlJTIwcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "id": "MOBGC9GYX2QQXKWK",
@@ -141,7 +141,7 @@
       "rating": 4.6
     },
     {
-      "title": "POCO M3 Pro 5G (Power Black, 64 GB)",
+      "name": "POCO M3 Pro 5G (Power Black, 64 GB)",
       "brand": "POCO",
       "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9iaWxlJTIwcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "id": "MOBG3P4Z3ZQSVWZZ",
@@ -151,7 +151,7 @@
       "rating": 4.3
     },
     {
-      "title": "POCO M3 Pro 5G (Yellow, 64 GB)",
+      "name": "POCO M3 Pro 5G (Yellow, 64 GB)",
       "brand": "POCO",
       "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9iaWxlJTIwcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "id": "MOBG3P55T4HQZBGC",
@@ -161,7 +161,7 @@
       "rating": 4.3
     },
     {
-      "title": "REDMI 9i Sport (Carbon Black, 64 GB)",
+      "name": "REDMI 9i Sport (Carbon Black, 64 GB)",
       "brand": "REDMI",
       "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9iaWxlJTIwcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "id": "MOBG6WQWRGRRDBH6",
@@ -171,7 +171,7 @@
       "rating": 4.4
     },
     {
-      "title": "POCO M3 Pro 5G (Cool Blue, 128 GB)",
+      "name": "POCO M3 Pro 5G (Cool Blue, 128 GB)",
       "brand": "POCO",
       "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9iaWxlJTIwcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "id": "MOBG3P4ZMCSJNSAY",
@@ -181,7 +181,7 @@
       "rating": 4.2
     },
     {
-      "title": "POCO M3 Pro 5G (Cool Blue, 64 GB)",
+      "name": "POCO M3 Pro 5G (Cool Blue, 64 GB)",
       "brand": "POCO",
       "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9iaWxlJTIwcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "id": "MOBG3P4ZGGVECRZK",
@@ -191,7 +191,7 @@
       "rating": 4.3
     },
     {
-      "title": "realme 9i (Prism Blue, 128 GB)",
+      "name": "realme 9i (Prism Blue, 128 GB)",
       "brand": "realme",
       "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9iaWxlJTIwcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "id": "MOBG9VGV2Q9PDXHN",
@@ -201,7 +201,7 @@
       "rating": 4.3
     },
     {
-      "title": "realme C25Y (Metal Grey, 64 GB)",
+      "name": "realme C25Y (Metal Grey, 64 GB)",
       "brand": "realme",
       "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9iaWxlJTIwcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "id": "MOBG7984TB3SBGAG",
@@ -211,7 +211,7 @@
       "rating": 4.5
     },
     {
-      "title": "SAMSUNG Galaxy F23 5G (Forest Green, 128 GB)",
+      "name": "SAMSUNG Galaxy F23 5G (Forest Green, 128 GB)",
       "brand": "SAMSUNG",
       "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9iaWxlJTIwcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "id": "MOBGBKQF3QM4GHWN",
@@ -221,7 +221,7 @@
       "rating": 4.2
     },
     {
-      "title": "SAMSUNG Galaxy F23 5G (Aqua Blue, 128 GB)",
+      "name": "SAMSUNG Galaxy F23 5G (Aqua Blue, 128 GB)",
       "brand": "SAMSUNG",
       "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9iaWxlJTIwcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "id": "MOBGBKQF45XPEUHA",
@@ -231,7 +231,7 @@
       "rating": 4.2
     },
     {
-      "title": "realme C21Y (Cross Blue, 64 GB)",
+      "name": "realme C21Y (Cross Blue, 64 GB)",
       "brand": "realme",
       "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9iaWxlJTIwcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "id": "MOBG5ZGKRUBBZFBR",
@@ -241,7 +241,7 @@
       "rating": 4.5
     },
     {
-      "title": "realme C21Y (Cross Black, 32 GB)",
+      "name": "realme C21Y (Cross Black, 32 GB)",
       "brand": "realme",
       "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9iaWxlJTIwcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "id": "MOBG5ZGKG2HRSQB8",
@@ -251,7 +251,7 @@
       "rating": 4.6
     },
     {
-      "title": "vivo T1 5G (Starlight Black, 128 GB)",
+      "name": "vivo T1 5G (Starlight Black, 128 GB)",
       "brand": "vivo",
       "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9iaWxlJTIwcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "id": "MOBGB9TYNDFYKNQ6",
@@ -261,7 +261,7 @@
       "rating": 4.3
     },
     {
-      "title": "vivo T1 5G (Starlight Black, 128 GB)",
+      "name": "vivo T1 5G (Starlight Black, 128 GB)",
       "brand": "vivo",
       "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9iaWxlJTIwcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "id": "MOBGB9TYF7P7RNYX",
@@ -271,7 +271,7 @@
       "rating": 4.4
     },
     {
-      "title": "vivo T1 5G (Rainbow Fantasy, 128 GB)",
+      "name": "vivo T1 5G (Rainbow Fantasy, 128 GB)",
       "brand": "vivo",
       "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9iaWxlJTIwcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "id": "MOBGB9TYGW5NGXVH",
@@ -281,7 +281,7 @@
       "rating": 0
     },
     {
-      "title": "realme C21Y (Cross Blue, 32 GB)",
+      "name": "realme C21Y (Cross Blue, 32 GB)",
       "brand": "realme",
       "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9iaWxlJTIwcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "id": "MOBG5ZGKXCGFB9HP",
@@ -292,411 +292,409 @@
     }
   ],
   "laptops": [
-    [
-      {
-        "id": 0,
-        "title": "DELL Vostro Core i3 11th Gen - (8 GB/1 TB HDD/256 GB SSD/Windows 11 Home) Vostro 3510 Thin and Light L...",
-        "price": "37,990",
-        "img": "https://i.pinimg.com/564x/c0/3a/42/c03a42de3d7f353a56f26561563aff29.jpg",
-        "Processor": "Processor: Intel i3-1115G4 (Base- 1.7 GHz & Turbo up to 4.10 GHz) 2 Cores",
-        "RAM": "RAM & Storage: 8GB DDR4 & 1TB HDD + 256GB SSD",
-        "OS": "Graphics & Keyboard: Integrated & Standard Keyboard",
-        "SSD": "Display: 15.6\" FHD WVA AG Narrow Border",
-        "Display": "Intel Core i3 Processor (11th Gen)",
-        "In_build_sw": "",
-        "warranty": "1 Year Onsite Warranty"
-      },
-      {
-        "id": 1,
-        "title": "HP 14s Intel Core i3 11th Gen - (8 GB/256 GB SSD/Windows 11 Home) 14s - dy2507TU Thin and Light Laptop",
-        "price": "35,490",
-        "img": "https://i.pinimg.com/564x/98/fc/b9/98fcb9df2c6f60635777492ae72d3e7e.jpg",
-        "Processor": "Intel Core i3 Processor (11th Gen)",
-        "RAM": "8 GB DDR4 RAM",
-        "OS": "64 bit Windows 11 Operating System",
-        "SSD": "256 GB SSD",
-        "Display": "35.56 cm (14 inch) Display",
-        "In_build_sw": "",
-        "warranty": "1 Year Onsite Warranty"
-      },
-      {
-        "id": 2,
-        "title": "Lenovo V15 G2 Core i3 11th Gen - (8 GB/512 GB SSD/Windows 11 Home) V15 ITL G2 Laptop",
-        "price": "33,999",
-        "img": "https://i.pinimg.com/564x/9a/ff/1b/9aff1b24edb4db924cfa5767e1ac7f75.jpg",
-        "Processor": "Intel Core i3 Processor (11th Gen)",
-        "RAM": "8 GB DDR4 RAM",
-        "OS": "64 bit Windows 11 Operating System",
-        "SSD": "512 GB SSD",
-        "Display": "39.62 cm (15.6 Inch) Display",
-        "In_build_sw": "No",
-        "warranty": "1 Year Onsite Warranty + 1 Year Accidental Damage Protection Add On"
-      },
-      {
-        "id": 3,
-        "title": "HP 15s Intel Core i3 12th Gen - (8 GB/512 GB SSD/Windows 11 Home) 15s-fq5007TU Thin and Light Laptop",
-        "price": "45,490",
-        "img": "https://i.pinimg.com/564x/c0/3a/42/c03a42de3d7f353a56f26561563aff29.jpg",
-        "Processor": "Intel Core i3 Processor (12th Gen)",
-        "RAM": "8 GB DDR4 RAM",
-        "OS": "64 bit Windows 11 Operating System",
-        "SSD": "512 GB SSD",
-        "Display": "39.62 cm (15.6 Inch) Display",
-        "In_build_sw": "Microsoft Office Home & Student 2021",
-        "warranty": "1 Year Onsite Warranty"
-      },
-      {
-        "id": 4,
-        "title": "ASUS VivoBook 15 (2022) Core i3 10th Gen - (8 GB/512 GB SSD/Windows 11 Home) X515JA-EJ362WS | X515JA-E...",
-        "price": "33,990",
-        "img": "https://i.pinimg.com/564x/98/fc/b9/98fcb9df2c6f60635777492ae72d3e7e.jpg",
-        "Processor": "Intel Core i3 Processor (10th Gen)",
-        "RAM": "8 GB DDR4 RAM",
-        "OS": "64 bit Windows 11 Operating System",
-        "SSD": "512 GB SSD",
-        "Display": "39.62 cm (15.6 inch) Display",
-        "In_build_sw": "Office Home and Student 2021",
-        "warranty": "1 Year Onsite Warranty"
-      },
-      {
-        "id": 5,
-        "title": "ASUS TUF Gaming A17 with 90Whr Battery Ryzen 7 Octa Core AMD R7-4800H - (8 GB/512 GB SSD/Windows 11 Ho...",
-        "price": "67,990",
-        "img": "https://i.pinimg.com/564x/9a/ff/1b/9aff1b24edb4db924cfa5767e1ac7f75.jpg",
-        "Processor": "AMD Ryzen 7 Octa Core Processor",
-        "RAM": "8 GB DDR4 RAM",
-        "OS": "64 bit Windows 11 Operating System",
-        "SSD": "512 GB SSD",
-        "Display": "43.94 cm (17.3 Inch) Display",
-        "In_build_sw": "",
-        "warranty": "1 Year onsite warranty"
-      },
-      {
-        "id": 6,
-        "title": "ASUS TUF Gaming A17 with 90Whr Battery Ryzen 5 Hexa Core AMD R5-4600H - (8 GB/512 GB SSD/Windows 11 Ho...",
-        "price": "52,990",
-        "img": "https://i.pinimg.com/564x/c0/3a/42/c03a42de3d7f353a56f26561563aff29.jpg",
-        "Processor": "AMD Ryzen 5 Hexa Core Processor",
-        "RAM": "8 GB DDR4 RAM",
-        "OS": "64 bit Windows 11 Operating System",
-        "SSD": "512 GB SSD",
-        "Display": "43.94 cm (17.3 Inch) Display",
-        "In_build_sw": "",
-        "warranty": "1 Year Onsite Warranty"
-      },
-      {
-        "id": 7,
-        "title": "ASUS VivoBook K15 OLED (2022) Ryzen 5 Hexa Core AMD R5-5500U - (8 GB/1 TB HDD/256 GB SSD/Windows 11 Ho...",
-        "price": "47,990",
-        "img": "https://i.pinimg.com/564x/98/fc/b9/98fcb9df2c6f60635777492ae72d3e7e.jpg",
-        "Processor": "AMD Ryzen 5 Hexa Core Processor",
-        "RAM": "8 GB DDR4 RAM",
-        "OS": "64 bit Windows 11 Operating System",
-        "SSD": "1 TB HDD|256 GB SSD",
-        "Display": "39.62 cm (15.6 inch) Display",
-        "In_build_sw": "Office Home and Student 2021",
-        "warranty": "1 Year Onsite Warranty"
-      },
-      {
-        "id": 8,
-        "title": "HP Ryzen 5 Hexa Core 5500U - (16 GB/512 GB SSD/Windows 11 Home) 15s- eq2182AU Thin and Light Laptop",
-        "price": "49,123",
-        "img": "https://i.pinimg.com/564x/9a/ff/1b/9aff1b24edb4db924cfa5767e1ac7f75.jpg",
-        "Processor": "AMD Ryzen 5 Hexa Core Processor",
-        "RAM": "16 GB DDR4 RAM",
-        "OS": "64 bit Windows 11 Operating System",
-        "SSD": "512 GB SSD",
-        "Display": "39.62 cm (15.6 Inch) Display",
-        "In_build_sw": "Microsoft Office 2021 Home & Student, HP Documentation, HP BIOS recovery, HP Smart",
-        "warranty": "1 Year Onsite Warranty"
-      },
-      {
-        "id": 9,
-        "title": "HP 15s Intel Core i5 12th Gen - (8 GB/512 GB SSD/Windows 11 Home) 15s-fq5111TU Thin and Light Laptop",
-        "price": "57,499",
-        "img": "https://i.pinimg.com/564x/c0/3a/42/c03a42de3d7f353a56f26561563aff29.jpg",
-        "Processor": "Intel Core i5 Processor (12th Gen)",
-        "RAM": "8 GB DDR4 RAM",
-        "OS": "64 bit Windows 11 Operating System",
-        "SSD": "512 GB SSD",
-        "Display": "39.62 cm (15.6 inch) Display",
-        "In_build_sw": "",
-        "warranty": "1 Year Onsite Warranty"
-      },
-      {
-        "id": 10,
-        "title": "HP Pavilion Intel Core i5 12th Gen - (8 GB/512 GB SSD/Windows 11 Home) 15-EG2009TU Thin and Light Lapt...",
-        "price": "62,990",
-        "img": "https://i.pinimg.com/564x/98/fc/b9/98fcb9df2c6f60635777492ae72d3e7e.jpg",
-        "Processor": "Intel Core i5 Processor (12th Gen)",
-        "RAM": "8 GB DDR4 RAM",
-        "OS": "64 bit Windows 11 Operating System",
-        "SSD": "512 GB SSD",
-        "Display": "39.62 cm (15.6 inch) Display",
-        "In_build_sw": "Microsoft Office Home & Student 2021",
-        "warranty": "1 Year Onsite Warranty"
-      },
-      {
-        "id": 11,
-        "title": "HP Ryzen 3 Dual Core 3250U - (8 GB/256 GB SSD/Windows 11 Home) 15s-ey1508AU Thin and Light Laptop",
-        "price": "29,990",
-        "img": "https://i.pinimg.com/564x/9a/ff/1b/9aff1b24edb4db924cfa5767e1ac7f75.jpg",
-        "Processor": "AMD Ryzen 3 Dual Core Processor",
-        "RAM": "8 GB DDR4 RAM",
-        "OS": "64 bit Windows 11 Operating System",
-        "SSD": "256 GB SSD",
-        "Display": "39.62 cm (15.6 mm) Display",
-        "In_build_sw": "Microsoft Office 2021 Home and Student, HP Documentation, HP BIOS recovery, HP Smart",
-        "warranty": "1 Year Onsite Warranty"
-      },
-      {
-        "id": 12,
-        "title": "RedmiBook Pro Core i5 11th Gen - (8 GB/512 GB SSD/Windows 11 Home) Thin and Light Laptop",
-        "price": "39,990",
-        "img": "https://i.pinimg.com/564x/c0/3a/42/c03a42de3d7f353a56f26561563aff29.jpg",
-        "Processor": "Intel Core i5 Processor (11th Gen)",
-        "RAM": "8 GB DDR4 RAM",
-        "OS": "Windows 11 Operating System",
-        "SSD": "512 GB SSD",
-        "Display": "39.62 cm (15.6 inch) Display",
-        "In_build_sw": "MS Office Home & Student 2019, Mi Smart Share, DTS Audio processing",
-        "warranty": "1 Year Onsite Warranty"
-      },
-      {
-        "id": 13,
-        "title": "Lenovo Intel Celeron Dual Core - (8 GB/256 GB SSD/Windows 11 Home) 81WQ00MQIN|81WQ00NXIN Laptop",
-        "price": "27,799",
-        "img": "https://i.pinimg.com/564x/98/fc/b9/98fcb9df2c6f60635777492ae72d3e7e.jpg",
-        "Processor": "Intel Celeron Dual Core Processor",
-        "RAM": "8 GB DDR4 RAM",
-        "OS": "64 bit Windows 11 Operating System",
-        "SSD": "256 GB SSD",
-        "Display": "39.62 cm (15.6 Inch) Display",
-        "In_build_sw": "",
-        "warranty": "2 Years Onsiteï¿½Warranty"
-      },
-      {
-        "id": 14,
-        "title": "acer Aspire 3 Ryzen 3 Dual Core 3250U - (8 GB/256 GB SSD/Windows 11 Home) A315-23 Laptop",
-        "price": "26,990",
-        "img": "https://i.pinimg.com/564x/9a/ff/1b/9aff1b24edb4db924cfa5767e1ac7f75.jpg",
-        "Processor": "AMD Ryzen 3 Dual Core Processor",
-        "RAM": "8 GB DDR4 RAM",
-        "OS": "64 bit Windows 11 Operating System",
-        "SSD": "256 GB SSD",
-        "Display": "39.62 cm (15.6 Inch) Display",
-        "In_build_sw": "",
-        "warranty": "1 Year International Travelers Warranty (ITW)"
-      },
-      {
-        "id": 15,
-        "title": "ASUS Vivobook 15 Core i3 11th Gen - (8 GB/512 GB SSD/Windows 11 Home) X515EA-EJ322WS Thin and Light La...",
-        "price": "35,990",
-        "img": "https://i.pinimg.com/564x/c0/3a/42/c03a42de3d7f353a56f26561563aff29.jpg",
-        "Processor": "Intel Core i3 Processor (11th Gen)",
-        "RAM": "8 GB DDR4 RAM",
-        "OS": "64 bit Windows 11 Operating System",
-        "SSD": "512 GB SSD",
-        "Display": "39.62 cm (15.6 Inch) Display",
-        "In_build_sw": "",
-        "warranty": "1 Year Onsite Warranty"
-      },
-      {
-        "id": 16,
-        "title": "HP Pavilion Ryzen 5 Hexa Core AMD R5-5600H - (8 GB/512 GB SSD/Windows 10/4 GB Graphics/NVIDIA GeForce ...",
-        "price": "54,990",
-        "img": "https://i.pinimg.com/564x/98/fc/b9/98fcb9df2c6f60635777492ae72d3e7e.jpg",
-        "Processor": "AMD Ryzen 5 Hexa Core Processor",
-        "RAM": "8 GB DDR4 RAM",
-        "OS": "64 bit Windows 10 Operating System",
-        "SSD": "512 GB SSD",
-        "Display": "39.62 cm (15.6 inch) Display",
-        "In_build_sw": "HP Documentation, HP e-service, HP BIOS Recovery, HP SSRM, HP Smart, HP Jumpstarts",
-        "warranty": "1 Year Onsite Warranty"
-      },
-      {
-        "id": 17,
-        "title": "Infinix INBook X1 Neo Series Celeron Quad Core - (4 GB/128 GB SSD/Windows 11 Home) XL22 Thin and Light...",
-        "price": "20,990",
-        "img": "https://i.pinimg.com/564x/9a/ff/1b/9aff1b24edb4db924cfa5767e1ac7f75.jpg",
-        "Processor": "Intel Celeron Quad Core Processor",
-        "RAM": "4 GB LPDDR4X RAM",
-        "OS": "64 bit Windows 11 Operating System",
-        "SSD": "128 GB SSD",
-        "Display": "35.56 cm (14 inch) Display",
-        "In_build_sw": "",
-        "warranty": "1 Year Onsite Warranty"
-      },
-      {
-        "id": 18,
-        "title": "HP 14s Intel Core i3 11th Gen - (8 GB/512 GB SSD/Windows 11 Home) 14s - dy2508TU Thin and Light Laptop",
-        "price": "39,990",
-        "img": "https://i.pinimg.com/564x/c0/3a/42/c03a42de3d7f353a56f26561563aff29.jpg",
-        "Processor": "Intel Core i3 Processor (11th Gen)",
-        "RAM": "8 GB DDR4 RAM",
-        "OS": "64 bit Windows 11 Operating System",
-        "SSD": "512 GB SSD",
-        "Display": "35.56 cm (14 inch) Display",
-        "In_build_sw": "Microsoft Office Home & Student 2021",
-        "warranty": "1 Year Onsite Warranty"
-      },
-      {
-        "id": 19,
-        "title": "ASUS VivoBook 14 (2021) Celeron Dual Core - (4 GB/256 GB SSD/Windows 11 Home) X415MA-BV011W Thin and L...",
-        "price": "23,990",
-        "img": "https://i.pinimg.com/564x/98/fc/b9/98fcb9df2c6f60635777492ae72d3e7e.jpg",
-        "Processor": "Intel Celeron Dual Core Processor",
-        "RAM": "4 GB DDR4 RAM",
-        "OS": "64 bit Windows 11 Operating System",
-        "SSD": "256 GB SSD",
-        "Display": "35.56 cm (14 inch) Display",
-        "In_build_sw": "",
-        "warranty": "1 Year Onsite Warranty"
-      },
-      {
-        "id": 20,
-        "title": "HP Pavilion Ryzen 5 Hexa Core 5625U - (8 GB/512 GB SSD/Windows 11 Home) 14-EC1003AU Thin and Light Lap...",
-        "price": "51,990",
-        "img": "https://i.pinimg.com/564x/9a/ff/1b/9aff1b24edb4db924cfa5767e1ac7f75.jpg",
-        "Processor": "AMD Ryzen 5 Hexa Core Processor",
-        "RAM": "8 GB DDR4 RAM",
-        "OS": "64 bit Windows 11 Operating System",
-        "SSD": "512 GB SSD",
-        "Display": "35.56 cm (14 Inch) Display",
-        "In_build_sw": "",
-        "warranty": "1 Year Onsite Warranty"
-      },
-      {
-        "id": 21,
-        "title": "HP 15s Intel Core i3 11th Gen - (8 GB/512 GB SSD/Windows 11 Home) 15s-fr2511TU Thin and Light Laptop",
-        "price": "40,950",
-        "img": "https://i.pinimg.com/564x/c0/3a/42/c03a42de3d7f353a56f26561563aff29.jpg",
-        "Processor": "Intel Core i3 Processor (11th Gen)",
-        "RAM": "8 GB DDR4 RAM",
-        "OS": "64 bit Windows 11 Operating System",
-        "SSD": "512 GB SSD",
-        "Display": "39.62 cm (15.6 Inch) Display",
-        "In_build_sw": "Microsoft Office 2021 Home & Student, HP Documentation, HP BIOS recovery, HP Smart",
-        "warranty": "1 Year Onsite Warranty"
-      },
-      {
-        "id": 22,
-        "title": "ASUS VivoBook K15 OLED (2022) Core i3 11th Gen - (8 GB/256 GB SSD/Windows 11 Home) K513EA-L302WS Thin ...",
-        "price": "40,990",
-        "img": "https://i.pinimg.com/564x/98/fc/b9/98fcb9df2c6f60635777492ae72d3e7e.jpg",
-        "Processor": "Intel Core i3 Processor (11th Gen)",
-        "RAM": "8 GB DDR4 RAM",
-        "OS": "64 bit Windows 11 Operating System",
-        "SSD": "256 GB SSD",
-        "Display": "39.62 cm (15.6 inch) Display",
-        "In_build_sw": "Office Home and Student 2021",
-        "warranty": "1 Year Onsite Warranty"
-      },
-      {
-        "id": 23,
-        "title": "Lenovo Athlon Dual Core 3150U - (4 GB/1 TB HDD/DOS) E41-55 Thin and Light Laptop",
-        "price": "18,990",
-        "img": "https://i.pinimg.com/564x/9a/ff/1b/9aff1b24edb4db924cfa5767e1ac7f75.jpg",
-        "Processor": "AMD Athlon Dual Core Processor",
-        "RAM": "4 GB DDR4 RAM",
-        "OS": "DOS Operating System",
-        "SSD": "1 TB HDD",
-        "Display": "35.56 cm (14 Inch) Display",
-        "In_build_sw": "",
-        "warranty": "1 Year Onsite Warranty"
-      },
-      {
-        "id": 24,
-        "title": "ASUS Vivobook 15 Touch Core i3 11th Gen - (8 GB/512 GB SSD/Windows 11 Home) X515EA-EZ311WS Thin and Li...",
-        "price": "39,990",
-        "img": "https://i.pinimg.com/564x/c0/3a/42/c03a42de3d7f353a56f26561563aff29.jpg",
-        "Processor": "Intel Core i3 Processor (11th Gen)",
-        "RAM": "8 GB DDR4 RAM",
-        "OS": "64 bit Windows 11 Operating System",
-        "SSD": "512 GB SSD",
-        "Display": "39.62 cm (15.6 Inch) Touchscreen Display",
-        "In_build_sw": "",
-        "warranty": "1 Year Onsite Warranty"
-      },
-      {
-        "id": 25,
-        "title": "ASUS VivoBook 14 (2022) Ryzen 5 Quad Core AMD R5-3500U - (8 GB/512 GB SSD/Windows 11 Home) M415DA-EB71...",
-        "price": "38,990",
-        "img": "https://i.pinimg.com/564x/98/fc/b9/98fcb9df2c6f60635777492ae72d3e7e.jpg",
-        "Processor": "AMD Ryzen 5 Quad Core Processor",
-        "RAM": "8 GB DDR4 RAM",
-        "OS": "32 bit Windows 11 Operating System",
-        "SSD": "512 GB SSD",
-        "Display": "35.56 cm (14 inch) Display",
-        "In_build_sw": "Office Home and Student 2021",
-        "warranty": "1 Year Onsite Warranty"
-      },
-      {
-        "id": 26,
-        "title": "APPLE 2020 Macbook Air M1 - (8 GB/256 GB SSD/Mac OS Big Sur) MGN63HN/A",
-        "price": "86,990",
-        "img": "https://i.pinimg.com/564x/9a/ff/1b/9aff1b24edb4db924cfa5767e1ac7f75.jpg",
-        "Processor": "Apple M1 Processor",
-        "RAM": "8 GB DDR4 RAM",
-        "OS": "Mac OS Operating System",
-        "SSD": "256 GB SSD",
-        "Display": "33.78 cm (13.3 inch) Display",
-        "In_build_sw": "Built-in Apps: iMovie, Siri, GarageBand, Pages, Numbers, Photos, Keynote, Safari, Mail, FaceTime, Messages, Maps, Stocks, Home, Voice Memos, Notes, Calendar, Contacts, Reminders, Photo Booth, Preview, Books, App Store, Time Machine, TV, Music, Podcasts, Find My, QuickTime Player",
-        "warranty": "1 Year Limited WarraÂ­nty"
-      },
-      {
-        "id": 27,
-        "title": "DELL Inspiron Core i3 11th Gen - (8 GB/1 TB HDD/256 GB SSD/Windows 11 Home) D560841WIN9S Thin and Ligh...",
-        "price": "41,990",
-        "img": "https://i.pinimg.com/564x/c0/3a/42/c03a42de3d7f353a56f26561563aff29.jpg",
-        "Processor": "Processor: Intel i3-1115G4 (Base- 1.70 GHz & Turbo up to 4.10 GHz) 2 Cores",
-        "RAM": "RAM & Storage: 8GB DDR4 & 1TB + 256GB SSD",
-        "OS": "Graphics & Keyboard: Integrated & Standard Keyboard",
-        "SSD": "Display: 15.6\" FHD WVA AG Narrow Border",
-        "Display": "Ports: 2x USB 3.2 Gen1 ,1x USB 2.0, HDMI 1.4, SD Card reader, Audio jack, 1 M.2 2230/2280 slot for solid-state drive/Intel Optane",
-        "In_build_sw": "",
-        "warranty": "Intel Core i3 Processor (11th Gen)"
-      },
-      {
-        "id": 28,
-        "title": "HP Athlon Dual Core 3050U - (8 GB/256 GB SSD/Windows 11 Home) 14s-fq0568AU Thin and Light Laptop",
-        "price": "25,990",
-        "img": "https://i.pinimg.com/564x/98/fc/b9/98fcb9df2c6f60635777492ae72d3e7e.jpg",
-        "Processor": "AMD Athlon Dual Core Processor",
-        "RAM": "8 GB DDR4 RAM",
-        "OS": "64 bit Windows 11 Operating System",
-        "SSD": "256 GB SSD",
-        "Display": "35.56 cm (14 inch) Display",
-        "In_build_sw": "",
-        "warranty": "1 Year Onsite Warranty"
-      },
-      {
-        "id": 29,
-        "title": "HP Intel Core i5 11th Gen - (8 GB/512 GB SSD/Windows 11 Home) 15s- fr4000TU Thin and Light Laptop",
-        "price": "52,990",
-        "img": "https://i.pinimg.com/564x/9a/ff/1b/9aff1b24edb4db924cfa5767e1ac7f75.jpg",
-        "Processor": "Intel Core i5 Processor (11th Gen)",
-        "RAM": "8 GB DDR4 RAM",
-        "OS": "64 bit Windows 11 Operating System",
-        "SSD": "512 GB SSD",
-        "Display": "39.62 cm (15.6 Inch) Display",
-        "In_build_sw": "",
-        "warranty": "1 Year Onsite Warranty"
-      },
-      {
-        "id": 30,
-        "title": "DELL Core i5 12th Gen - (16 GB/512 GB SSD/Windows 11 Home) New Inspiron 15 Metal Laptop Thin and Light...",
-        "price": "65,990",
-        "img": "https://i.pinimg.com/564x/c0/3a/42/c03a42de3d7f353a56f26561563aff29.jpg",
-        "Processor": "Processor: Intel i5-1235U (Base- 3.30 GHz & Turbo up to 4.40 GHz) 10 Cores",
-        "RAM": "RAM & Storage: 16GB DDR4 & 512GB SSD",
-        "OS": "Graphics & Keyboard: Integrated & Backlit Keyboard+Fingerprint Reader",
-        "SSD": "Display: 15.6\" FHD WVA AG 120Hz 250 nits Narrow Border",
-        "Display": "Intel Core i5 Processor (12th Gen)",
-        "In_build_sw": "",
-        "warranty": "16 GB DDR4 RAM"
-      }
-    ]
+    {
+      "id": 0,
+      "name": "DELL Vostro Core i3 11th Gen - (8 GB/1 TB HDD/256 GB SSD/Windows 11 Home) Vostro 3510 Thin and Light L...",
+      "price": "37,990",
+      "img": "https://i.pinimg.com/564x/c0/3a/42/c03a42de3d7f353a56f26561563aff29.jpg",
+      "Processor": "Processor: Intel i3-1115G4 (Base- 1.7 GHz & Turbo up to 4.10 GHz) 2 Cores",
+      "RAM": "RAM & Storage: 8GB DDR4 & 1TB HDD + 256GB SSD",
+      "OS": "Graphics & Keyboard: Integrated & Standard Keyboard",
+      "SSD": "Display: 15.6\" FHD WVA AG Narrow Border",
+      "Display": "Intel Core i3 Processor (11th Gen)",
+      "In_build_sw": "",
+      "warranty": "1 Year Onsite Warranty"
+    },
+    {
+      "id": 1,
+      "name": "HP 14s Intel Core i3 11th Gen - (8 GB/256 GB SSD/Windows 11 Home) 14s - dy2507TU Thin and Light Laptop",
+      "price": "35,490",
+      "img": "https://i.pinimg.com/564x/98/fc/b9/98fcb9df2c6f60635777492ae72d3e7e.jpg",
+      "Processor": "Intel Core i3 Processor (11th Gen)",
+      "RAM": "8 GB DDR4 RAM",
+      "OS": "64 bit Windows 11 Operating System",
+      "SSD": "256 GB SSD",
+      "Display": "35.56 cm (14 inch) Display",
+      "In_build_sw": "",
+      "warranty": "1 Year Onsite Warranty"
+    },
+    {
+      "id": 2,
+      "name": "Lenovo V15 G2 Core i3 11th Gen - (8 GB/512 GB SSD/Windows 11 Home) V15 ITL G2 Laptop",
+      "price": "33,999",
+      "img": "https://i.pinimg.com/564x/9a/ff/1b/9aff1b24edb4db924cfa5767e1ac7f75.jpg",
+      "Processor": "Intel Core i3 Processor (11th Gen)",
+      "RAM": "8 GB DDR4 RAM",
+      "OS": "64 bit Windows 11 Operating System",
+      "SSD": "512 GB SSD",
+      "Display": "39.62 cm (15.6 Inch) Display",
+      "In_build_sw": "No",
+      "warranty": "1 Year Onsite Warranty + 1 Year Accidental Damage Protection Add On"
+    },
+    {
+      "id": 3,
+      "name": "HP 15s Intel Core i3 12th Gen - (8 GB/512 GB SSD/Windows 11 Home) 15s-fq5007TU Thin and Light Laptop",
+      "price": "45,490",
+      "img": "https://i.pinimg.com/564x/c0/3a/42/c03a42de3d7f353a56f26561563aff29.jpg",
+      "Processor": "Intel Core i3 Processor (12th Gen)",
+      "RAM": "8 GB DDR4 RAM",
+      "OS": "64 bit Windows 11 Operating System",
+      "SSD": "512 GB SSD",
+      "Display": "39.62 cm (15.6 Inch) Display",
+      "In_build_sw": "Microsoft Office Home & Student 2021",
+      "warranty": "1 Year Onsite Warranty"
+    },
+    {
+      "id": 4,
+      "name": "ASUS VivoBook 15 (2022) Core i3 10th Gen - (8 GB/512 GB SSD/Windows 11 Home) X515JA-EJ362WS | X515JA-E...",
+      "price": "33,990",
+      "img": "https://i.pinimg.com/564x/98/fc/b9/98fcb9df2c6f60635777492ae72d3e7e.jpg",
+      "Processor": "Intel Core i3 Processor (10th Gen)",
+      "RAM": "8 GB DDR4 RAM",
+      "OS": "64 bit Windows 11 Operating System",
+      "SSD": "512 GB SSD",
+      "Display": "39.62 cm (15.6 inch) Display",
+      "In_build_sw": "Office Home and Student 2021",
+      "warranty": "1 Year Onsite Warranty"
+    },
+    {
+      "id": 5,
+      "name": "ASUS TUF Gaming A17 with 90Whr Battery Ryzen 7 Octa Core AMD R7-4800H - (8 GB/512 GB SSD/Windows 11 Ho...",
+      "price": "67,990",
+      "img": "https://i.pinimg.com/564x/9a/ff/1b/9aff1b24edb4db924cfa5767e1ac7f75.jpg",
+      "Processor": "AMD Ryzen 7 Octa Core Processor",
+      "RAM": "8 GB DDR4 RAM",
+      "OS": "64 bit Windows 11 Operating System",
+      "SSD": "512 GB SSD",
+      "Display": "43.94 cm (17.3 Inch) Display",
+      "In_build_sw": "",
+      "warranty": "1 Year onsite warranty"
+    },
+    {
+      "id": 6,
+      "name": "ASUS TUF Gaming A17 with 90Whr Battery Ryzen 5 Hexa Core AMD R5-4600H - (8 GB/512 GB SSD/Windows 11 Ho...",
+      "price": "52,990",
+      "img": "https://i.pinimg.com/564x/c0/3a/42/c03a42de3d7f353a56f26561563aff29.jpg",
+      "Processor": "AMD Ryzen 5 Hexa Core Processor",
+      "RAM": "8 GB DDR4 RAM",
+      "OS": "64 bit Windows 11 Operating System",
+      "SSD": "512 GB SSD",
+      "Display": "43.94 cm (17.3 Inch) Display",
+      "In_build_sw": "",
+      "warranty": "1 Year Onsite Warranty"
+    },
+    {
+      "id": 7,
+      "name": "ASUS VivoBook K15 OLED (2022) Ryzen 5 Hexa Core AMD R5-5500U - (8 GB/1 TB HDD/256 GB SSD/Windows 11 Ho...",
+      "price": "47,990",
+      "img": "https://i.pinimg.com/564x/98/fc/b9/98fcb9df2c6f60635777492ae72d3e7e.jpg",
+      "Processor": "AMD Ryzen 5 Hexa Core Processor",
+      "RAM": "8 GB DDR4 RAM",
+      "OS": "64 bit Windows 11 Operating System",
+      "SSD": "1 TB HDD|256 GB SSD",
+      "Display": "39.62 cm (15.6 inch) Display",
+      "In_build_sw": "Office Home and Student 2021",
+      "warranty": "1 Year Onsite Warranty"
+    },
+    {
+      "id": 8,
+      "name": "HP Ryzen 5 Hexa Core 5500U - (16 GB/512 GB SSD/Windows 11 Home) 15s- eq2182AU Thin and Light Laptop",
+      "price": "49,123",
+      "img": "https://i.pinimg.com/564x/9a/ff/1b/9aff1b24edb4db924cfa5767e1ac7f75.jpg",
+      "Processor": "AMD Ryzen 5 Hexa Core Processor",
+      "RAM": "16 GB DDR4 RAM",
+      "OS": "64 bit Windows 11 Operating System",
+      "SSD": "512 GB SSD",
+      "Display": "39.62 cm (15.6 Inch) Display",
+      "In_build_sw": "Microsoft Office 2021 Home & Student, HP Documentation, HP BIOS recovery, HP Smart",
+      "warranty": "1 Year Onsite Warranty"
+    },
+    {
+      "id": 9,
+      "name": "HP 15s Intel Core i5 12th Gen - (8 GB/512 GB SSD/Windows 11 Home) 15s-fq5111TU Thin and Light Laptop",
+      "price": "57,499",
+      "img": "https://i.pinimg.com/564x/c0/3a/42/c03a42de3d7f353a56f26561563aff29.jpg",
+      "Processor": "Intel Core i5 Processor (12th Gen)",
+      "RAM": "8 GB DDR4 RAM",
+      "OS": "64 bit Windows 11 Operating System",
+      "SSD": "512 GB SSD",
+      "Display": "39.62 cm (15.6 inch) Display",
+      "In_build_sw": "",
+      "warranty": "1 Year Onsite Warranty"
+    },
+    {
+      "id": 10,
+      "name": "HP Pavilion Intel Core i5 12th Gen - (8 GB/512 GB SSD/Windows 11 Home) 15-EG2009TU Thin and Light Lapt...",
+      "price": "62,990",
+      "img": "https://i.pinimg.com/564x/98/fc/b9/98fcb9df2c6f60635777492ae72d3e7e.jpg",
+      "Processor": "Intel Core i5 Processor (12th Gen)",
+      "RAM": "8 GB DDR4 RAM",
+      "OS": "64 bit Windows 11 Operating System",
+      "SSD": "512 GB SSD",
+      "Display": "39.62 cm (15.6 inch) Display",
+      "In_build_sw": "Microsoft Office Home & Student 2021",
+      "warranty": "1 Year Onsite Warranty"
+    },
+    {
+      "id": 11,
+      "name": "HP Ryzen 3 Dual Core 3250U - (8 GB/256 GB SSD/Windows 11 Home) 15s-ey1508AU Thin and Light Laptop",
+      "price": "29,990",
+      "img": "https://i.pinimg.com/564x/9a/ff/1b/9aff1b24edb4db924cfa5767e1ac7f75.jpg",
+      "Processor": "AMD Ryzen 3 Dual Core Processor",
+      "RAM": "8 GB DDR4 RAM",
+      "OS": "64 bit Windows 11 Operating System",
+      "SSD": "256 GB SSD",
+      "Display": "39.62 cm (15.6 mm) Display",
+      "In_build_sw": "Microsoft Office 2021 Home and Student, HP Documentation, HP BIOS recovery, HP Smart",
+      "warranty": "1 Year Onsite Warranty"
+    },
+    {
+      "id": 12,
+      "name": "RedmiBook Pro Core i5 11th Gen - (8 GB/512 GB SSD/Windows 11 Home) Thin and Light Laptop",
+      "price": "39,990",
+      "img": "https://i.pinimg.com/564x/c0/3a/42/c03a42de3d7f353a56f26561563aff29.jpg",
+      "Processor": "Intel Core i5 Processor (11th Gen)",
+      "RAM": "8 GB DDR4 RAM",
+      "OS": "Windows 11 Operating System",
+      "SSD": "512 GB SSD",
+      "Display": "39.62 cm (15.6 inch) Display",
+      "In_build_sw": "MS Office Home & Student 2019, Mi Smart Share, DTS Audio processing",
+      "warranty": "1 Year Onsite Warranty"
+    },
+    {
+      "id": 13,
+      "name": "Lenovo Intel Celeron Dual Core - (8 GB/256 GB SSD/Windows 11 Home) 81WQ00MQIN|81WQ00NXIN Laptop",
+      "price": "27,799",
+      "img": "https://i.pinimg.com/564x/98/fc/b9/98fcb9df2c6f60635777492ae72d3e7e.jpg",
+      "Processor": "Intel Celeron Dual Core Processor",
+      "RAM": "8 GB DDR4 RAM",
+      "OS": "64 bit Windows 11 Operating System",
+      "SSD": "256 GB SSD",
+      "Display": "39.62 cm (15.6 Inch) Display",
+      "In_build_sw": "",
+      "warranty": "2 Years Onsiteï¿½Warranty"
+    },
+    {
+      "id": 14,
+      "name": "acer Aspire 3 Ryzen 3 Dual Core 3250U - (8 GB/256 GB SSD/Windows 11 Home) A315-23 Laptop",
+      "price": "26,990",
+      "img": "https://i.pinimg.com/564x/9a/ff/1b/9aff1b24edb4db924cfa5767e1ac7f75.jpg",
+      "Processor": "AMD Ryzen 3 Dual Core Processor",
+      "RAM": "8 GB DDR4 RAM",
+      "OS": "64 bit Windows 11 Operating System",
+      "SSD": "256 GB SSD",
+      "Display": "39.62 cm (15.6 Inch) Display",
+      "In_build_sw": "",
+      "warranty": "1 Year International Travelers Warranty (ITW)"
+    },
+    {
+      "id": 15,
+      "name": "ASUS Vivobook 15 Core i3 11th Gen - (8 GB/512 GB SSD/Windows 11 Home) X515EA-EJ322WS Thin and Light La...",
+      "price": "35,990",
+      "img": "https://i.pinimg.com/564x/c0/3a/42/c03a42de3d7f353a56f26561563aff29.jpg",
+      "Processor": "Intel Core i3 Processor (11th Gen)",
+      "RAM": "8 GB DDR4 RAM",
+      "OS": "64 bit Windows 11 Operating System",
+      "SSD": "512 GB SSD",
+      "Display": "39.62 cm (15.6 Inch) Display",
+      "In_build_sw": "",
+      "warranty": "1 Year Onsite Warranty"
+    },
+    {
+      "id": 16,
+      "name": "HP Pavilion Ryzen 5 Hexa Core AMD R5-5600H - (8 GB/512 GB SSD/Windows 10/4 GB Graphics/NVIDIA GeForce ...",
+      "price": "54,990",
+      "img": "https://i.pinimg.com/564x/98/fc/b9/98fcb9df2c6f60635777492ae72d3e7e.jpg",
+      "Processor": "AMD Ryzen 5 Hexa Core Processor",
+      "RAM": "8 GB DDR4 RAM",
+      "OS": "64 bit Windows 10 Operating System",
+      "SSD": "512 GB SSD",
+      "Display": "39.62 cm (15.6 inch) Display",
+      "In_build_sw": "HP Documentation, HP e-service, HP BIOS Recovery, HP SSRM, HP Smart, HP Jumpstarts",
+      "warranty": "1 Year Onsite Warranty"
+    },
+    {
+      "id": 17,
+      "name": "Infinix INBook X1 Neo Series Celeron Quad Core - (4 GB/128 GB SSD/Windows 11 Home) XL22 Thin and Light...",
+      "price": "20,990",
+      "img": "https://i.pinimg.com/564x/9a/ff/1b/9aff1b24edb4db924cfa5767e1ac7f75.jpg",
+      "Processor": "Intel Celeron Quad Core Processor",
+      "RAM": "4 GB LPDDR4X RAM",
+      "OS": "64 bit Windows 11 Operating System",
+      "SSD": "128 GB SSD",
+      "Display": "35.56 cm (14 inch) Display",
+      "In_build_sw": "",
+      "warranty": "1 Year Onsite Warranty"
+    },
+    {
+      "id": 18,
+      "name": "HP 14s Intel Core i3 11th Gen - (8 GB/512 GB SSD/Windows 11 Home) 14s - dy2508TU Thin and Light Laptop",
+      "price": "39,990",
+      "img": "https://i.pinimg.com/564x/c0/3a/42/c03a42de3d7f353a56f26561563aff29.jpg",
+      "Processor": "Intel Core i3 Processor (11th Gen)",
+      "RAM": "8 GB DDR4 RAM",
+      "OS": "64 bit Windows 11 Operating System",
+      "SSD": "512 GB SSD",
+      "Display": "35.56 cm (14 inch) Display",
+      "In_build_sw": "Microsoft Office Home & Student 2021",
+      "warranty": "1 Year Onsite Warranty"
+    },
+    {
+      "id": 19,
+      "name": "ASUS VivoBook 14 (2021) Celeron Dual Core - (4 GB/256 GB SSD/Windows 11 Home) X415MA-BV011W Thin and L...",
+      "price": "23,990",
+      "img": "https://i.pinimg.com/564x/98/fc/b9/98fcb9df2c6f60635777492ae72d3e7e.jpg",
+      "Processor": "Intel Celeron Dual Core Processor",
+      "RAM": "4 GB DDR4 RAM",
+      "OS": "64 bit Windows 11 Operating System",
+      "SSD": "256 GB SSD",
+      "Display": "35.56 cm (14 inch) Display",
+      "In_build_sw": "",
+      "warranty": "1 Year Onsite Warranty"
+    },
+    {
+      "id": 20,
+      "name": "HP Pavilion Ryzen 5 Hexa Core 5625U - (8 GB/512 GB SSD/Windows 11 Home) 14-EC1003AU Thin and Light Lap...",
+      "price": "51,990",
+      "img": "https://i.pinimg.com/564x/9a/ff/1b/9aff1b24edb4db924cfa5767e1ac7f75.jpg",
+      "Processor": "AMD Ryzen 5 Hexa Core Processor",
+      "RAM": "8 GB DDR4 RAM",
+      "OS": "64 bit Windows 11 Operating System",
+      "SSD": "512 GB SSD",
+      "Display": "35.56 cm (14 Inch) Display",
+      "In_build_sw": "",
+      "warranty": "1 Year Onsite Warranty"
+    },
+    {
+      "id": 21,
+      "name": "HP 15s Intel Core i3 11th Gen - (8 GB/512 GB SSD/Windows 11 Home) 15s-fr2511TU Thin and Light Laptop",
+      "price": "40,950",
+      "img": "https://i.pinimg.com/564x/c0/3a/42/c03a42de3d7f353a56f26561563aff29.jpg",
+      "Processor": "Intel Core i3 Processor (11th Gen)",
+      "RAM": "8 GB DDR4 RAM",
+      "OS": "64 bit Windows 11 Operating System",
+      "SSD": "512 GB SSD",
+      "Display": "39.62 cm (15.6 Inch) Display",
+      "In_build_sw": "Microsoft Office 2021 Home & Student, HP Documentation, HP BIOS recovery, HP Smart",
+      "warranty": "1 Year Onsite Warranty"
+    },
+    {
+      "id": 22,
+      "name": "ASUS VivoBook K15 OLED (2022) Core i3 11th Gen - (8 GB/256 GB SSD/Windows 11 Home) K513EA-L302WS Thin ...",
+      "price": "40,990",
+      "img": "https://i.pinimg.com/564x/98/fc/b9/98fcb9df2c6f60635777492ae72d3e7e.jpg",
+      "Processor": "Intel Core i3 Processor (11th Gen)",
+      "RAM": "8 GB DDR4 RAM",
+      "OS": "64 bit Windows 11 Operating System",
+      "SSD": "256 GB SSD",
+      "Display": "39.62 cm (15.6 inch) Display",
+      "In_build_sw": "Office Home and Student 2021",
+      "warranty": "1 Year Onsite Warranty"
+    },
+    {
+      "id": 23,
+      "name": "Lenovo Athlon Dual Core 3150U - (4 GB/1 TB HDD/DOS) E41-55 Thin and Light Laptop",
+      "price": "18,990",
+      "img": "https://i.pinimg.com/564x/9a/ff/1b/9aff1b24edb4db924cfa5767e1ac7f75.jpg",
+      "Processor": "AMD Athlon Dual Core Processor",
+      "RAM": "4 GB DDR4 RAM",
+      "OS": "DOS Operating System",
+      "SSD": "1 TB HDD",
+      "Display": "35.56 cm (14 Inch) Display",
+      "In_build_sw": "",
+      "warranty": "1 Year Onsite Warranty"
+    },
+    {
+      "id": 24,
+      "name": "ASUS Vivobook 15 Touch Core i3 11th Gen - (8 GB/512 GB SSD/Windows 11 Home) X515EA-EZ311WS Thin and Li...",
+      "price": "39,990",
+      "img": "https://i.pinimg.com/564x/c0/3a/42/c03a42de3d7f353a56f26561563aff29.jpg",
+      "Processor": "Intel Core i3 Processor (11th Gen)",
+      "RAM": "8 GB DDR4 RAM",
+      "OS": "64 bit Windows 11 Operating System",
+      "SSD": "512 GB SSD",
+      "Display": "39.62 cm (15.6 Inch) Touchscreen Display",
+      "In_build_sw": "",
+      "warranty": "1 Year Onsite Warranty"
+    },
+    {
+      "id": 25,
+      "name": "ASUS VivoBook 14 (2022) Ryzen 5 Quad Core AMD R5-3500U - (8 GB/512 GB SSD/Windows 11 Home) M415DA-EB71...",
+      "price": "38,990",
+      "img": "https://i.pinimg.com/564x/98/fc/b9/98fcb9df2c6f60635777492ae72d3e7e.jpg",
+      "Processor": "AMD Ryzen 5 Quad Core Processor",
+      "RAM": "8 GB DDR4 RAM",
+      "OS": "32 bit Windows 11 Operating System",
+      "SSD": "512 GB SSD",
+      "Display": "35.56 cm (14 inch) Display",
+      "In_build_sw": "Office Home and Student 2021",
+      "warranty": "1 Year Onsite Warranty"
+    },
+    {
+      "id": 26,
+      "name": "APPLE 2020 Macbook Air M1 - (8 GB/256 GB SSD/Mac OS Big Sur) MGN63HN/A",
+      "price": "86,990",
+      "img": "https://i.pinimg.com/564x/9a/ff/1b/9aff1b24edb4db924cfa5767e1ac7f75.jpg",
+      "Processor": "Apple M1 Processor",
+      "RAM": "8 GB DDR4 RAM",
+      "OS": "Mac OS Operating System",
+      "SSD": "256 GB SSD",
+      "Display": "33.78 cm (13.3 inch) Display",
+      "In_build_sw": "Built-in Apps: iMovie, Siri, GarageBand, Pages, Numbers, Photos, Keynote, Safari, Mail, FaceTime, Messages, Maps, Stocks, Home, Voice Memos, Notes, Calendar, Contacts, Reminders, Photo Booth, Preview, Books, App Store, Time Machine, TV, Music, Podcasts, Find My, QuickTime Player",
+      "warranty": "1 Year Limited WarraÂ­nty"
+    },
+    {
+      "id": 27,
+      "name": "DELL Inspiron Core i3 11th Gen - (8 GB/1 TB HDD/256 GB SSD/Windows 11 Home) D560841WIN9S Thin and Ligh...",
+      "price": "41,990",
+      "img": "https://i.pinimg.com/564x/c0/3a/42/c03a42de3d7f353a56f26561563aff29.jpg",
+      "Processor": "Processor: Intel i3-1115G4 (Base- 1.70 GHz & Turbo up to 4.10 GHz) 2 Cores",
+      "RAM": "RAM & Storage: 8GB DDR4 & 1TB + 256GB SSD",
+      "OS": "Graphics & Keyboard: Integrated & Standard Keyboard",
+      "SSD": "Display: 15.6\" FHD WVA AG Narrow Border",
+      "Display": "Ports: 2x USB 3.2 Gen1 ,1x USB 2.0, HDMI 1.4, SD Card reader, Audio jack, 1 M.2 2230/2280 slot for solid-state drive/Intel Optane",
+      "In_build_sw": "",
+      "warranty": "Intel Core i3 Processor (11th Gen)"
+    },
+    {
+      "id": 28,
+      "name": "HP Athlon Dual Core 3050U - (8 GB/256 GB SSD/Windows 11 Home) 14s-fq0568AU Thin and Light Laptop",
+      "price": "25,990",
+      "img": "https://i.pinimg.com/564x/98/fc/b9/98fcb9df2c6f60635777492ae72d3e7e.jpg",
+      "Processor": "AMD Athlon Dual Core Processor",
+      "RAM": "8 GB DDR4 RAM",
+      "OS": "64 bit Windows 11 Operating System",
+      "SSD": "256 GB SSD",
+      "Display": "35.56 cm (14 inch) Display",
+      "In_build_sw": "",
+      "warranty": "1 Year Onsite Warranty"
+    },
+    {
+      "id": 29,
+      "name": "HP Intel Core i5 11th Gen - (8 GB/512 GB SSD/Windows 11 Home) 15s- fr4000TU Thin and Light Laptop",
+      "price": "52,990",
+      "img": "https://i.pinimg.com/564x/9a/ff/1b/9aff1b24edb4db924cfa5767e1ac7f75.jpg",
+      "Processor": "Intel Core i5 Processor (11th Gen)",
+      "RAM": "8 GB DDR4 RAM",
+      "OS": "64 bit Windows 11 Operating System",
+      "SSD": "512 GB SSD",
+      "Display": "39.62 cm (15.6 Inch) Display",
+      "In_build_sw": "",
+      "warranty": "1 Year Onsite Warranty"
+    },
+    {
+      "id": 30,
+      "name": "DELL Core i5 12th Gen - (16 GB/512 GB SSD/Windows 11 Home) New Inspiron 15 Metal Laptop Thin and Light...",
+      "price": "65,990",
+      "img": "https://i.pinimg.com/564x/c0/3a/42/c03a42de3d7f353a56f26561563aff29.jpg",
+      "Processor": "Processor: Intel i5-1235U (Base- 3.30 GHz & Turbo up to 4.40 GHz) 10 Cores",
+      "RAM": "RAM & Storage: 16GB DDR4 & 512GB SSD",
+      "OS": "Graphics & Keyboard: Integrated & Backlit Keyboard+Fingerprint Reader",
+      "SSD": "Display: 15.6\" FHD WVA AG 120Hz 250 nits Narrow Border",
+      "Display": "Intel Core i5 Processor (12th Gen)",
+      "In_build_sw": "",
+      "warranty": "16 GB DDR4 RAM"
+    }
   ],
   "tv": [
     {
@@ -847,7 +845,7 @@
       "Power_Consumption": "704 W",
       "id": 1,
       "Rating": 0,
-      "price": 27294,
+      "Price": 27294,
       "image": "https://rukminim1.flixcart.com/image/312/312/l1ch4sw0/air-conditioner-new/0/j/f/-original-imagcxh3d6ezzqhp.jpeg?q=70"
     },
     {
@@ -856,7 +854,7 @@
       "Power_Consumption": "1304 W",
       "id": 2,
       "Rating": 4.2,
-      "price": 38999,
+      "Price": 38999,
       "image": "https://rukminim1.flixcart.com/image/312/312/l2krs7k0/air-conditioner-new/v/x/g/-original-imagdwym4y6wb4vu.jpeg?q=70"
     },
     {
@@ -865,7 +863,7 @@
       "Power_Consumption": "1570 W",
       "id": 3,
       "Rating": 3.8,
-      "price": 28490,
+      "Price": 28490,
       "image": "https://rukminim1.flixcart.com/image/312/312/l1pc3gw0/air-conditioner-new/y/e/h/-original-imagd7qhxffd2ksw.jpeg?q=70"
     },
     {
@@ -874,7 +872,7 @@
       "Power_Consumption": "1095 W",
       "id": 4,
       "Rating": 4.3,
-      "price": 32999,
+      "Price": 32999,
       "image": "https://rukminim1.flixcart.com/image/312/312/l0sgyvk0/air-conditioner-new/4/8/i/-original-imagchbyyxgnsztk.jpeg?q=70"
     },
     {
@@ -883,7 +881,7 @@
       "Power_Consumption": "712.59 kWh",
       "id": 5,
       "Rating": 4,
-      "price": 27490,
+      "Price": 27490,
       "image": "https://rukminim1.flixcart.com/image/312/312/kzfvzww0/air-conditioner-new/j/p/s/-original-imagbgbzyx7vkpvj.jpeg?q=70"
     },
     {
@@ -892,7 +890,7 @@
       "Power_Consumption": "840.75 kWh",
       "id": 6,
       "Rating": 4.3,
-      "price": 42990,
+      "Price": 42990,
       "image": "https://rukminim1.flixcart.com/image/312/312/l0r1j0w0/air-conditioner-new/n/i/w/-original-imagcgg5ktjp2p3j.jpeg?q=70"
     },
     {
@@ -901,7 +899,7 @@
       "Power_Consumption": "1056.45 W",
       "id": 7,
       "Rating": 4.2,
-      "price": 35990,
+      "Price": 35990,
       "image": "https://rukminim1.flixcart.com/image/312/312/kltryq80/air-conditioner-new/l/l/y/cs-ru18xkytw-cu-ru18xkytw-split-panasonic-inverter-original-imagyugnrnv2djmk.jpeg?q=70"
     },
     {
@@ -910,7 +908,7 @@
       "Power_Consumption": "704.42 kWh",
       "id": 8,
       "Rating": 0,
-      "price": 32490,
+      "Price": 32490,
       "image": "https://rukminim1.flixcart.com/image/312/312/l1tmf0w0/air-conditioner-new/p/a/b/-original-imagdaxefv3jtghq.jpeg?q=70"
     },
     {
@@ -919,7 +917,7 @@
       "Power_Consumption": "1649 W",
       "id": 9,
       "Rating": 4.3,
-      "price": 28990,
+      "Price": 28990,
       "image": "https://rukminim1.flixcart.com/image/312/312/jelpg280/air-conditioner-new/g/y/e/183czp-1-5-window-voltas-original-imaf39axfkmh9avk.jpeg?q=70"
     },
     {
@@ -928,7 +926,7 @@
       "Power_Consumption": "920 W",
       "id": 10,
       "Rating": 4.3,
-      "price": 30990,
+      "Price": 30990,
       "image": "https://rukminim1.flixcart.com/image/312/312/ky1vl3k0/air-conditioner-new/t/h/q/-original-imagad5yffnyfyvh.jpeg?q=70"
     },
     {
@@ -937,7 +935,7 @@
       "Power_Consumption": "990 W",
       "id": 11,
       "Rating": 4.3,
-      "price": 36490,
+      "Price": 36490,
       "image": "https://rukminim1.flixcart.com/image/312/312/l0sgyvk0/air-conditioner-new/4/8/i/-original-imagchbyyxgnsztk.jpeg?q=70"
     },
     {
@@ -946,7 +944,7 @@
       "Power_Consumption": "1106.26 kWh",
       "id": 12,
       "Rating": 4,
-      "price": 36499,
+      "Price": 36499,
       "image": "https://rukminim1.flixcart.com/image/312/312/l1fc0i80/air-conditioner-new/z/j/m/-original-imagczgshsskqzqy.jpeg?q=70"
     },
     {
@@ -955,7 +953,7 @@
       "Power_Consumption": "1155 W",
       "id": 13,
       "Rating": 4.1,
-      "price": 34990,
+      "Price": 34990,
       "image": "https://rukminim1.flixcart.com/image/312/312/l2krs7k0/air-conditioner-new/v/i/s/-original-imagdvx8q3m8erbj.jpeg?q=70"
     },
     {
@@ -964,7 +962,7 @@
       "Power_Consumption": "974.21 kWh",
       "id": 14,
       "Rating": 4.3,
-      "price": 39400,
+      "Price": 39400,
       "image": "https://rukminim1.flixcart.com/image/312/312/l01blow0/air-conditioner-new/g/w/z/-original-imagbwxsvzh3phfu.jpeg?q=70"
     },
     {
@@ -973,7 +971,7 @@
       "Power_Consumption": "1770 W",
       "id": 15,
       "Rating": 4.3,
-      "price": 36990,
+      "Price": 36990,
       "image": "https://rukminim1.flixcart.com/image/312/312/l0r1j0w0/air-conditioner-new/n/i/w/-original-imagcgg5ktjp2p3j.jpeg?q=70"
     },
     {
@@ -982,7 +980,7 @@
       "Power_Consumption": "932 W",
       "id": 16,
       "Rating": 4,
-      "price": 43990,
+      "Price": 43990,
       "image": "https://rukminim1.flixcart.com/image/312/312/k98tdow0/air-conditioner-new/a/6/d/ih418safu-1-5-split-inverter-blue-star-original-imafr3f8ep9nyxwz.jpeg?q=70"
     },
     {
@@ -991,7 +989,7 @@
       "Power_Consumption": "642.93 kWh",
       "id": 17,
       "Rating": 4,
-      "price": 28790,
+      "Price": 28790,
       "image": "https://rukminim1.flixcart.com/image/312/312/l1pc3gw0/air-conditioner-new/7/u/r/-original-imagd7zw3xxwqpt6.jpeg?q=70"
     },
     {
@@ -1000,7 +998,7 @@
       "Power_Consumption": "840.75 kWh",
       "id": 18,
       "Rating": 4.3,
-      "price": 42990,
+      "Price": 42990,
       "image": "https://rukminim1.flixcart.com/image/312/312/l0r1j0w0/air-conditioner-new/n/i/w/-original-imagcgg5ktjp2p3j.jpeg?q=70"
     },
     {
@@ -1009,7 +1007,7 @@
       "Power_Consumption": "1570 W",
       "id": 19,
       "Rating": 3.8,
-      "price": 28490,
+      "Price": 28490,
       "image": "https://rukminim1.flixcart.com/image/312/312/l1pc3gw0/air-conditioner-new/y/e/h/-original-imagd7qhxffd2ksw.jpeg?q=70"
     },
     {
@@ -1018,7 +1016,7 @@
       "Power_Consumption": "1070 W",
       "id": 20,
       "Rating": 4,
-      "price": 28490,
+      "Price": 28490,
       "image": "https://rukminim1.flixcart.com/image/312/312/l1pc3gw0/air-conditioner-new/6/5/h/-original-imagd7qhswkpenpg.jpeg?q=70"
     }
   ],
@@ -1026,41 +1024,83 @@
     {
       "id": 1,
       "username": "amir321",
-      "first_name": "Avinaw",
-      "last_name": "Kumar",
-      "email": "aamirfarooqbhatt@gmail.com",
-      "phone_number": "+91 8899990966",
-      "address": "Srinagar, J&K, 190015",
+      "first_name": "Amir",
+      "last_name": "Bhat",
+      "email": "aamir@gmail.com",
+      "address": "Srinagar J&K 190015",
       "password": "12345",
-      "orders": [
-        {
-          "name": "Vu 55-inch Premium 4K TV (55PM)",
-          "image": "https://i.gadgets360cdn.com/products/large/vu-premium-4k-tv-db-800x600-1583925020.jpg?downsize=*:420&output-quality=80",
-          "price": 36999,
-          "description": "The Vu Premium 4K TV (55PM) is priced at Rs. 31,999 and has a 55-inch 4K LED screen with Dolby Vision HDR support.",
-          "status": "delivered",
-          "quantity": 3
-        },
-        {
-          "name": "Haier",
-          "ton": "1",
-          "Power_Consumption": "704 W",
-          "Rating": 4.3,
-          "price": 27294,
-          "image": "https://rukminim1.flixcart.com/image/312/312/l1ch4sw0/air-conditioner-new/0/j/f/-original-imagcxh3d6ezzqhp.jpeg?q=70",
-          "status": "ordered",
-          "quantity": 2
-        }
-      ],
-      "avatar": "https://media.licdn.com/dms/image/D4D03AQHNcVYwr9c0_Q/profile-displayphoto-shrink_400_400/0/1668674780101?e=1682553600&v=beta&t=2EWlv91PODhIMWuDrfwgipoQcaFTE6NFpMkVuxM4vLc"
+      "avatar": "https://i.pinimg.com/564x/c7/b7/b7/c7b7b75ea49a414fad84721676d4f868.jpg",
+      "phone_number": "8899990966"
     }
   ],
   "cart": [],
-  "admin": [
+  "admin-data": [
     {
       "username": "admin",
       "fullname": "Test-Admin",
       "password": "admin"
+    },
+    {
+      "username": "ammy",
+      "fullname": "Amir",
+      "password": "12345"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "name": "Vu 55-inch Premium 4K TV (55PM)",
+      "image": "https://i.gadgets360cdn.com/products/large/vu-premium-4k-tv-db-800x600-1583925020.jpg?downsize=*:420&output-quality=80",
+      "price": 36999,
+      "description": "The Vu Premium 4K TV (55PM) is priced at Rs. 31,999 and has a 55-inch 4K LED screen with Dolby Vision HDR support.",
+      "status": "ordered",
+      "quantity": 1,
+      "user_id": 1
+    },
+    {
+      "id": 2,
+      "name": "Haier",
+      "ton": "1",
+      "Power_Consumption": "704 W",
+      "Rating": 4.3,
+      "price": 27294,
+      "image": "https://rukminim1.flixcart.com/image/312/312/l1ch4sw0/air-conditioner-new/0/j/f/-original-imagcxh3d6ezzqhp.jpeg?q=70",
+      "status": "ordered",
+      "quantity": 3,
+      "user_id": 1
+    },
+    {
+      "name": "POCO C31 (Royal Blue, 64 GB)",
+      "brand": "POCO",
+      "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9iaWxlJTIwcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "id": "MOBG73E7GKQK4KZP",
+      "description": "4 GB RAM | 64 GB ROM | Expandable Upto 512 GB 16.59 cm (6.53 inch) HD+ Display 13MP + 2MP + 2MP | 5MP Front Camera 5000 mAh Lithium-ion Polymer Battery MediaTek Helio G35 Processor",
+      "availability": "IN_STOCK",
+      "price": 11999,
+      "rating": 4.4,
+      "quantity": 3,
+      "status": "in-transit",
+      "user_id": 1
+    },
+    {
+      "name": "realme C21Y (Cross Blue, 32 GB)",
+      "brand": "realme",
+      "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9iaWxlJTIwcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "id": "MOBG5ZGKXCGFB9HP",
+      "description": "3 GB RAM | 32 GB ROM | Expandable Upto 256 GB 16.51 cm (6.5 inch) HD+ Display 13MP + 2MP + 2MP | 5MP Front Camera 5000 mAh Battery Unisoc T610 Processor",
+      "availability": "IN_STOCK",
+      "price": 9999,
+      "rating": 4.6,
+      "quantity": 2,
+      "status": "delivered",
+      "user_id": 1
+    }
+  ],
+  "feedback":[
+    {
+      "name":"Shubham",
+      "email":"shubhma@gmail.com",
+      "message":"Everything is allright"
     }
   ]
 }

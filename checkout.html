@@ -5,278 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gadgets World | Checkout</title>
-    <style>
-      /* Reset styles */
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-      /* Global styles */
-      body {
-        font-family: Arial, sans-serif;
-        font-size: 16px;
-        line-height: 1.5;
-      }
-
-      /* Header styles */
-      header {
-        width:100%;
-        background-color: #fff;
-        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-        color: #1a1919;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        padding: 0.2rem;
-        /* position: fixed;
-    top: 0;
-    width: 100vw; */
-      }
-      .logo {
-        width: 30%;
-      }
-
-      .logo img {
-        width: 50%;
-      }
-
-      nav {
-        width: 70%;
-        display: flex;
-        justify-content: space-evenly;
-        
-      }
-      nav a {
-        color: red;
-        text-decoration: none;
-        font-size: 18px;
-      }
-      #logout-btn {
-        padding: 0.4rem;
-        background-color: red;
-        color: white;
-        border: none;
-        font-size: 18px;
-        border-radius: 5px;
-      }
-
-      .form-and-total {
-        display: grid;
-        width: 90vw;
-        margin: auto;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 10px;
-      }
-
-      form {
-        background-color: #fff;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        padding: 20px;
-        margin: 2rem 0;
-        width: 100%;
-      }
-
-      legend {
-        font-size: 20px;
-        font-weight: bold;
-        margin-bottom: 10px;
-        color: red;
-      }
-
-      label {
-        display: block;
-        margin-bottom: 10px;
-      }
-
-      input[type="text"],
-      input[type="email"],
-      select {
-        padding: 10px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        width: 100%;
-        margin-bottom: 20px;
-        box-sizing: border-box;
-      }
-
-      .card-group {
-        display: flex;
-        flex-wrap: wrap;
-        margin-bottom: 20px;
-      }
-
-      .card {
-        background-color: #fff;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        padding: 20px;
-        flex: 1;
-        margin: 10px;
-        box-sizing: border-box;
-      }
-
-      .card label {
-        display: block;
-        margin-bottom: 10px;
-        font-weight: bold;
-      }
-
-      .card input[type="text"],
-      .card input[type="tel"],
-      .card select {
-        padding: 10px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        width: 100%;
-        margin-bottom: 20px;
-        box-sizing: border-box;
-      }
-
-      .total {
-        background-color: #fff;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        padding: 20px;
-        margin: 2rem 0;
-        width: 100%;
-        /* text-align: center; */
-      }
-
-      .total h4:nth-child(even) {
-        display: inline-block;
-
-        margin-left: 22rem;
-      }
-
-      .form-and-total input[type="submit"]{
-        background-color: red;
-        color: white;
-        padding: 10px 20px;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        display: block;
-        margin: auto;
-      }
-
-      .form-and-total input[type="submit"] {
-        background-color: rgb(238, 33, 33);
-        font-size: 18px;
-      }
-
-      .total > h3 {
-        margin-bottom: 2rem;
-        color: red;
-      }
-      .total h4:nth-child(odd) {
-        display: inline-block;
-        font-weight: bold;
-      }
-      .otp-popup{
-        width:500px;
-        height:500px;
-        margin:auto;
-        padding: 20px;
-        background-color: #e7e5e5;
-        position:relative;
-        top:10;
-        bottom:600px;
-        color:red;
-        z-index: 1;
-        text-align: center;
-        border-radius: 10px;
-        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-      }
-      .otp-popup img{
-        margin-top: 2rem;
-        width:100%;
-      }
-      .otp-popup input{
-       
-        display: block;
-        margin: 3rem auto;
-        padding:20px 50px;
-        border-radius: 10px;
-        border:5px solid rgb(242, 88, 88);
-        
-        
-      }
-      .otp-popup button{
-        background-color: red;
-        color: white;
-        padding: 10px 20px;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        margin-top: 1rem;
-      }
-      .otp-popup a{
-        display: block;
-        background-color: red;
-        color: white;
-        padding: 10px 20px;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        margin-top: 1rem;
-        text-decoration:none;
-      }
-      .otp-popup button:hover{
-        font-size: 16.1px;
-      }
-      .display-none{
-        display: none;
-      }
-      .display-visible{
-        display: block;
-      }
-      .otp-popup img{
-        width:50%;
-      }
-
-      /* Loader styles */
-        .lds-facebook {
-    display: block;
-    position: relative;
-    width: 80px;
-    height: 80px;
-    background-color: rgb(204, 201, 201);
-    margin: auto;
-  }
-  .lds-facebook div {
-    display: inline-block;
-    position: absolute;
-    left: 8px;
-    width: 16px;
-    background: #f91111;
-    animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
-  }
-  .lds-facebook div:nth-child(1) {
-    left: 8px;
-    animation-delay: -0.24s;
-  }
-  .lds-facebook div:nth-child(2) {
-    left: 32px;
-    animation-delay: -0.12s;
-  }
-  .lds-facebook div:nth-child(3) {
-    left: 56px;
-    animation-delay: 0;
-  }
-  @keyframes lds-facebook {
-    0% {
-      top: 8px;
-      height: 64px;
-    }
-    50%,
-    100% {
-      top: 24px;
-      height: 32px;
-    }
-  }
-    </style>
+    <link rel="stylesheet" href="checkout.css">
   </head>
   <body>
     <header>
@@ -284,6 +13,7 @@
         <img src="Logo.png" alt="" />
       </div>
       <nav>
+        <a href="admin_login.html">Admin</a>
         <a href="dashboard.html">Home</a>
         <a href="#">Products</a>
         <a href="cart.html">Back to Cart</a>
@@ -372,19 +102,19 @@
             <input type="text" id="billing-zip" name="billing-zip" required value="190015" />
           </div>
         </div>
-        <input type="submit" value="Proceed to Pay"/>
+        <input type="submit" value="Proceed to Pay" id="payment-btn" />
       </form>
       <div class="total">
         <h3>Cart Total</h3>
         <hr />
         <h4>Subtotal:</h4>
-        <h4 id="sub-total">$100.00</h4>
+        <h4 id="sub-total">₹ 0.00</h4>
 
         <br />
         <hr />
 
         <h4>Tax @ 10%</h4>
-        <h4 id="tax">$10.00</h4>
+        <h4 id="tax">₹ 0.00</h4>
 
         <br />
         <hr />
@@ -396,7 +126,7 @@
         <hr />
 
         <h4>Grand Total</h4>
-        <h4 id="grand-total">$110.00</h4>
+        <h4 id="grand-total">₹ 0.00</h4>
 
         <br />
       </div>
@@ -412,126 +142,7 @@
     </div>
   </body>
 
-  <script>
-    let baseServerUrl = `http://localhost:8080/`
-    let paymentForm = document.getElementById("payment-form");
-    let cartData=[]
-    // cart total section elements
-    let totalBill = 0;
-    let subTotal = document.getElementById("sub-total");
-    let totalDiv = document.querySelector(".total")
-    let tax = document.getElementById("tax");
-    let discount = document.getElementById("discount");
-    let grandTotal = document.getElementById("grand-total");
-    let otpPopup = document.querySelector(".otp-popup")
-    let otp= Math.floor(Math.random()*10000);
-    let otpConfirmBtn = document.getElementById("confirm-otp-btn");
-    let otpInput = document.getElementById("otp-input");
-    let logoutBtn = document.getElementById("logout-btn")
-
-  console.log(otpPopup)
-    //function to fetch Cart data
-    async function fetchCartData(){
-        try {
-        let res = await fetch(`${baseServerUrl}cart`);
-        let data = await res.json(); 
-        cartData = data
-         totalBill = data.reduce((acc,ele)=>{
-            amt = ele.price*ele.quantity;
-            return acc + amt
-        },0);
-        if(totalBill==0){
-          totalDiv.innerHTML = `<h2>YOUR CART IS EMPTY!!</h2>`
-        }
-        subTotal.textContent = "₹ " + totalBill +"/-";
-        tax.textContent = "₹ " + Math.round((totalBill*10)/100) +"/-";
-        grandTotal.textContent = "₹ " + (totalBill + Math.round((totalBill*10)/100))+"/-";
-        } catch (error) {
-            
-        }
-       
-       
-    }
-    
-    // calling fetchCartData on window load
-    window.addEventListener("load",()=>{
-        fetchCartData()
-    })
-   
-  // payment Btn functionality
-   paymentForm.addEventListener("submit",(e)=>{
-    e.preventDefault()
-    alert(`Your OTP for this transaction is ${otp}`)
-    setTimeout(() => {
-        paymentForm.innerHTML="";
-        otpPopup.classList.add("display-visible")
-    }, 2000);
-    paymentForm.innerHTML =  `<div class="lds-facebook"><div></div><div></div><div></div></div>`;
-   })
-
- 
-
-// Event listener for logout  btn
-logoutBtn.addEventListener("click",()=>{
-    if(confirm("Are you sure you want to logout?")===true){
-        window.location.href= "index.html"
-    }
-    
-});
-
- // OTP confirm btn functionality
- otpConfirmBtn.addEventListener("click",()=>{
-    
-    if(otpInput.value==otp){
-        setTimeout(() => {
-           otpPopup.innerHTML=`<div><h1>Your order has been successfully placed</h1>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxRVMCr-Y1JPd_xh4euyjPZ8FQ4KnENw4uh6VpcjPIXg&s" alt="">
-            <a href="dashboard.html">BACK TO HOME</a>
-            </div>` 
-        }, 1000);
-        otpPopup.innerHTML=`<div class="lds-facebook"><div></div><div></div><div></div></div>`;
-    }
-    else{
-        setTimeout(() => {
-           otpPopup.innerHTML=`<h1>OOPS!! You have entered a wrong OTP</h1>` 
-        }, 2000);
-        otpPopup.innerHTML=`<div class="lds-facebook"><div></div><div></div><div></div></div>`;
-    }
-
-    for(let i=0;i<cartData.length;i++){
-        cartData[i].status="ordered"
-    }
-
-    for(let i=0;i<cartData.length;i++){
-        fetch(`${baseServerUrl}cart/`,{
-            method:"POST",
-            headers:{
-                "Content-Type":"application/json"
-            },
-            body: JSON.stringify(cartData[i])
-
-        })
-        .then((res)=>{
-            console.log(res)
-        })
-    }
-    // setTimeout(() => {
-        for(let i=0;i<cartData.length;i++){
-        fetch(`${baseServerUrl}cart/${cartData[i].id}`,{
-            method:"DELETE",
-            headers:{
-                "Content-Type":"application/json"
-            }
-        })
-        .then((res)=>{
-            console.log(res)
-        })
-    }
-    // }, 5000);
-
+  <script src="checkout.js">
   
-
-  
- })
   </script>
 </html>
