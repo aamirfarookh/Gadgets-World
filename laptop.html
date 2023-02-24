@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-              body {
+
+body {
     margin: 0;
     padding: 0;
   }
@@ -88,7 +89,7 @@
     color: white;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
-        #main {
+ #main {
             display: flex;
         }
         .filter {
@@ -108,7 +109,7 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 width: 50%;
 }
 #container>div img{
-width: 60%;
+width: 70%;
 
 }
 #container button{
@@ -179,35 +180,35 @@ width: 60%;
         <a href="#">Refrigerators</a>
         <a href="#">Air Coolers</a>
       </div>
-
+        
     <div class="searchD">
         <input id="sear" type="text" placeholder="Search Your Products...">
         <button id="searbtn">SEARCH</button>
    </div>
-    
+
 <div id="main">
 
- <div class="filter">
-<select name="" id="filt">
-    <option value="POCO">Poco</option>
-    <option value="REDMI">REDMI</option>
-    <option value="OPPO">Oppo</option>
-    <option value="realme">Realme</option>
-    <option value="MOTOROLA">Motorola</option>
-    <option value="SAMSUNG">SAMSUNG</option>
-</select>
- </div>   
-
-<div id="container">
-
-
-</div>
-</div>
+    <div class="filter">
+   <select name="" id="filt">
+       <option value="poco">Poco</option>
+       <option value="redmi">REDMI</option>
+       <option value="oppo">Oppo</option>
+       <option value="realme">Realme</option>
+       <option value="motorola">Motorola</option>
+       <option value="Samsung">SAMSUNG</option>
+   </select>
+    </div>   
+   
+   <div id="container">
+   
+   
+   </div>
+   </div>
 </body>
 <script>
-let cont=document.getElementById("container");
+  let cont=document.getElementById("container");
 
-let api="http://localhost:8080/mobiles";
+let api="http://localhost:8080/laptops";
 
 
 async function get(api){
@@ -223,6 +224,8 @@ async function get(api){
    } 
 }
 get(api)
+
+
 
 let filbtn= document.getElementById("searbtn");
 
@@ -261,6 +264,7 @@ showCard(data);
 }
 
 
+
 function showCard(data){
 
 console.log(data)
@@ -276,13 +280,14 @@ data.forEach((ele) => {
     let desc=document.createElement("p");
     let price=document.createElement("h2");
     let cartBtn=document.createElement("button");
-    img.setAttribute("src",ele.image);
+    img.setAttribute("src",ele.img);
      imgDiv.append(img)
 
      name.innerText=ele.title;
-     desc.innerText=ele.description;
+     desc.innerText=ele.RAM;
      price.innerText=`₹${ele.price}`;
      cartBtn.innerText="Add to cart";
+
      cartBtn.addEventListener("click",async function(){
     try {
      await fetch("http://localhost:8080/cart",{
@@ -306,7 +311,6 @@ elDiv.append(name,desc,price,cartBtn)
  cont.append(card);
 });
 
-}
-
+}  
 </script>
 </html>
