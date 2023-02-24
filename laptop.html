@@ -166,12 +166,12 @@ width: 70%;
           </svg>
         </div>
       </div>
-       <div class="product-links">
-        <a href="#">Mobile Phones</a>
-        <a href="#">Laptops</a>
-        <a href="#">TV's</a>
+      <div class="product-links">
+        <a href="./mobile.html">Mobile Phones</a>
+        <a href="./laptop.html">Laptops</a>
+        <a href="./tv.html">TV's</a>
         <a href="#">Smart Watches</a>
-        <a href="#">Head Phones</a>
+        <a href="./headphones.html">Head Phones</a>
         <a href="#">AC's</a>
         <a href="#">Gaming Consoles</a>
         <a href="#">Camera</a>
@@ -292,7 +292,12 @@ data.forEach((ele) => {
     try {
      await fetch("http://localhost:8080/cart",{
       method:"POST",
-      body:JSON.stringify(ele),
+      body:JSON.stringify({
+        image:ele.image,
+        title:ele.title,
+        price:ele.price,
+        userId:1
+      }),
       headers:{
         "content-type":"application/json"
       }

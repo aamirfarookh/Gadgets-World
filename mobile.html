@@ -165,12 +165,12 @@ width: 60%;
           </svg>
         </div>
       </div>
-       <div class="product-links">
-        <a href="#">Mobile Phones</a>
-        <a href="#">Laptops</a>
-        <a href="#">TV's</a>
+      <div class="product-links">
+        <a href="./mobile.html">Mobile Phones</a>
+        <a href="./laptop.html">Laptops</a>
+        <a href="./tv.html">TV's</a>
         <a href="#">Smart Watches</a>
-        <a href="#">Head Phones</a>
+        <a href="./headphones.html">Head Phones</a>
         <a href="#">AC's</a>
         <a href="#">Gaming Consoles</a>
         <a href="#">Camera</a>
@@ -189,12 +189,12 @@ width: 60%;
 
  <div class="filter">
 <select name="" id="filt">
-    <option value="poco">Poco</option>
-    <option value="redmi">REDMI</option>
-    <option value="oppo">Oppo</option>
+    <option value="POCO">Poco</option>
+    <option value="REDMI">REDMI</option>
+    <option value="OPPO">Oppo</option>
     <option value="realme">Realme</option>
-    <option value="motorola">Motorola</option>
-    <option value="Samsung">SAMSUNG</option>
+    <option value="MOTOROLA">Motorola</option>
+    <option value="SAMSUNG">SAMSUNG</option>
 </select>
  </div>   
 
@@ -260,6 +260,7 @@ function filtered(data){
 showCard(data);
 }
 
+
 function showCard(data){
 
 console.log(data)
@@ -286,7 +287,12 @@ data.forEach((ele) => {
     try {
      await fetch("http://localhost:8080/cart",{
       method:"POST",
-      body:JSON.stringify(ele),
+      body:JSON.stringify({
+        image:ele.image,
+        title:ele.title,
+        price:ele.price,
+        userId:1
+      }),
       headers:{
         "content-type":"application/json"
       }
