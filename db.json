@@ -295,8 +295,8 @@
     {
       "id": 0,
       "title": "DELL Vostro Core i3 11th Gen - (8 GB/1 TB HDD/256 GB SSD/Windows 11 Home) Vostro 3510 Thin and Light L...",
-      "price": "37,990",
-      "img": "https://i.pinimg.com/564x/c0/3a/42/c03a42de3d7f353a56f26561563aff29.jpg",
+      "price": "37990",
+      "image": "https://i.pinimg.com/564x/c0/3a/42/c03a42de3d7f353a56f26561563aff29.jpg",
       "Processor": "Processor: Intel i3-1115G4 (Base- 1.7 GHz & Turbo up to 4.10 GHz) 2 Cores",
       "RAM": "RAM & Storage: 8GB DDR4 & 1TB HDD + 256GB SSD",
       "OS": "Graphics & Keyboard: Integrated & Standard Keyboard",
@@ -308,8 +308,8 @@
     {
       "id": 1,
       "title": "HP 14s Intel Core i3 11th Gen - (8 GB/256 GB SSD/Windows 11 Home) 14s - dy2507TU Thin and Light Laptop",
-      "price": "35,490",
-      "img": "https://i.pinimg.com/564x/98/fc/b9/98fcb9df2c6f60635777492ae72d3e7e.jpg",
+      "price": "35490",
+      "image": "https://i.pinimg.com/564x/98/fc/b9/98fcb9df2c6f60635777492ae72d3e7e.jpg",
       "Processor": "Intel Core i3 Processor (11th Gen)",
       "RAM": "8 GB DDR4 RAM",
       "OS": "64 bit Windows 11 Operating System",
@@ -321,8 +321,8 @@
     {
       "id": 2,
       "title": "Lenovo V15 G2 Core i3 11th Gen - (8 GB/512 GB SSD/Windows 11 Home) V15 ITL G2 Laptop",
-      "price": "33,999",
-      "img": "https://i.pinimg.com/564x/9a/ff/1b/9aff1b24edb4db924cfa5767e1ac7f75.jpg",
+      "price": "33999",
+      "image": "https://i.pinimg.com/564x/9a/ff/1b/9aff1b24edb4db924cfa5767e1ac7f75.jpg",
       "Processor": "Intel Core i3 Processor (11th Gen)",
       "RAM": "8 GB DDR4 RAM",
       "OS": "64 bit Windows 11 Operating System",
@@ -334,8 +334,8 @@
     {
       "id": 3,
       "title": "HP 15s Intel Core i3 12th Gen - (8 GB/512 GB SSD/Windows 11 Home) 15s-fq5007TU Thin and Light Laptop",
-      "price": "45,490",
-      "img": "https://i.pinimg.com/564x/c0/3a/42/c03a42de3d7f353a56f26561563aff29.jpg",
+      "price": "45490",
+      "image": "https://i.pinimg.com/564x/c0/3a/42/c03a42de3d7f353a56f26561563aff29.jpg",
       "Processor": "Intel Core i3 Processor (12th Gen)",
       "RAM": "8 GB DDR4 RAM",
       "OS": "64 bit Windows 11 Operating System",
@@ -347,8 +347,8 @@
     {
       "id": 4,
       "title": "ASUS VivoBook 15 (2022) Core i3 10th Gen - (8 GB/512 GB SSD/Windows 11 Home) X515JA-EJ362WS | X515JA-E...",
-      "price": "33,990",
-      "img": "https://i.pinimg.com/564x/98/fc/b9/98fcb9df2c6f60635777492ae72d3e7e.jpg",
+      "price": "33990",
+      "image": "https://i.pinimg.com/564x/98/fc/b9/98fcb9df2c6f60635777492ae72d3e7e.jpg",
       "Processor": "Intel Core i3 Processor (10th Gen)",
       "RAM": "8 GB DDR4 RAM",
       "OS": "64 bit Windows 11 Operating System",
@@ -360,8 +360,8 @@
     {
       "id": 5,
       "title": "ASUS TUF Gaming A17 with 90Whr Battery Ryzen 7 Octa Core AMD R7-4800H - (8 GB/512 GB SSD/Windows 11 Ho...",
-      "price": "67,990",
-      "img": "https://i.pinimg.com/564x/9a/ff/1b/9aff1b24edb4db924cfa5767e1ac7f75.jpg",
+      "price": "67990",
+      "image": "https://i.pinimg.com/564x/9a/ff/1b/9aff1b24edb4db924cfa5767e1ac7f75.jpg",
       "Processor": "AMD Ryzen 7 Octa Core Processor",
       "RAM": "8 GB DDR4 RAM",
       "OS": "64 bit Windows 11 Operating System",
@@ -373,8 +373,8 @@
     {
       "id": 6,
       "title": "ASUS TUF Gaming A17 with 90Whr Battery Ryzen 5 Hexa Core AMD R5-4600H - (8 GB/512 GB SSD/Windows 11 Ho...",
-      "price": "52,990",
-      "img": "https://i.pinimg.com/564x/c0/3a/42/c03a42de3d7f353a56f26561563aff29.jpg",
+      "price": "52990",
+      "image": "https://i.pinimg.com/564x/c0/3a/42/c03a42de3d7f353a56f26561563aff29.jpg",
       "Processor": "AMD Ryzen 5 Hexa Core Processor",
       "RAM": "8 GB DDR4 RAM",
       "OS": "64 bit Windows 11 Operating System",
@@ -386,8 +386,8 @@
     {
       "id": 7,
       "title": "ASUS VivoBook K15 OLED (2022) Ryzen 5 Hexa Core AMD R5-5500U - (8 GB/1 TB HDD/256 GB SSD/Windows 11 Ho...",
-      "price": "47,990",
-      "img": "https://i.pinimg.com/564x/98/fc/b9/98fcb9df2c6f60635777492ae72d3e7e.jpg",
+      "price": "47990",
+      "image": "https://i.pinimg.com/564x/98/fc/b9/98fcb9df2c6f60635777492ae72d3e7e.jpg",
       "Processor": "AMD Ryzen 5 Hexa Core Processor",
       "RAM": "8 GB DDR4 RAM",
       "OS": "64 bit Windows 11 Operating System",
@@ -399,8 +399,8 @@
     {
       "id": 8,
       "title": "HP Ryzen 5 Hexa Core 5500U - (16 GB/512 GB SSD/Windows 11 Home) 15s- eq2182AU Thin and Light Laptop",
-      "price": "49,123",
-      "img": "https://i.pinimg.com/564x/9a/ff/1b/9aff1b24edb4db924cfa5767e1ac7f75.jpg",
+      "price": "49123",
+      "image": "https://i.pinimg.com/564x/9a/ff/1b/9aff1b24edb4db924cfa5767e1ac7f75.jpg",
       "Processor": "AMD Ryzen 5 Hexa Core Processor",
       "RAM": "16 GB DDR4 RAM",
       "OS": "64 bit Windows 11 Operating System",
@@ -412,8 +412,8 @@
     {
       "id": 9,
       "title": "HP 15s Intel Core i5 12th Gen - (8 GB/512 GB SSD/Windows 11 Home) 15s-fq5111TU Thin and Light Laptop",
-      "price": "57,499",
-      "img": "https://i.pinimg.com/564x/c0/3a/42/c03a42de3d7f353a56f26561563aff29.jpg",
+      "price": "57499",
+      "image": "https://i.pinimg.com/564x/c0/3a/42/c03a42de3d7f353a56f26561563aff29.jpg",
       "Processor": "Intel Core i5 Processor (12th Gen)",
       "RAM": "8 GB DDR4 RAM",
       "OS": "64 bit Windows 11 Operating System",
@@ -425,8 +425,8 @@
     {
       "id": 10,
       "title": "HP Pavilion Intel Core i5 12th Gen - (8 GB/512 GB SSD/Windows 11 Home) 15-EG2009TU Thin and Light Lapt...",
-      "price": "62,990",
-      "img": "https://i.pinimg.com/564x/98/fc/b9/98fcb9df2c6f60635777492ae72d3e7e.jpg",
+      "price": "62990",
+      "image": "https://i.pinimg.com/564x/98/fc/b9/98fcb9df2c6f60635777492ae72d3e7e.jpg",
       "Processor": "Intel Core i5 Processor (12th Gen)",
       "RAM": "8 GB DDR4 RAM",
       "OS": "64 bit Windows 11 Operating System",
@@ -438,8 +438,8 @@
     {
       "id": 11,
       "title": "HP Ryzen 3 Dual Core 3250U - (8 GB/256 GB SSD/Windows 11 Home) 15s-ey1508AU Thin and Light Laptop",
-      "price": "29,990",
-      "img": "https://i.pinimg.com/564x/9a/ff/1b/9aff1b24edb4db924cfa5767e1ac7f75.jpg",
+      "price": "29990",
+      "image": "https://i.pinimg.com/564x/9a/ff/1b/9aff1b24edb4db924cfa5767e1ac7f75.jpg",
       "Processor": "AMD Ryzen 3 Dual Core Processor",
       "RAM": "8 GB DDR4 RAM",
       "OS": "64 bit Windows 11 Operating System",
@@ -451,8 +451,8 @@
     {
       "id": 12,
       "title": "RedmiBook Pro Core i5 11th Gen - (8 GB/512 GB SSD/Windows 11 Home) Thin and Light Laptop",
-      "price": "39,990",
-      "img": "https://i.pinimg.com/564x/c0/3a/42/c03a42de3d7f353a56f26561563aff29.jpg",
+      "price": "39990",
+      "image": "https://i.pinimg.com/564x/c0/3a/42/c03a42de3d7f353a56f26561563aff29.jpg",
       "Processor": "Intel Core i5 Processor (11th Gen)",
       "RAM": "8 GB DDR4 RAM",
       "OS": "Windows 11 Operating System",
@@ -464,8 +464,8 @@
     {
       "id": 13,
       "title": "Lenovo Intel Celeron Dual Core - (8 GB/256 GB SSD/Windows 11 Home) 81WQ00MQIN|81WQ00NXIN Laptop",
-      "price": "27,799",
-      "img": "https://i.pinimg.com/564x/98/fc/b9/98fcb9df2c6f60635777492ae72d3e7e.jpg",
+      "price": "27799",
+      "image": "https://i.pinimg.com/564x/98/fc/b9/98fcb9df2c6f60635777492ae72d3e7e.jpg",
       "Processor": "Intel Celeron Dual Core Processor",
       "RAM": "8 GB DDR4 RAM",
       "OS": "64 bit Windows 11 Operating System",
@@ -477,8 +477,8 @@
     {
       "id": 14,
       "title": "acer Aspire 3 Ryzen 3 Dual Core 3250U - (8 GB/256 GB SSD/Windows 11 Home) A315-23 Laptop",
-      "price": "26,990",
-      "img": "https://i.pinimg.com/564x/9a/ff/1b/9aff1b24edb4db924cfa5767e1ac7f75.jpg",
+      "price": "26990",
+      "image": "https://i.pinimg.com/564x/9a/ff/1b/9aff1b24edb4db924cfa5767e1ac7f75.jpg",
       "Processor": "AMD Ryzen 3 Dual Core Processor",
       "RAM": "8 GB DDR4 RAM",
       "OS": "64 bit Windows 11 Operating System",
@@ -490,8 +490,8 @@
     {
       "id": 15,
       "title": "ASUS Vivobook 15 Core i3 11th Gen - (8 GB/512 GB SSD/Windows 11 Home) X515EA-EJ322WS Thin and Light La...",
-      "price": "35,990",
-      "img": "https://i.pinimg.com/564x/c0/3a/42/c03a42de3d7f353a56f26561563aff29.jpg",
+      "price": "35990",
+      "image": "https://i.pinimg.com/564x/c0/3a/42/c03a42de3d7f353a56f26561563aff29.jpg",
       "Processor": "Intel Core i3 Processor (11th Gen)",
       "RAM": "8 GB DDR4 RAM",
       "OS": "64 bit Windows 11 Operating System",
@@ -503,8 +503,8 @@
     {
       "id": 16,
       "title": "HP Pavilion Ryzen 5 Hexa Core AMD R5-5600H - (8 GB/512 GB SSD/Windows 10/4 GB Graphics/NVIDIA GeForce ...",
-      "price": "54,990",
-      "img": "https://i.pinimg.com/564x/98/fc/b9/98fcb9df2c6f60635777492ae72d3e7e.jpg",
+      "price": "54990",
+      "image": "https://i.pinimg.com/564x/98/fc/b9/98fcb9df2c6f60635777492ae72d3e7e.jpg",
       "Processor": "AMD Ryzen 5 Hexa Core Processor",
       "RAM": "8 GB DDR4 RAM",
       "OS": "64 bit Windows 10 Operating System",
@@ -516,8 +516,8 @@
     {
       "id": 17,
       "title": "Infinix INBook X1 Neo Series Celeron Quad Core - (4 GB/128 GB SSD/Windows 11 Home) XL22 Thin and Light...",
-      "price": "20,990",
-      "img": "https://i.pinimg.com/564x/9a/ff/1b/9aff1b24edb4db924cfa5767e1ac7f75.jpg",
+      "price": "20990",
+      "image": "https://i.pinimg.com/564x/9a/ff/1b/9aff1b24edb4db924cfa5767e1ac7f75.jpg",
       "Processor": "Intel Celeron Quad Core Processor",
       "RAM": "4 GB LPDDR4X RAM",
       "OS": "64 bit Windows 11 Operating System",
@@ -529,8 +529,8 @@
     {
       "id": 18,
       "title": "HP 14s Intel Core i3 11th Gen - (8 GB/512 GB SSD/Windows 11 Home) 14s - dy2508TU Thin and Light Laptop",
-      "price": "39,990",
-      "img": "https://i.pinimg.com/564x/c0/3a/42/c03a42de3d7f353a56f26561563aff29.jpg",
+      "price": "39990",
+      "image": "https://i.pinimg.com/564x/c0/3a/42/c03a42de3d7f353a56f26561563aff29.jpg",
       "Processor": "Intel Core i3 Processor (11th Gen)",
       "RAM": "8 GB DDR4 RAM",
       "OS": "64 bit Windows 11 Operating System",
@@ -542,8 +542,8 @@
     {
       "id": 19,
       "title": "ASUS VivoBook 14 (2021) Celeron Dual Core - (4 GB/256 GB SSD/Windows 11 Home) X415MA-BV011W Thin and L...",
-      "price": "23,990",
-      "img": "https://i.pinimg.com/564x/98/fc/b9/98fcb9df2c6f60635777492ae72d3e7e.jpg",
+      "price": "23990",
+      "image": "https://i.pinimg.com/564x/98/fc/b9/98fcb9df2c6f60635777492ae72d3e7e.jpg",
       "Processor": "Intel Celeron Dual Core Processor",
       "RAM": "4 GB DDR4 RAM",
       "OS": "64 bit Windows 11 Operating System",
@@ -555,8 +555,8 @@
     {
       "id": 20,
       "title": "HP Pavilion Ryzen 5 Hexa Core 5625U - (8 GB/512 GB SSD/Windows 11 Home) 14-EC1003AU Thin and Light Lap...",
-      "price": "51,990",
-      "img": "https://i.pinimg.com/564x/9a/ff/1b/9aff1b24edb4db924cfa5767e1ac7f75.jpg",
+      "price": "51990",
+      "image": "https://i.pinimg.com/564x/9a/ff/1b/9aff1b24edb4db924cfa5767e1ac7f75.jpg",
       "Processor": "AMD Ryzen 5 Hexa Core Processor",
       "RAM": "8 GB DDR4 RAM",
       "OS": "64 bit Windows 11 Operating System",
@@ -568,8 +568,8 @@
     {
       "id": 21,
       "title": "HP 15s Intel Core i3 11th Gen - (8 GB/512 GB SSD/Windows 11 Home) 15s-fr2511TU Thin and Light Laptop",
-      "price": "40,950",
-      "img": "https://i.pinimg.com/564x/c0/3a/42/c03a42de3d7f353a56f26561563aff29.jpg",
+      "price": "40950",
+      "image": "https://i.pinimg.com/564x/c0/3a/42/c03a42de3d7f353a56f26561563aff29.jpg",
       "Processor": "Intel Core i3 Processor (11th Gen)",
       "RAM": "8 GB DDR4 RAM",
       "OS": "64 bit Windows 11 Operating System",
@@ -581,8 +581,8 @@
     {
       "id": 22,
       "title": "ASUS VivoBook K15 OLED (2022) Core i3 11th Gen - (8 GB/256 GB SSD/Windows 11 Home) K513EA-L302WS Thin ...",
-      "price": "40,990",
-      "img": "https://i.pinimg.com/564x/98/fc/b9/98fcb9df2c6f60635777492ae72d3e7e.jpg",
+      "price": "40990",
+      "image": "https://i.pinimg.com/564x/98/fc/b9/98fcb9df2c6f60635777492ae72d3e7e.jpg",
       "Processor": "Intel Core i3 Processor (11th Gen)",
       "RAM": "8 GB DDR4 RAM",
       "OS": "64 bit Windows 11 Operating System",
@@ -594,8 +594,8 @@
     {
       "id": 23,
       "title": "Lenovo Athlon Dual Core 3150U - (4 GB/1 TB HDD/DOS) E41-55 Thin and Light Laptop",
-      "price": "18,990",
-      "img": "https://i.pinimg.com/564x/9a/ff/1b/9aff1b24edb4db924cfa5767e1ac7f75.jpg",
+      "price": "18990",
+      "image": "https://i.pinimg.com/564x/9a/ff/1b/9aff1b24edb4db924cfa5767e1ac7f75.jpg",
       "Processor": "AMD Athlon Dual Core Processor",
       "RAM": "4 GB DDR4 RAM",
       "OS": "DOS Operating System",
@@ -607,8 +607,8 @@
     {
       "id": 24,
       "title": "ASUS Vivobook 15 Touch Core i3 11th Gen - (8 GB/512 GB SSD/Windows 11 Home) X515EA-EZ311WS Thin and Li...",
-      "price": "39,990",
-      "img": "https://i.pinimg.com/564x/c0/3a/42/c03a42de3d7f353a56f26561563aff29.jpg",
+      "price": "39990",
+      "image": "https://i.pinimg.com/564x/c0/3a/42/c03a42de3d7f353a56f26561563aff29.jpg",
       "Processor": "Intel Core i3 Processor (11th Gen)",
       "RAM": "8 GB DDR4 RAM",
       "OS": "64 bit Windows 11 Operating System",
@@ -620,8 +620,8 @@
     {
       "id": 25,
       "title": "ASUS VivoBook 14 (2022) Ryzen 5 Quad Core AMD R5-3500U - (8 GB/512 GB SSD/Windows 11 Home) M415DA-EB71...",
-      "price": "38,990",
-      "img": "https://i.pinimg.com/564x/98/fc/b9/98fcb9df2c6f60635777492ae72d3e7e.jpg",
+      "price": "38990",
+      "image": "https://i.pinimg.com/564x/98/fc/b9/98fcb9df2c6f60635777492ae72d3e7e.jpg",
       "Processor": "AMD Ryzen 5 Quad Core Processor",
       "RAM": "8 GB DDR4 RAM",
       "OS": "32 bit Windows 11 Operating System",
@@ -633,8 +633,8 @@
     {
       "id": 26,
       "title": "APPLE 2020 Macbook Air M1 - (8 GB/256 GB SSD/Mac OS Big Sur) MGN63HN/A",
-      "price": "86,990",
-      "img": "https://i.pinimg.com/564x/9a/ff/1b/9aff1b24edb4db924cfa5767e1ac7f75.jpg",
+      "price": "86990",
+      "image": "https://i.pinimg.com/564x/9a/ff/1b/9aff1b24edb4db924cfa5767e1ac7f75.jpg",
       "Processor": "Apple M1 Processor",
       "RAM": "8 GB DDR4 RAM",
       "OS": "Mac OS Operating System",
@@ -646,8 +646,8 @@
     {
       "id": 27,
       "title": "DELL Inspiron Core i3 11th Gen - (8 GB/1 TB HDD/256 GB SSD/Windows 11 Home) D560841WIN9S Thin and Ligh...",
-      "price": "41,990",
-      "img": "https://i.pinimg.com/564x/c0/3a/42/c03a42de3d7f353a56f26561563aff29.jpg",
+      "price": "41990",
+      "image": "https://i.pinimg.com/564x/c0/3a/42/c03a42de3d7f353a56f26561563aff29.jpg",
       "Processor": "Processor: Intel i3-1115G4 (Base- 1.70 GHz & Turbo up to 4.10 GHz) 2 Cores",
       "RAM": "RAM & Storage: 8GB DDR4 & 1TB + 256GB SSD",
       "OS": "Graphics & Keyboard: Integrated & Standard Keyboard",
@@ -659,8 +659,8 @@
     {
       "id": 28,
       "title": "HP Athlon Dual Core 3050U - (8 GB/256 GB SSD/Windows 11 Home) 14s-fq0568AU Thin and Light Laptop",
-      "price": "25,990",
-      "img": "https://i.pinimg.com/564x/98/fc/b9/98fcb9df2c6f60635777492ae72d3e7e.jpg",
+      "price": "25990",
+      "image": "https://i.pinimg.com/564x/98/fc/b9/98fcb9df2c6f60635777492ae72d3e7e.jpg",
       "Processor": "AMD Athlon Dual Core Processor",
       "RAM": "8 GB DDR4 RAM",
       "OS": "64 bit Windows 11 Operating System",
@@ -672,8 +672,8 @@
     {
       "id": 29,
       "title": "HP Intel Core i5 11th Gen - (8 GB/512 GB SSD/Windows 11 Home) 15s- fr4000TU Thin and Light Laptop",
-      "price": "52,990",
-      "img": "https://i.pinimg.com/564x/9a/ff/1b/9aff1b24edb4db924cfa5767e1ac7f75.jpg",
+      "price": "52990",
+      "image": "https://i.pinimg.com/564x/9a/ff/1b/9aff1b24edb4db924cfa5767e1ac7f75.jpg",
       "Processor": "Intel Core i5 Processor (11th Gen)",
       "RAM": "8 GB DDR4 RAM",
       "OS": "64 bit Windows 11 Operating System",
@@ -685,8 +685,8 @@
     {
       "id": 30,
       "title": "DELL Core i5 12th Gen - (16 GB/512 GB SSD/Windows 11 Home) New Inspiron 15 Metal Laptop Thin and Light...",
-      "price": "65,990",
-      "img": "https://i.pinimg.com/564x/c0/3a/42/c03a42de3d7f353a56f26561563aff29.jpg",
+      "price": "65990",
+      "image": "https://i.pinimg.com/564x/c0/3a/42/c03a42de3d7f353a56f26561563aff29.jpg",
       "Processor": "Processor: Intel i5-1235U (Base- 3.30 GHz & Turbo up to 4.40 GHz) 10 Cores",
       "RAM": "RAM & Storage: 16GB DDR4 & 512GB SSD",
       "OS": "Graphics & Keyboard: Integrated & Backlit Keyboard+Fingerprint Reader",
@@ -1208,7 +1208,15 @@
       ]
     }
   ],
-  "cart": [],
+  "cart": [
+    {
+      "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9iaWxlJTIwcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "title": "POCO C31 (Royal Blue, 64 GB)",
+      "price": 11999,
+      "userId": 1,
+      "id": 1
+    }
+  ],
   "admin": [
     {
       "username": "admin",

@@ -284,6 +284,23 @@ data.forEach((ele) => {
      price.innerText=`₹${ele.price}`;
      cartBtn.innerText="Add to cart";
      cartBtn.addEventListener("click",async function(){
+    let data;
+      try {
+      data=await fetch("http://localhost:8080/cart");
+    data=await data.json();
+    }catch(error){
+    console.log(error)
+    }
+    let bool=true
+    data.forEach((elem)=>{
+if(elem.title===ele.title){
+  bool=false
+}
+    });
+
+    if(bool===false){
+  alert("Already in the cart");
+    }else{
     try {
      await fetch("http://localhost:8080/cart",{
       method:"POST",
@@ -300,6 +317,8 @@ data.forEach((ele) => {
     } catch (error) {
       console.log(error)
     }
+    alert("Added to cart")
+  }
      })
 elDiv.append(name,desc,price,cartBtn)
      card.append(imgDiv,elDiv);

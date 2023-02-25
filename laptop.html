@@ -187,18 +187,22 @@ width: 70%;
    </div>
 
 <div id="main">
+  <div class="filter">
+    <select name="" id="filt">
+        <option value="poco">Poco</option>
+        <option value="redmi">REDMI</option>
+        <option value="oppo">Oppo</option>
+        <option value="realme">Realme</option>
+        <option value="motorola">Motorola</option>
+        <option value="Samsung">SAMSUNG</option>
+    </select>
+    <div>
+      <button id="desc">Sort by price </button>
+      </div>   
+     
 
-    <div class="filter">
-   <select name="" id="filt">
-       <option value="poco">Poco</option>
-       <option value="redmi">REDMI</option>
-       <option value="oppo">Oppo</option>
-       <option value="realme">Realme</option>
-       <option value="motorola">Motorola</option>
-       <option value="Samsung">SAMSUNG</option>
-   </select>
-    </div>   
-   
+     </div> 
+
    <div id="container">
    
    
@@ -207,6 +211,7 @@ width: 70%;
 </body>
 <script>
   let cont=document.getElementById("container");
+  let sortD=document.getElementById("desc");
 
 let api="http://localhost:8080/laptops";
 
@@ -263,10 +268,23 @@ function filtered(data){
 showCard(data);
 }
 
+sortD.addEventListener("click",()=>{
+  test(api)
+})
 
+async function test(api) {
+  try {
+    let data= await fetch(`${api}?_sort=price&_order=desc`);
+    data=await data.json()
+    console.log(data)
+    showCard(data)
+  } catch (error) {
+    console.log(error)
+  }
+}
 
 function showCard(data){
-
+cont.innerHTML="";
 console.log(data)
 
 data.forEach((ele) => {
@@ -280,7 +298,7 @@ data.forEach((ele) => {
     let desc=document.createElement("p");
     let price=document.createElement("h2");
     let cartBtn=document.createElement("button");
-    img.setAttribute("src",ele.img);
+    img.setAttribute("src",ele.image);
      imgDiv.append(img)
 
      name.innerText=ele.title;
@@ -289,6 +307,23 @@ data.forEach((ele) => {
      cartBtn.innerText="Add to cart";
 
      cartBtn.addEventListener("click",async function(){
+    let data;
+      try {
+      data=await fetch("http://localhost:8080/cart");
+    data=await data.json();
+    }catch(error){
+    console.log(error)
+    }
+    let bool=true
+    data.forEach((elem)=>{
+if(elem.title===ele.title){
+  bool=false
+}
+    });
+
+    if(bool===false){
+  alert("Already in the cart");
+    }else{
     try {
      await fetch("http://localhost:8080/cart",{
       method:"POST",
@@ -305,6 +340,8 @@ data.forEach((ele) => {
     } catch (error) {
       console.log(error)
     }
+    alert("Added to cart")
+  }
      })
 elDiv.append(name,desc,price,cartBtn)
      card.append(imgDiv,elDiv);
