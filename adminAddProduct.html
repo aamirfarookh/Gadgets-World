@@ -6,7 +6,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Add Product</title>
     <style>
-         #container{
+        body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      /* background:url("https://images.unsplash.com/photo-1650016883397-1225cb4e47b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+      background-position:center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height:100vh; */
+    }
+    header {
+        background-color: #faf5f5;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      color: #121212;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 60px;
+      padding: 0 20px;
+      margin-bottom: 0.2rem;
+      /* background: transparent; */
+    }
+    header img {
+      height: 40px;
+    }
+    nav {
+      background-color: #a09e9e;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 40px;
+      padding: 0 20px;
+      /* background: transparent; */
+    }
+    nav ul {
+        width:80%;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: space-evenly;
+      background-color: #a09e9e;
+      /* background: transparent; */
+      color:rgb(242, 66, 66);
+    }
+    nav li {
+      margin-right: 20px;
+      border-left: 2px solid rgb(242, 66, 66);
+      padding:5px;
+    }
+    nav a{
+        text-decoration: none;
+        color:rgb(242, 66, 66)
+    }
+    nav a:hover{
+        text-decoration: underline;
+    }
+
+
+    #container{
         width:80%;
         margin: auto;
         margin-top:100px;
@@ -57,7 +116,7 @@
         letter-spacing: 2px;
     }
 
-    #container2 {
+#container2 {
     width: 80%;
 }
  #container2>div {
@@ -83,6 +142,23 @@ width: 60%;
     </style>
 </head>
 <body>
+     <header>
+    <img src="logo.png" alt="Logo">
+    <h1>Admin Dashboard</h1>
+  </header>
+  <nav>
+    <p id="admin-name"></p>
+    <ul>
+      <li><a href="#">Add Products</a></li>
+      <li><a href="admin_signup.html">Add Admin</a></li>
+      <li><a href="#">Sales</a></li>
+      <li><a href="#">Check Feedback</a></li>
+      <li><a href="#">Order Management</a></li>
+      <li><a href="">Manage Users</a></li>
+      <li><a href="admin_login.html">LOGOUT</a></li>  
+    </ul>
+    
+  </nav>
     <div id="container">
 
         <div>
