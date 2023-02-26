@@ -256,22 +256,41 @@ data.forEach((ele) => {
      q.setAttribute("id","num");
     
      price.innerText=`₹${ele.price}`;
-     tot=tot+Number(ele.price)*(quant);
+     tot=tot+Number(ele.price)*(ele.quantity);
      mon.innerText=`₹${tot}`
      cartBtn.innerText="Remove";
      iBtn.innerText=">";
      q.innerText=quant
      dBtn.innerText="<";
 
-     iBtn.addEventListener("click",function(){
+     iBtn.addEventListener("click",async function(){
       quant+=1;
-      q.innerText=quant
+      await fetch(`http://localhost:8080/cart/${ele.id}`,{
+        method:"PATCH",
+        headers:{
+          "content-type":"application/json"
+        },
+        body: JSON.stringify({
+          quantity:quant
+        })
+      })
+    
+      q.innerText=quant;
       tot=tot+Number(ele.price);
      mon.innerText=`₹${tot}`
       console.log(quant)
     })
-    dBtn.addEventListener("click",()=>{
+    dBtn.addEventListener("click",async function(){
       quant-=1;
+      await fetch(`http://localhost:8080/cart/${ele.id}`,{
+        method:"PATCH",
+        headers:{
+          "content-type":"application/json"
+        },
+        body: JSON.stringify({
+          quantity:quant
+        })
+      })
       q.innerText=quant
       tot-=Number(ele.price);
      mon.innerText=`₹${tot}`

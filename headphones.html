@@ -124,6 +124,23 @@ width: 60%;
     color: white;
     border: grey 1px;
 }
+button{
+  background-color: red;
+  color: white;
+  
+  font-size: larger
+}
+select{
+  background-color: red;
+  color: white;
+  font-size: larger
+}
+#desc{
+  margin-top: 20px;
+}
+.filter{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
     </style>
 </head>
 <body>
@@ -198,14 +215,12 @@ width: 60%;
 <div id="main">
 
     <div class="filter">
-   <select name="" id="filt">
-       <option value="poco">Poco</option>
-       <option value="redmi">REDMI</option>
-       <option value="oppo">Oppo</option>
-       <option value="realme">Realme</option>
-       <option value="motorola">Motorola</option>
-       <option value="Samsung">SAMSUNG</option>
-   </select>
+      <div>
+        <button id="inc">INCREASING</button>
+        </div> 
+   <div>
+    <button id="desc">DECREASING</button>
+    </div> 
     </div>   
    
    <div id="container">
@@ -216,7 +231,7 @@ width: 60%;
 </body>
 <script>
   let cont=document.getElementById("container");
-
+  let sortD=document.getElementById("desc");
 let api="http://localhost:8080/headphones";
 
 
@@ -272,10 +287,42 @@ function filtered(data){
 showCard(data);
 }
 
+sortD.addEventListener("click",()=>{
+  test(api)
+})
+
+async function test(api) {
+  try {
+    let data= await fetch(`${api}?_sort=price&_order=desc`);
+    data=await data.json()
+    console.log(data)
+    showCard(data)
+  } catch (error) {
+    console.log(error)
+  }
+}
+
+let sortI=document.getElementById("inc");
+
+sortI.addEventListener("click",function (){
+  tes(api) 
+})
+
+async function tes(api) {
+  try {
+    let data= await fetch(`${api}?_sort=price&_order=asc`);
+    data=await data.json()
+    console.log(data)
+    showCard(data)
+  } catch (error) {
+    console.log(error)
+  }
+}
+
 
 
 function showCard(data){
-
+  cont.innerHTML=""
 console.log(data)
 
 data.forEach((ele) => {
@@ -323,7 +370,8 @@ if(elem.title===ele.title){
         image:ele.image,
         title:ele.title,
         price:ele.price,
-        userId:1
+        userId:1,
+        quantity:1
       }),
       headers:{
         "content-type":"application/json"
