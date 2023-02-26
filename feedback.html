@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>Feedback Form</title>
-    <link rel="stylesheet" href="style.css">
+   
   </head>
   <style>
     body {
@@ -77,4 +77,38 @@ button[type="submit"]:hover {
       <button type="submit">Submit</button>
     </form>
   </body>
+  <script>
+ let formdata =  document.querySelector("form")
+
+ formdata.addEventListener( "submit",(e)=>{
+e.preventDefault()
+postFeedback()
+ })
+        
+
+        async function postFeedback(){
+          try {
+            let  res = await fetch(`http://localhost:8080/feedback`,{
+              method:"POST",
+              headers:{
+              "Content-Type":"application/json"
+              },
+              body:JSON.stringify({
+                name: formdata.name.value,
+               email: formdata.email.value,
+               subject: formdata.subject.value,
+               message:formdata.message.value
+              })
+            })
+          } catch (error) {
+            console.log(error)
+          }
+        }
+
+ 
+
+
+
+
+  </script>
 </html>
