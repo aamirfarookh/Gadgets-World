@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Product</title>
+    <style>
+        body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      /* background:url("https://images.unsplash.com/photo-1650016883397-1225cb4e47b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+      background-position:center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height:100vh; */
+    }
+    header {
+        background-color: #faf5f5;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      color: #121212;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 60px;
+      padding: 0 20px;
+      margin-bottom: 0.2rem;
+      /* background: transparent; */
+    }
+    header img {
+      height: 40px;
+    }
+    nav {
+      background-color: #a09e9e;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 40px;
+      padding: 0 20px;
+      /* background: transparent; */
+    }
+    nav ul {
+        width:80%;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: space-evenly;
+      background-color: #a09e9e;
+      /* background: transparent; */
+      color:rgb(242, 66, 66);
+    }
+    nav li {
+      margin-right: 20px;
+      border-left: 2px solid rgb(242, 66, 66);
+      padding:5px;
+    }
+    nav a{
+        text-decoration: none;
+        color:rgb(242, 66, 66)
+    }
+    nav a:hover{
+        text-decoration: underline;
+    }
+
+
+    #container{
+        width:80%;
+        margin: auto;
+        margin-top:100px;
+        display: flex;
+        /* grid-template-columns: 1fr 1fr; */
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    #container>div:first-child{
+        width: 40%;
+        text-align: center;
+        margin-left:50px;
+        margin-right: 60px;
+        border-radius: 10px;
+        padding:50px 0;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    } 
+    input{
+        width:80%;
+        margin:auto;
+        margin-bottom:20px;
+        border:none;
+        padding-left:10px;
+        border-bottom: 1px solid grey;
+        padding-top:20px;
+        padding-bottom: 10px;
+    }
+    select{
+        width:80%;
+        margin:auto;
+        margin-bottom:20px;
+        border:none;
+        padding-left:10px;
+        border-bottom: 1px solid grey;
+        padding-top:20px;
+        padding-bottom: 10px;
+    }
+    input[type="submit"]{
+        margin-top: 20px;
+        padding:20px;
+        border: none;
+        background-color: red;
+        color: white;
+        cursor: pointer;
+        border-radius: 5px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+
+#container2 {
+    width: 80%;
+}
+ #container2>div {
+display: flex;
+width: 100%;
+margin-top: 20px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#container2 >div>div{
+width: 50%;
+}
+#container2>div img{
+width: 60%;
+/* height: 100%; */
+
+}
+#container2 button{
+    background-color: red;
+    color: white;
+    border: grey 1px;
+    border-radius: 2PX;
+}
+    </style>
+</head>
+<body>
+     <header>
+    <img src="logo.png" alt="Logo">
+    <h1>Admin Dashboard</h1>
+  </header>
+  <nav>
+    <p id="admin-name"></p>
+    <ul>
+      <li><a href="#">Add Products</a></li>
+      <li><a href="admin_signup.html">Add Admin</a></li>
+      <li><a href="#">Sales</a></li>
+      <li><a href="#">Check Feedback</a></li>
+      <li><a href="#">Order Management</a></li>
+      <li><a href="">Manage Users</a></li>
+      <li><a href="admin_login.html">LOGOUT</a></li>  
+    </ul>
+    
+  </nav>
+    <div id="container">
+
+        <div>
+            <form>
+                <select id="category" required>
+                    <option value="">Select Category</option>
+                    <option value="mobiles">Mobiles</option>
+                    <option value="laptops">Laptops</option>
+                    <option value="tv">TV</option>
+                    <option value="ac">AC</option>
+                </select>
+                <input type="text" id="title" required placeholder="Title" />
+                <input type="text" id="image" required placeholder="Image Url" />
+                <input type="text" id="desc" required placeholder="Description" />
+                <input type="number" id="price" required placeholder="Price" />
+                
+                <input type="submit" value="Add Product">
+               
+            </form>
+        </div>
+        <div id="container2">
+            <!-- append data -->
+        </div>
+
+    </div>
+    
+</body>
+<script>
+    
+    let cont=document.getElementById("container2");
+    
+   let myForm= document.querySelector("form");
+   myForm.addEventListener("submit",addProd);
+
+    function addProd(event){
+        event.preventDefault();
+        let category = myForm.category.value;
+        let title = myForm.title.value;
+        let image = myForm.image.value;
+        let des = myForm.desc.value;
+        let pric = myForm.price.value;
+    
+        let obj= {
+            title: title,
+            image: image,
+            description: des,
+            price: `₹${pric}`
+             
+        }
+        console.log(obj)
+        let card = document.createElement("div");
+        let imgDiv=document.createElement("div")
+        let img=document.createElement("img");
+         let elDiv=document.createElement("div")
+         let name=document.createElement("h2");
+        let desc=document.createElement("p");
+        let price=document.createElement("h2");
+        let cartBtn=document.createElement("button");
+        img.setAttribute("src",image);
+        imgDiv.append(img)
+
+        name.innerText=title;
+        desc.innerText=des;
+        price.innerText=`₹${pric}`;
+         cartBtn.innerText="Add Product";
+        cartBtn.addEventListener("click", function(){
+       
+        let addReq = fetch(`http://localhost:8080/${category}`,{
+            method : "POST",
+            headers: {
+                "Content-Type" : "application/json"
+            },
+            body: JSON.stringify(obj)
+        }).then((res) =>{
+            return res.json();
+        }).then((data) =>{
+            console.log(data);
+            alert("Product Added")
+            location.reload();
+        }).catch((error) =>{
+            console.log(error);
+        })
+
+     })
+     elDiv.append(name,desc,price,cartBtn)
+     card.append(imgDiv,elDiv);
+     cont.append(card);
+
+        // let addReq = fetch(`http://localhost:8080/${category}`,{
+        //     method : "POST",
+        //     headers: {
+        //         "Content-Type" : "application/json"
+        //     },
+        //     body: JSON.stringify(obj)
+        // }).then((res) =>{
+        //     return res.json();
+        // }).then((data) =>{
+        //     console.log(data);
+        //     alert("Product Added")
+        // }).catch((error) =>{
+        //     console.log(error);
+        // })
+    }
+</script>
+</html>
