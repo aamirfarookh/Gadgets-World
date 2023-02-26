@@ -136,10 +136,11 @@ th {
     }
   }
 
+
   function showData(data){
 
     data.forEach(element => {
-      
+      let ch=[];
       element.orders.forEach(ele=>{
         let main=document.createElement("tbody")
 
@@ -159,6 +160,7 @@ th {
         shipped.addEventListener("click",()=>{
           ele.status="shipped";
           orderSta.innerText=ele.status;
+          yo()
         })
         b1.append(shipped);
 
@@ -168,12 +170,26 @@ th {
         dilivered.addEventListener("click",()=>{
           ele.status="delivered";
           orderSta.innerText=ele.status;
+          yo()
         })
         b2.append(dilivered);
 
         main.append(name,userId, orderSta,b1,b2)
         body.append(main);
+        ch.push(ele);
       })
+      async function yo(api){
+    await fetch(`http://localhost:8080/users/${element.id}`,{
+      method:"PATCH",
+      headers:{
+        "content-type":"application/json"
+      },
+      body:JSON.stringify({
+        orders:ch
+      })
+    })
+      }
+ 
     });
   }
 </script>

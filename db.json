@@ -1203,12 +1203,21 @@
           "Rating": 4.3,
           "Price": 27294,
           "image": "https://rukminim1.flixcart.com/image/312/312/l1ch4sw0/air-conditioner-new/0/j/f/-original-imagcxh3d6ezzqhp.jpeg?q=70",
-          "status": "ordered"
+          "status": "shipped"
         }
       ]
     }
   ],
-  "cart": [],
+  "cart": [
+    {
+      "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9iaWxlJTIwcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "title": "POCO C31 (Royal Blue, 64 GB)",
+      "price": 11999,
+      "userId": 1,
+      "quantity": 1,
+      "id": 1
+    }
+  ],
   "admin": [
     {
       "username": "admin",
