@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Gadgets 360</title>
-	<link rel="stylesheet" href="style.css">
+	
 </head>
 <style>
   /* General styles */
@@ -228,14 +228,71 @@ footer {
 .tabu>a {
 	color:cornsilk;
 }
+.slider {
+  position: relative;
+  height: 400px;
+  width: 600px;
+  margin: auto;
+}
+
+.slide {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 25px;
+  font-weight: bold;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 10px 15px;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
+.active {
+  display: block;
+}
+.logo > img {
+	width:200px;
+  height: 100px; 
+}
+.reviews-card > img{
+  width: 100px;
+}
+.slideshowcontainer {
+  width: 100%;
+  height: 400px;
+  position: relative;
+}
+.slideshowimage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
 </style>
 <body>
-	<div>
-     <img src="https://cdn.gadgets360.com/gadgets360_logo.png" alt="">
-	</div>
+
 	<header>
 		<div class="header-container">
-			
+			<a href="#" class="logo"><img src="./WhatsApp Image 2023-02-21 at 8.17.55 PM.jpeg" alt="Gadgets 360 logo"></a>
 			<nav>
 				<ul>
 					
@@ -245,7 +302,7 @@ footer {
 					<li><a href="#">REVIEWS</a></li>
 					<li><a href="#">Features</a></li>
 					<li><a href="#">Videos</a></li>
-					<li><a href="#">PRODUCT FINDER</a></li>
+				
 					<li><a href="#">SIGN IN</a></li>
 				</ul>
 			</nav>
@@ -280,30 +337,31 @@ footer {
 			<section class="news-section">
 				<h2>Latest News</h2>
 				<div class="news-card">
-					<a href="#"><img src="news1.jpg" alt="News article thumbnail"></a>
-					<h3><a href="#">Title of the news article goes here</a></h3>
-					<p>Short description of the news article goes here...</p>
+					<a href="#"><img src="./betu.png" alt="News article thumbnail"></a>
+					<h3><a href="#">Nokia G22 with QuickFix repairability, C22 and C32 announced</a></h3>
+					<p>Nokia C22, Nokia C22 price, Nokia C32, Nokia C32 price, Nokia G22, Nokia G22 price</p>
 				</div>
 				<!-- Repeat the news card for other news articles -->
 			</section>
 			<section class="image-grid">
-			<img src="image1.jpg" alt="Image 1">
-			<img src="image2.jpg" alt="Image 2">
-			<img src="image3.jpg" alt="Image 3">
-			<img src="image4.jpg" alt="Image 4">
-			<img src="image5.jpg" alt="Image 5">
-			<img src="image6.jpg" alt="Image 6">
-			<img src="image7.jpg" alt="Image 7">
-			<img src="image8.jpg" alt="Image 8">
-			<img src="image9.jpg" alt="Image 9">
+			<img src="./mobile.png" alt="Image 1">
+			<img src="./camera.png" alt="Image 2">
+			<img src="./laptop.png" alt="Image 3">
+			<img src="./tv.png" alt="Image 4">
+			<img src="./headphone.png" alt="Image 5">
+			<img src="./sm.png" alt="Image 6">
+			<img src="./tablet.png" alt="Image 7">
+			<img src="./smartwatch.png" alt="Image 8">
+			<img src="./game.png" alt="Image 9">
 			
 		</section>
+    
 			<section class="reviews-section">
 				<h2>Reviews</h2>
 				<div class="reviews-card">
-					<a href="#"><img src="review1.jpg" alt="Review article thumbnail"></a>
-					<h3><a href="#">Title of the review article goes here</a></h3>
-					<p>Short description of the review article goes here...</p>
+					<a href="#"><img src="./cober2.png" alt="Review article thumbnail"></a>
+					<h3><a href="#">Nothing Phone (1) long term review</a></h3>
+					<p>MUST BUY</p>
 				</div>
 				<!-- Repeat the review card for other review articles -->
 			</section>
@@ -334,6 +392,18 @@ footer {
 			<!-- Add other relevant information -->
 		</div>
 	</aside>
+	
+	<div class="slider">
+		<img class="slide" src="https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&cs=tinysrgb&w=600">
+		<img class="slide" src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cGhvbmV8ZW58MHx8MHx8&w=1000&q=80">
+		<img class="slide" src="https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&cs=tinysrgb&w=600">
+		<button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+		<button class="next" onclick="changeSlide(1)">&#10095;</button>
+	  </div>
+
+	
+	  
+  
 <div>
 </section>
 			<section class="image-grid">
@@ -351,6 +421,11 @@ footer {
 
 </div>
 	</div>
+  <div class="slideshowcontainer">
+    <img class="slideshowimage current" src="./betu.png">
+    <img class="slideshowimage" src="./cober.png">
+    <img class="slideshowimage" src="./cober2.png">
+  </div>
 	<footer>
 		<div class="footer-container">
 			<section class="about-section">
@@ -368,3 +443,45 @@ footer {
 				</div>
 				
 	</footer>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function changeSlide(n) {
+  showSlides(slideIndex += n);
+}
+
+function showSlides(n) {
+  var slides = document.getElementsByClassName("slide");
+  if (n > slides.length) {
+    slideIndex = 1;
+  }
+  if (n < 1) {
+    slideIndex = slides.length;
+  }
+  for (var i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slides[slideIndex - 1].style.display = "block";
+}
+
+var slideIndex = 0;
+bj();
+
+function bj() {
+  var slides = document.getElementsByClassName("slideshowimage");
+  for (var i = 0; i < slides.length; i++) {
+    slides[i].style.opacity = 0;
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.opacity = 1;
+  setTimeout(bj, 3000); // Change image every 3 seconds
+}
+
+
+
+
+
+</script>
+</html>

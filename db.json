@@ -1095,6 +1095,15 @@
                         "fullname":"Test-Admin",
                         "password": "admin"
                     }
+                ],
+                "feedback":[{
+                  "name": "",
+                  "email": "",
+                  "subject":"",
+                  "message":""
+
+
+                }
                 ]
                 
 
