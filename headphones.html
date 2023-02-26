@@ -124,6 +124,7 @@ width: 60%;
     color: white;
     border: grey 1px;
 }
+ fw23_0626_day5
 button{
   background-color: red;
   color: white;
@@ -141,6 +142,7 @@ select{
 .filter{
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+
     </style>
 </head>
 <body>
@@ -215,12 +217,23 @@ select{
 <div id="main">
 
     <div class="filter">
+ fw23_0626_day5
       <div>
         <button id="inc">INCREASING</button>
         </div> 
    <div>
     <button id="desc">DECREASING</button>
     </div> 
+
+   <select name="" id="filt">
+       <option value="poco">Poco</option>
+       <option value="redmi">REDMI</option>
+       <option value="oppo">Oppo</option>
+       <option value="realme">Realme</option>
+       <option value="motorola">Motorola</option>
+       <option value="Samsung">SAMSUNG</option>
+   </select>
+
     </div>   
    
    <div id="container">
@@ -231,7 +244,11 @@ select{
 </body>
 <script>
   let cont=document.getElementById("container");
+fw23_0626_day5
   let sortD=document.getElementById("desc");
+
+
+ main
 let api="http://localhost:8080/headphones";
 
 
@@ -286,7 +303,7 @@ function filtered(data){
 })
 showCard(data);
 }
-
+ fw23_0626_day5
 sortD.addEventListener("click",()=>{
   test(api)
 })
@@ -323,6 +340,12 @@ async function tes(api) {
 
 function showCard(data){
   cont.innerHTML=""
+
+
+
+function showCard(data){
+
+
 console.log(data)
 
 data.forEach((ele) => {
@@ -370,8 +393,12 @@ if(elem.title===ele.title){
         image:ele.image,
         title:ele.title,
         price:ele.price,
+
         userId:1,
         quantity:1
+
+        userId:1
+ main
       }),
       headers:{
         "content-type":"application/json"

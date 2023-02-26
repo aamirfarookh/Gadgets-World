@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+
      body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -56,11 +57,63 @@ nav a{
 nav a:hover{
     text-decoration: underline;
 }
+
+         body {
+    margin: 0;
+    padding: 0;
+  }
+  .nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position:fixed;
+    top:0;
+    background-color: #fff;
+  }
+  .logo>img {
+    width: 60%;
+  }
+  .links {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #search-input {
+    width: 20rem;
+    border-radius: 5px;
+    border: 3px solid red;
+    padding: 0.5rem;
+    font-size: 20px;
+  }
+  #search-input:focus {
+    border: 3px solid red;
+  }
+  #search-form > input:nth-child(2) {
+    padding: 1rem;
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+  #search-form > input:nth-child(2):hover {
+    font-size: 20px;
+  }
+  .icon:hover {
+    background-color: red;
+    border-radius: 50%;
+  }
+
   #head{
     color: red;
     text-align: center;
     margin-top: 100px;
   }
+
   table {
   border-collapse: collapse;
   width: 100%;
@@ -85,10 +138,20 @@ th {
     background-color: red;
     color: white;
     font-size: larger;
+
+  table{
+    border: solid red;
+    margin: auto;
+  }
+  th{
+    border: solid black;
+    font-size:x-large;
+
   }
     </style>
 </head>
 <body>
+
   <header>
     <img src="logo.png" alt="Logo">
     <h1>Order Management</h1>
@@ -193,4 +256,67 @@ th {
     });
   }
 </script>
+
+    <div class="nav">
+        <div class="logo">
+          <img src="Logo.png" alt="Gadgets World" />
+        </div>
+        <div class="links">
+          <form action="" id="search-form">
+            <input
+              type="text"
+              id="search-input"
+              placeholder="Search for your favorites.."
+            />
+            <input type="submit" value="Search" />
+          </form>
+          <h2 id="user-details">Hello, Amir Bhat</h2>
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user-circle" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round" id="user-profile">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <circle cx="12" cy="12" r="9" />
+            <circle cx="12" cy="10" r="3" />
+            <path d="M6.168 18.849a4 4 0 0 1 3.832 -2.849h4a4 4 0 0 1 3.834 2.855" />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-shopping-cart"
+            width="44"
+            height="44"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="#2c3e50"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            id="cart-btn"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"  />
+            <circle cx="6" cy="19" r="2" />
+            <circle cx="17" cy="19" r="2" />
+            <path d="M17 17h-11v-14h-2" />
+            <path d="M6 5l14 1l-1 7h-13" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-logout" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round" id="logout-btn" >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <path d="M14 8v-2a2 2 0 0 0 -2 -2h-7a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h7a2 2 0 0 0 2 -2v-2" />
+            <path d="M7 12h14l-3 -3m0 6l3 -3" />
+          </svg>
+        </div>
+      </div>
+      
+      <h1 id="head">Order management</h1>
+
+      <table>
+        <thead>
+            <th>Name</th>
+            <th>UserId</th>
+            <th>Order-no.</th>
+            <th>Order-status</th>
+            <th>Change to Shipped</th>
+            <th>Change to dilivered</th>
+        </thead>
+        <tbody id="here"></tbody>
+      </table>
+</body>
+
 </html>

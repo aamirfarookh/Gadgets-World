@@ -117,6 +117,7 @@ width: 70%;
     color: white;
     border: grey 1px;
 }
+
 button{
   background-color: red;
   color: white;
@@ -133,6 +134,7 @@ select{
 .filter{
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+
     </style>
 </head>
 <body>
@@ -204,12 +206,25 @@ select{
 
 <div id="main">
   <div class="filter">
+
  
     <div>
       <button id="inc">INCREASING</button>
       </div> 
     <div>
       <button id="desc">DECREASING</button>
+
+    <select name="" id="filt">
+        <option value="poco">Poco</option>
+        <option value="redmi">REDMI</option>
+        <option value="oppo">Oppo</option>
+        <option value="realme">Realme</option>
+        <option value="motorola">Motorola</option>
+        <option value="Samsung">SAMSUNG</option>
+    </select>
+    <div>
+      <button id="desc">Sort by price </button>
+
       </div>   
      
 
@@ -295,6 +310,7 @@ async function test(api) {
   }
 }
 
+
 let sortI=document.getElementById("inc");
 
 sortI.addEventListener("click",function (){
@@ -311,6 +327,7 @@ async function tes(api) {
     console.log(error)
   }
 }
+
 
 function showCard(data){
 cont.innerHTML="";
@@ -360,8 +377,11 @@ if(elem.title===ele.title){
         image:ele.image,
         title:ele.title,
         price:ele.price,
+
         userId:1,
         quantity:1
+        userId:1
+
       }),
       headers:{
         "content-type":"application/json"

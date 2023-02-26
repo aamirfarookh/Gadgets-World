@@ -247,7 +247,9 @@ async function get(api){
 get(api)
 
 let filbtn= document.getElementById("searbtn");
+
 let sortD=document.getElementById("desc");
+
 
 filbtn.addEventListener("click" , ()=>{
     async function get(api){
@@ -283,6 +285,7 @@ function filtered(data){
 showCard(data);
 }
 
+
 let selFilt=document.getElementById("filt")
 selFilt.addEventListener("change" , ()=>{
     async function get(api){
@@ -316,6 +319,10 @@ function filt(data){
 showCard(data);
 }
 
+
+
+
+function showCard(data){
 
 
 //desc sort here
@@ -400,8 +407,12 @@ if(elem.title===ele.title){
         image:ele.image,
         title:ele.title,
         price:ele.price,
+
         userId:1,
         quantity:1
+
+        userId:1
+
       }),
       headers:{
         "content-type":"application/json"

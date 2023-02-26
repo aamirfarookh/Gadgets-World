@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gadgets World | User Profile</title>
+    <link rel="stylesheet" href="profile.css">
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="Logo.png" alt="" />
+      </div>
+      <nav>
+        <a href="dashboard.html">Home</a>
+        <a href="#">Products</a>
+        <a href="checkout.html">Cart</a>
+        <button id="logout-btn">Logout</button>
+      </nav>
+    </header>
+    <main>
+      <section class="profile">
+        <h1>User Profile</h1>
+        <img
+          src="https://i.pinimg.com/564x/7b/8c/d8/7b8cd8b068e4b9f80b4bcf0928d7d499.jpg"
+          alt="Profile Picture"
+        />
+        <h2 id="name-data">Amir Bhat</h2>
+        <p id="email-data">Email: amir.bhat@example.com</p>
+        <p id="phone-data">Phone: 123-456-7890</p>
+        <p id="address-data">Address: 123 Main St, Anytown, USA</p>
+        <button id="edit-btn">Edit Profile</button>
+      </section>
+      <section class="orders">
+        <div class="table">
+          <h1>Order History</h1>
+          <table>
+            <thead>
+              <tr>
+                <th>Status</th>
+                <th>Order Number</th>
+                <th>Product Name</th>
+                <th>Quantity</th>
+                <th>Price</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+
+        <div class="container display-none">
+          <h1>Edit User Profile</h1>
+          <form>
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname" value="Amir" /><br />
+
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname" value="Bhat" /><br />
+
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              value="amir.bhat@example.com"
+            /><br />
+
+            <label for="img-url">Image Url:</label>
+            <input
+              type="text"
+              id="img-url"
+              name="img-url"
+              value="https://i.pinimg.com/564x/19/99/e0/1999e052d1f7263e4674294285f7c576.jpg"
+            /><br />
+
+            <label for="phone">Phone Number:</label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              value="+1-555-555-5555"
+            /><br />
+
+            <label for="address">Address:</label>
+            <textarea id="address" name="address">
+             123 Main St, Anytown USA</textarea
+            ><br />
+            <input type="submit" value="Save Changes" id="" />
+          </form>
+        </div>
+
+
+		<div class="order-status display-none">
+        <div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		 </div>
+
+      </section>
+    </main>
+  </body>
+  <script src="profile.js"></script>
+</html>
