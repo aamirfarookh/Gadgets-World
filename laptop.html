@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-              body {
+
+body {
     margin: 0;
     padding: 0;
   }
@@ -88,7 +89,7 @@
     color: white;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
-        #main {
+ #main {
             display: flex;
         }
         .filter {
@@ -108,7 +109,7 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 width: 50%;
 }
 #container>div img{
-width: 60%;
+width: 70%;
 
 }
 #container button{
@@ -179,35 +180,40 @@ width: 60%;
         <a href="#">Refrigerators</a>
         <a href="#">Air Coolers</a>
       </div>
-
+        
     <div class="searchD">
         <input id="sear" type="text" placeholder="Search Your Products...">
         <button id="searbtn">SEARCH</button>
    </div>
-    
+
 <div id="main">
+  <div class="filter">
+    <select name="" id="filt">
+        <option value="poco">Poco</option>
+        <option value="redmi">REDMI</option>
+        <option value="oppo">Oppo</option>
+        <option value="realme">Realme</option>
+        <option value="motorola">Motorola</option>
+        <option value="Samsung">SAMSUNG</option>
+    </select>
+    <div>
+      <button id="desc">Sort by price </button>
+      </div>   
+     
 
- <div class="filter">
-<select name="" id="filt">
-    <option value="POCO">Poco</option>
-    <option value="REDMI">REDMI</option>
-    <option value="OPPO">Oppo</option>
-    <option value="realme">Realme</option>
-    <option value="MOTOROLA">Motorola</option>
-    <option value="SAMSUNG">SAMSUNG</option>
-</select>
- </div>   
+     </div> 
 
-<div id="container">
-
-
-</div>
-</div>
+   <div id="container">
+   
+   
+   </div>
+   </div>
 </body>
 <script>
-let cont=document.getElementById("container");
+  let cont=document.getElementById("container");
+  let sortD=document.getElementById("desc");
 
-let api="http://localhost:8080/mobiles";
+let api="http://localhost:8080/laptops";
 
 
 async function get(api){
@@ -223,6 +229,8 @@ async function get(api){
    } 
 }
 get(api)
+
+
 
 let filbtn= document.getElementById("searbtn");
 
@@ -260,9 +268,23 @@ function filtered(data){
 showCard(data);
 }
 
+sortD.addEventListener("click",()=>{
+  test(api)
+})
+
+async function test(api) {
+  try {
+    let data= await fetch(`${api}?_sort=price&_order=desc`);
+    data=await data.json()
+    console.log(data)
+    showCard(data)
+  } catch (error) {
+    console.log(error)
+  }
+}
 
 function showCard(data){
-
+cont.innerHTML="";
 console.log(data)
 
 data.forEach((ele) => {
@@ -280,9 +302,10 @@ data.forEach((ele) => {
      imgDiv.append(img)
 
      name.innerText=ele.title;
-     desc.innerText=ele.description;
+     desc.innerText=ele.RAM;
      price.innerText=`₹${ele.price}`;
      cartBtn.innerText="Add to cart";
+
      cartBtn.addEventListener("click",async function(){
     let data;
       try {
@@ -325,7 +348,6 @@ elDiv.append(name,desc,price,cartBtn)
  cont.append(card);
 });
 
-}
-
+}  
 </script>
 </html>
