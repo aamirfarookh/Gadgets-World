@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+ #main {
+            display: flex;
+        }
+        .filter {
+            margin-top: 20px;
+            width:20% ;
+        }
+#container {
+    width: 80%;
+}
+ #container>div {
+display: flex;
+width: 100%;
+margin-top: 20px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#container >div>div{
+width: 50%;
+}
+#container>div img{
+width: 100%;
+
+}
+#container button{
+    background-color: red;
+    border: grey 1px;
+}
+    </style>
+</head>
+<body>
+        
+<div id="main">
+
+    <div class="filter">
+   <select name="" id="filt">
+       <option value="poco">Poco</option>
+       <option value="redmi">REDMI</option>
+       <option value="oppo">Oppo</option>
+       <option value="realme">Realme</option>
+       <option value="motorola">Motorola</option>
+       <option value="Samsung">SAMSUNG</option>
+   </select>
+    </div>   
+   
+   <div id="container">
+   
+   
+   </div>
+   </div>
+</body>
+<script>
+  let cont=document.getElementById("container");
+
+let api="http://localhost:3000/tv";
+
+
+async function get(api){
+   try {
+    let data=await fetch(api);
+    data= await data.json();
+
+    console.log(data)
+    showCard(data)
+    
+   } catch (error) {
+    
+   } 
+}
+get(api)
+
+function showCard(data){
+
+console.log(data)
+
+data.forEach((ele) => {
+
+
+    let card = document.createElement("div");
+     let imgDiv=document.createElement("div")
+    let img=document.createElement("img");
+     let elDiv=document.createElement("div")
+    let name=document.createElement("h2");
+    let desc=document.createElement("p");
+    let price=document.createElement("h2");
+    let cartBtn=document.createElement("button");
+    img.setAttribute("src",ele.image);
+     imgDiv.append(img)
+
+     name.innerText=ele.name;
+     desc.innerText=ele.description;
+     price.innerText=ele.price;
+     cartBtn.innerText="Add to cart";
+elDiv.append(name,desc,price,cartBtn)
+     card.append(imgDiv,elDiv);
+ cont.append(card);
+});
+
+}  
+</script>
+</html>
