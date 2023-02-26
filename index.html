@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Gadgets 360</title>
+	
+</head>
+<style>
+  /* General styles */
+  .image-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 10px;
+}
+
+.image-grid img {
+	width: 100%;
+	height: auto;
+}
+  header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+}
+
+nav a:hover {
+  background-color: #fff;
+  color: #333;
+  border-radius: 5px;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+/* Header styles */
+
+header {
+  background-color: red;
+  color:rgb(0, 0, 0);
+  padding: 10px 20px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  height: 40px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  font-size: 16px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+input[type="text"] {
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  font-size: 16px;
+}
+
+button[type="submit"] {
+  border-radius: 5px;
+  border: none;
+  background-color: white;
+  color: #0066cc;
+  padding: 5px 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Main content styles */
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.news-section,
+.reviews-section,
+.features-section,
+.videos-section,
+.deals-section {
+  width: calc(100% / 5 - 20px);
+  margin-bottom: 20px;
+}
+
+.news-card,
+.reviews-card,
+.features-card,
+.videos-card,
+.deals-card {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.news-card h3,
+.reviews-card h3,
+.features-card h3,
+.videos-card h3,
+.deals-card h3 {
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.news-card p,
+.reviews-card p,
+.features-card p,
+.videos-card p,
+.deals-card p {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Sidebar styles */
+
+.sidebar-container {
+  background-color: #f5f5f5;
+  padding: 20px;
+  width: 25%;
+}
+
+.popular-section h2,
+.social-section h2 {
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.popular-section ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.popular-section li {
+  margin-bottom: 10px;
+}
+
+.social-icons {
+  display: flex;
+}
+
+.social-icons a {
+  margin-right: 10px;
+}
+
+.social-icons i {
+  font-size: 24px;
+  color: #666;
+}
+
+/* Footer styles */
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.about-section {
+  margin-bottom: 20px;
+}
+
+.about-section h3 {
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.about-section p {
+  font-size: 14px;
+  color: #999,
+}
+.tabu>a {
+	color:cornsilk;
+}
+.slider {
+  position: relative;
+  height: 400px;
+  width: 600px;
+  margin: auto;
+}
+
+.slide {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 25px;
+  font-weight: bold;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 10px 15px;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
+.active {
+  display: block;
+}
+.logo > img {
+	width:200px;
+  height: 100px; 
+}
+.reviews-card > img{
+  width: 100px;
+}
+.slideshowcontainer {
+  width: 100%;
+  height: 400px;
+  position: relative;
+}
+.slideshowimage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+</style>
+<body>
+
+	<header>
+		<div class="header-container">
+			<a href="#" class="logo"><img src="./WhatsApp Image 2023-02-21 at 8.17.55 PM.jpeg" alt="Gadgets 360 logo"></a>
+			<nav>
+				<ul>
+					
+					<li><a href="#">HOME</a></li>
+					<li><a href="#">GUIDE</a></li>
+					<li><a href="#">News</a></li>
+					<li><a href="#">REVIEWS</a></li>
+					<li><a href="#">Features</a></li>
+					<li><a href="#">Videos</a></li>
+				
+					<li><a href="#">SIGN IN</a></li>
+				</ul>
+			</nav>
+			<div class="search-container">
+				<input type="text" placeholder="Search...">
+				<button type="submit">Search</button>
+			</div>
+		</div>
+	</header>
+	<header>
+  <nav>
+    <ul>
+      <li><a href="#">MOBILES</a></li>
+      <li><a href="#">LAPTOP</a></li>
+      <li><a href="#">TV</a></li>
+      <li><a href="#">Smart watch</a></li>
+	  <li><a href="#">MUSIC</a></li>
+	  <li><a href="#">Tablets</a></li>
+	  <li><a href="#">Camera</a></li>
+	  <li><a href="#">Entertainment</a></li>
+	  <li><a href="#">CRYPTO</a></li>
+	  <li><a href="#">TELECOM</a></li>
+	  <li><a href="#">GAMING</a></li>	  
+
+    </ul>
+  </nav>
+</header>
+
+	
+	<main>
+		<div class="main-container">
+			<section class="news-section">
+				<h2>Latest News</h2>
+				<div class="news-card">
+					<a href="#"><img src="./betu.png" alt="News article thumbnail"></a>
+					<h3><a href="#">Nokia G22 with QuickFix repairability, C22 and C32 announced</a></h3>
+					<p>Nokia C22, Nokia C22 price, Nokia C32, Nokia C32 price, Nokia G22, Nokia G22 price</p>
+				</div>
+				<!-- Repeat the news card for other news articles -->
+			</section>
+			<section class="image-grid">
+			<img src="./mobile.png" alt="Image 1">
+			<img src="./camera.png" alt="Image 2">
+			<img src="./laptop.png" alt="Image 3">
+			<img src="./tv.png" alt="Image 4">
+			<img src="./headphone.png" alt="Image 5">
+			<img src="./sm.png" alt="Image 6">
+			<img src="./tablet.png" alt="Image 7">
+			<img src="./smartwatch.png" alt="Image 8">
+			<img src="./game.png" alt="Image 9">
+			
+		</section>
+    
+			<section class="reviews-section">
+				<h2>Reviews</h2>
+				<div class="reviews-card">
+					<a href="#"><img src="./cober2.png" alt="Review article thumbnail"></a>
+					<h3><a href="#">Nothing Phone (1) long term review</a></h3>
+					<p>MUST BUY</p>
+				</div>
+				<!-- Repeat the review card for other review articles -->
+			</section>
+			<!-- Repeat the section for other categories -->
+		</div>
+	</main>
+
+	<aside>
+		<div class="sidebar-container">
+			<section class="popular-section">
+				<h2>Popular Articles</h2>
+				<ul>
+					<li><a href="#">Article 1</a></li>
+					<li><a href="#">Article 2</a></li>
+					<li><a href="#">Article 3</a></li>
+					<!-- Repeat for other popular articles -->
+				</ul>
+			</section>
+			<section class="social-section">
+				<h2>Follow us on Social Media</h2>
+				<div class="social-icons">
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-instagram"></i></a>
+					<a href="#"><i class="fa fa-youtube"></i></a>
+				</div>
+			</section>
+			<!-- Add other relevant information -->
+		</div>
+	</aside>
+	
+	<div class="slider">
+		<img class="slide" src="https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&cs=tinysrgb&w=600">
+		<img class="slide" src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cGhvbmV8ZW58MHx8MHx8&w=1000&q=80">
+		<img class="slide" src="https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&cs=tinysrgb&w=600">
+		<button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+		<button class="next" onclick="changeSlide(1)">&#10095;</button>
+	  </div>
+
+	
+	  
+  
+<div>
+</section>
+			<section class="image-grid">
+			<img src="https://thumbs.dreamstime.com/z/many-used-modern-electronic-gadgets-use-white-floor-reuse-recycle-concept-top-view-153892434.jpg" alt="Image 1">
+			<img src="https://thumbs.dreamstime.com/z/many-used-modern-electronic-gadgets-use-white-floor-reuse-recycle-concept-top-view-164651362.jpg" alt="Image 2">
+			<img src="https://thumbs.dreamstime.com/z/many-used-modern-electronic-gadgets-use-white-floor-reuse-recycle-concept-top-view-164651362.jpg" alt="Image 3">
+			<img src="https://thumbs.dreamstime.com/z/many-used-modern-electronic-gadgets-use-white-floor-reuse-recycle-concept-top-view-164651362.jpg" alt="Image 4">
+			<img src="https://thumbs.dreamstime.com/z/many-used-modern-electronic-gadgets-use-white-floor-reuse-recycle-concept-top-view-164651362.jpg" alt="Image 5">
+			<img src="https://thumbs.dreamstime.com/z/many-used-modern-electronic-gadgets-use-white-floor-reuse-recycle-concept-top-view-164651362.jpg" alt="Image 6">
+			<img src="https://thumbs.dreamstime.com/z/many-used-modern-electronic-gadgets-use-white-floor-reuse-recycle-concept-top-view-164651362.jpg" alt="Image 7">
+			<img src="https://thumbs.dreamstime.com/z/many-used-modern-electronic-gadgets-use-white-floor-reuse-recycle-concept-top-view-164651362.jpg" alt="Image 8">
+			<img src="https://thumbs.dreamstime.com/z/many-used-modern-electronic-gadgets-use-white-floor-reuse-recycle-concept-top-view-164651362.jpg" alt="Image 9">
+			
+		</section>
+
+</div>
+	</div>
+  <div class="slideshowcontainer">
+    <img class="slideshowimage current" src="./betu.png">
+    <img class="slideshowimage" src="./cober.png">
+    <img class="slideshowimage" src="./cober2.png">
+  </div>
+	<footer>
+		<div class="footer-container">
+			<section class="about-section">
+				<h3>About Us</h3>
+				<p>Short description of the website goes here</p>
+				
+				</section>
+				<ul>
+					
+					
+					</ul>
+				</div>
+				<div class="tabu">
+					<a href="./feedback.html">Feedback</a>
+				</div>
+				
+	</footer>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function changeSlide(n) {
+  showSlides(slideIndex += n);
+}
+
+function showSlides(n) {
+  var slides = document.getElementsByClassName("slide");
+  if (n > slides.length) {
+    slideIndex = 1;
+  }
+  if (n < 1) {
+    slideIndex = slides.length;
+  }
+  for (var i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slides[slideIndex - 1].style.display = "block";
+}
+
+var slideIndex = 0;
+bj();
+
+function bj() {
+  var slides = document.getElementsByClassName("slideshowimage");
+  for (var i = 0; i < slides.length; i++) {
+    slides[i].style.opacity = 0;
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.opacity = 1;
+  setTimeout(bj, 3000); // Change image every 3 seconds
+}
+
+
+
+
+
+</script>
+</html>
