@@ -1,0 +1,90 @@
+ <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard</title>
+   <link rel="stylesheet" href="admin_dash.css">
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Logo">
+    <h1>Admin Dashboard</h1>
+  </header>
+  <nav>
+    <p id="admin-name"></p>
+    <ul>
+      <li><a href="#">Add Products</a></li>
+      <li><a href="admin_signup.html">Add Admin</a></li>
+      <li><a href="#">Sales</a></li>
+      <li><a href="#">Check Feedback</a></li>
+      <li><a href="#">Order Management</a></li>
+      <li><a href="#">Manage Users</a></li>
+      <li><a href="admin_login.html">LOGOUT</a></li>  
+    </ul>
+    
+  </nav>
+  <main>
+    <div class="filters">
+        <h2>Orders Summary</h2>
+        <form id="search-form">
+            <input type="text" id="search" required>
+            <input type="submit" value="Search">
+        </form>
+        <select name="price-sort" id="price-sort">
+            <option value="">Sort by Price</option>
+            <option value="asc">Low-High</option>
+            <option value="desc">High-Low</option>
+        </select>
+        <select name="status-filter" id="status-filter">
+            <option value="">Filter by order status</option>
+            <option value="ordered">Ordered</option>
+            <option value="in-transit">In Transit</option>
+            <option value="delivered">Delivered</option>
+        </select>
+    </div>
+    
+    <table>
+      <thead>
+        <tr>
+          <th>Order ID</th>
+          <th>User ID</th>
+          <th>Product Name</th>
+          <th>Quantity</th>
+          <th>Price</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>12345</td>
+          <td>iPhone X</td>
+          <td>2</td>
+          <td>$2000</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>54321</td>
+          <td>Samsung Galaxy S9</td>
+          <td>1</td>
+          <td>$1000</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>67890</td>
+          <td>Google Pixel 3</td>
+          <td>3</td>
+          <td>$1500</td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+</body>
+<script src="admin_dash.js"></script>
+</html>
+ 
+
+
+ 

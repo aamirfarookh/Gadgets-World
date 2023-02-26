@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  .nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position:fixed;
+    top:0;
+    background-color: #fff;
+  }
+  .logo>img {
+    width: 60%;
+  }
+  .links {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #search-input {
+    width: 20rem;
+    border-radius: 5px;
+    border: 3px solid red;
+    padding: 0.5rem;
+    font-size: 20px;
+  }
+  #search-input:focus {
+    border: 3px solid red;
+  }
+  #search-form > input:nth-child(2) {
+    padding: 1rem;
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+  #search-form > input:nth-child(2):hover {
+    font-size: 20px;
+  }
+  .icon:hover {
+    background-color: red;
+    border-radius: 50%;
+  }
+  .product-links {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 4.4rem auto;
+    align-items: center;
+    background-color: rgb(204, 201, 201);
+  }
+  .product-links > a {
+    text-decoration: none;
+    color: red;
+    font-size: 20px;
+    border-right: 2px solid black;
+    padding-right: 1.5rem;
+  }
+  .product-links > a:hover {
+    text-decoration: underline;
+    font-size: 22px;
+  }
+  .card-list{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    gap: 20px;
+  }
+  .content img {
+    width: 30%;
+    border-radius: 10px;
+  }
+  .card {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    padding: 10px;
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .products-btn {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: rgb(236, 22, 22);
+    color: white;
+    border-radius: 10px;
+  }
+  .card-item {
+    width: 100%;
+    margin: auto;
+  }
+
+  .lds-facebook {
+    display: block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    background-color: rgb(204, 201, 201);
+    margin: auto;
+  }
+  .lds-facebook div {
+    display: inline-block;
+    position: absolute;
+    left: 8px;
+    width: 16px;
+    background: #f91111;
+    animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+  }
+  .lds-facebook div:nth-child(1) {
+    left: 8px;
+    animation-delay: -0.24s;
+  }
+  .lds-facebook div:nth-child(2) {
+    left: 32px;
+    animation-delay: -0.12s;
+  }
+  .lds-facebook div:nth-child(3) {
+    left: 56px;
+    animation-delay: 0;
+  }
+  @keyframes lds-facebook {
+    0% {
+      top: 8px;
+      height: 64px;
+    }
+    50%,
+    100% {
+      top: 24px;
+      height: 32px;
+    }
+  }

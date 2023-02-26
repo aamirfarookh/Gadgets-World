@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GADGETS WORLD | DASHBOARD</title>
+    <link rel="stylesheet" href="dashboard.css">
+  </head>
+  <body>
+    <div class="main">
+      <!-- Navbar section containing all the details of user and product links -->
+      <div class="nav">
+        <div class="logo">
+          <img src="Logo.png" alt="Gadgets World" />
+        </div>
+        <div class="links">
+          <form action="" id="search-form">
+            <input
+              type="text"
+              id="search-input"
+              placeholder="Search for your favorites.."
+            />
+            <input type="submit" value="Search" />
+          </form>
+          <h2 id="user-details">Hello, Amir Bhat</h2>
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user-circle" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round" id="user-profile">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <circle cx="12" cy="12" r="9" />
+            <circle cx="12" cy="10" r="3" />
+            <path d="M6.168 18.849a4 4 0 0 1 3.832 -2.849h4a4 4 0 0 1 3.834 2.855" />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-shopping-cart"
+            width="44"
+            height="44"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="#2c3e50"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            id="cart-btn"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"  />
+            <circle cx="6" cy="19" r="2" />
+            <circle cx="17" cy="19" r="2" />
+            <path d="M17 17h-11v-14h-2" />
+            <path d="M6 5l14 1l-1 7h-13" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-logout" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round" id="logout-btn" >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <path d="M14 8v-2a2 2 0 0 0 -2 -2h-7a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h7a2 2 0 0 0 2 -2v-2" />
+            <path d="M7 12h14l-3 -3m0 6l3 -3" />
+          </svg>
+        </div>
+      </div>
+      <div class="product-links">
+        <a href="#">Mobile Phones</a>
+        <a href="#">Laptops</a>
+        <a href="#">TV's</a>
+        <a href="#">Smart Watches</a>
+        <a href="#">Head Phones</a>
+        <a href="#">AC's</a>
+        <a href="#">Gaming Consoles</a>
+        <a href="#">Camera</a>
+        <a href="#">Smart Bands</a>
+        <a href="#">Speakers</a>
+        <a href="#">Refrigerators</a>
+        <a href="#">Air Coolers</a>
+      </div>
+      <div class="content">
+        <!-- all the dynamic data will be appended here -->
+      </div>
+    </div>
+  </body>
+  <script src="dashboard.js"></script>
+</html>
