@@ -124,6 +124,25 @@ width: 60%;
     color: white;
     border: grey 1px;
 }
+ fw23_0626_day5
+button{
+  background-color: red;
+  color: white;
+  
+  font-size: larger
+}
+select{
+  background-color: red;
+  color: white;
+  font-size: larger
+}
+#desc{
+  margin-top: 20px;
+}
+.filter{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
     </style>
 </head>
 <body>
@@ -198,6 +217,14 @@ width: 60%;
 <div id="main">
 
     <div class="filter">
+ fw23_0626_day5
+      <div>
+        <button id="inc">INCREASING</button>
+        </div> 
+   <div>
+    <button id="desc">DECREASING</button>
+    </div> 
+
    <select name="" id="filt">
        <option value="poco">Poco</option>
        <option value="redmi">REDMI</option>
@@ -206,6 +233,7 @@ width: 60%;
        <option value="motorola">Motorola</option>
        <option value="Samsung">SAMSUNG</option>
    </select>
+
     </div>   
    
    <div id="container">
@@ -216,7 +244,11 @@ width: 60%;
 </body>
 <script>
   let cont=document.getElementById("container");
+fw23_0626_day5
+  let sortD=document.getElementById("desc");
 
+
+ main
 let api="http://localhost:8080/headphones";
 
 
@@ -271,10 +303,48 @@ function filtered(data){
 })
 showCard(data);
 }
+ fw23_0626_day5
+sortD.addEventListener("click",()=>{
+  test(api)
+})
+
+async function test(api) {
+  try {
+    let data= await fetch(`${api}?_sort=price&_order=desc`);
+    data=await data.json()
+    console.log(data)
+    showCard(data)
+  } catch (error) {
+    console.log(error)
+  }
+}
+
+let sortI=document.getElementById("inc");
+
+sortI.addEventListener("click",function (){
+  tes(api) 
+})
+
+async function tes(api) {
+  try {
+    let data= await fetch(`${api}?_sort=price&_order=asc`);
+    data=await data.json()
+    console.log(data)
+    showCard(data)
+  } catch (error) {
+    console.log(error)
+  }
+}
 
 
 
 function showCard(data){
+  cont.innerHTML=""
+
+
+
+function showCard(data){
+
 
 console.log(data)
 
@@ -323,7 +393,12 @@ if(elem.title===ele.title){
         image:ele.image,
         title:ele.title,
         price:ele.price,
+
+        userId:1,
+        quantity:1
+
         userId:1
+ main
       }),
       headers:{
         "content-type":"application/json"

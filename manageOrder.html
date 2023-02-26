@@ -6,6 +6,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+
+     body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+    background-color: #faf5f5;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  color: #121212;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 0 20px;
+  margin-bottom: 0.2rem;
+}
+header img {
+  height: 40px;
+}
+nav {
+  background-color: #a09e9e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  padding: 0 20px;
+  
+}
+nav ul {
+    width:80%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #a09e9e;
+  color:rgb(242, 66, 66);
+}
+nav li {
+  margin-right: 20px;
+  border-left: 2px solid rgb(242, 66, 66);
+  padding:5px;
+}
+nav a{
+    text-decoration: none;
+    color:rgb(242, 66, 66)
+}
+nav a:hover{
+    text-decoration: underline;
+}
+
          body {
     margin: 0;
     padding: 0;
@@ -55,11 +107,38 @@
     background-color: red;
     border-radius: 50%;
   }
+
   #head{
     color: red;
     text-align: center;
     margin-top: 100px;
   }
+
+  table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th, td {
+  text-align: left;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+tr:nth-child(even){
+    background-color: #d4d1d1;
+
+}
+tr:nth-child(odd){
+    background-color: #eee;
+}
+th {
+  background-color: #eee;
+}
+
+  button{
+    background-color: red;
+    color: white;
+    font-size: larger;
+
   table{
     border: solid red;
     margin: auto;
@@ -67,10 +146,117 @@
   th{
     border: solid black;
     font-size:x-large;
+
   }
     </style>
 </head>
 <body>
+
+  <header>
+    <img src="logo.png" alt="Logo">
+    <h1>Order Management</h1>
+  </header>
+  <nav>
+    <p id="admin-name"></p>
+    <ul>
+      <li><a href="#">Add Products</a></li>
+      <li><a href="admin_signup.html">Add Admin</a></li>
+      <li><a href="#">Sales</a></li>
+      <li><a href="#">Check Feedback</a></li>
+      <li><a href="#">Order Management</a></li>
+      <li><a href="#">Manage Users</a></li>
+      <li><a href="admin_login.html">LOGOUT</a></li>  
+    </ul>
+    
+  </nav>
+      
+      <h1 id="head">Order management</h1>
+
+      <table id="here">
+        <thead>
+            <th>Name</th>
+            <th>UserId</th>
+            <th>Order-status</th>
+            <th>Change to Shipped</th>
+            <th>Change to delivered</th>
+        </thead>
+        
+      </table>
+</body>
+<script>
+  let body=document.getElementById("here");
+   
+  let api="http://localhost:8080/users"
+  getData(api)
+  async function getData(api){
+    try {
+      let data=await fetch(api);
+      data=await data.json();
+      console.log(data)
+      showData(data)
+    } catch (error) {
+      console.log(error)
+    }
+  }
+
+
+  function showData(data){
+
+    data.forEach(element => {
+      let ch=[];
+      element.orders.forEach(ele=>{
+        let main=document.createElement("tbody")
+
+        let userId=document.createElement("td");
+        userId.innerText=element.username;
+        console.log(ele.title);
+
+        let name=document.createElement("td");
+        name.innerText=ele.title;
+
+        let orderSta=document.createElement("td");
+        orderSta.innerText=ele.status;
+       
+        let b1=document.createElement("td");
+        let shipped=document.createElement("button");
+        shipped.innerText="Change"
+        shipped.addEventListener("click",()=>{
+          ele.status="shipped";
+          orderSta.innerText=ele.status;
+          yo()
+        })
+        b1.append(shipped);
+
+        let b2=document.createElement("td");
+        let dilivered=document.createElement("button");
+       dilivered.innerText="Change"
+        dilivered.addEventListener("click",()=>{
+          ele.status="delivered";
+          orderSta.innerText=ele.status;
+          yo()
+        })
+        b2.append(dilivered);
+
+        main.append(name,userId, orderSta,b1,b2)
+        body.append(main);
+        ch.push(ele);
+      })
+      async function yo(api){
+    await fetch(`http://localhost:8080/users/${element.id}`,{
+      method:"PATCH",
+      headers:{
+        "content-type":"application/json"
+      },
+      body:JSON.stringify({
+        orders:ch
+      })
+    })
+      }
+ 
+    });
+  }
+</script>
+
     <div class="nav">
         <div class="logo">
           <img src="Logo.png" alt="Gadgets World" />
@@ -132,4 +318,5 @@
         <tbody id="here"></tbody>
       </table>
 </body>
+
 </html>

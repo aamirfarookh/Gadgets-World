@@ -116,6 +116,22 @@ width: 60%;
     color: white;
     border: grey 1px;
 }
+button{
+  background-color: red;
+  color: white;
+  font-size: larger
+}
+select{
+  background-color: red;
+  color: white;
+  font-size: larger
+}
+#desc,#inc{
+  margin-top: 20px;
+}
+.filter{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
     </style>
 </head>
 <body>
@@ -196,6 +212,12 @@ width: 60%;
     <option value="MOTOROLA">Motorola</option>
     <option value="SAMSUNG">SAMSUNG</option>
 </select>
+<div>
+  <button id="inc">INCREASING</button>
+  </div> 
+<div>
+  <button id="desc">DECREASING</button>
+  </div> 
  </div>   
 
 <div id="container">
@@ -225,6 +247,9 @@ async function get(api){
 get(api)
 
 let filbtn= document.getElementById("searbtn");
+
+let sortD=document.getElementById("desc");
+
 
 filbtn.addEventListener("click" , ()=>{
     async function get(api){
@@ -261,8 +286,82 @@ showCard(data);
 }
 
 
+let selFilt=document.getElementById("filt")
+selFilt.addEventListener("change" , ()=>{
+    async function get(api){
+   try {
+    let data=await fetch(api);
+    data= await data.json();
+
+    filt(data);
+    
+   } catch (error) {
+    
+   } 
+}
+get(api)
+})
+
+function filt(data){
+
+  data = data.filter((ele)=>{
+   let input = ele.title;
+
+  let res = selFilt.value;
+
+ if(input.toLowerCase().includes(res.toLowerCase())){
+ 
+  return true;
+ }
+ else{
+   return false }
+})
+showCard(data);
+}
+
+
+
+
 function showCard(data){
 
+
+//desc sort here
+sortD.addEventListener("click",()=>{
+  test(api)
+})
+
+async function test(api) {
+  try {
+    let data= await fetch(`${api}?_sort=price&_order=desc`);
+    data=await data.json()
+    console.log(data)
+    showCard(data)
+  } catch (error) {
+    console.log(error)
+  }
+}
+
+//asc sort here
+let sortI=document.getElementById("inc");
+
+sortI.addEventListener("click",function (){
+  tes(api) 
+})
+
+async function tes(api) {
+  try {
+    let data= await fetch(`${api}?_sort=price&_order=asc`);
+    data=await data.json()
+    console.log(data)
+    showCard(data)
+  } catch (error) {
+    console.log(error)
+  }
+}
+
+
+function showCard(data){
+  cont.innerHTML=""
 console.log(data)
 
 data.forEach((ele) => {
@@ -308,7 +407,12 @@ if(elem.title===ele.title){
         image:ele.image,
         title:ele.title,
         price:ele.price,
+
+        userId:1,
+        quantity:1
+
         userId:1
+
       }),
       headers:{
         "content-type":"application/json"
