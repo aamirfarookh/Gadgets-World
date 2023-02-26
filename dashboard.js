@@ -43,9 +43,9 @@ async function fetchProducts(searchInput) {
     let response = await request.json();
     console.log(response);
     productsData = response;
-    renderCardList(productsData);
+    // renderCardList(productsData);
     let filtered = productsData.filter((ele) => {
-      if (ele.title.toLowerCase().includes(searchInput.toLowerCase())) {
+      if (ele.name.toLowerCase().includes(searchInput.toLowerCase())) {
         return true;
       } else {
         return false;
@@ -64,6 +64,16 @@ async function fetchProducts(searchInput) {
         mainSection.innerHTML = `<div style="width:80vw; margin:auto;"><h1>No items match your search !!</h1></div>`;
       }, 2000);
     }
+    setTimeout(() => {
+      let productPageBtns = document.querySelectorAll(".products-btn");
+      console.log(productPageBtns)
+         productPageBtns.forEach(button => {
+          button.addEventListener("click",()=>{
+            window.location.href="mobiles.html"
+          })
+         });
+    }, 5000);
+   
   } catch (error) {
     console.log(error);
   }
@@ -78,7 +88,7 @@ function card(img, title, brand, price, rating) {
   <h4>${brand}</h4>
   <p><strong>PRICE:</strong> ${price}<p>
   <p><strong>RATING:</strong> ${rating} /5<p>
-  <button id="cartBtn">SEE ALL PRODUCTS</button>
+  <button class="products-btn">SEE ALL PRODUCTS</button>
 </div>
 </div>`;
   return card;
@@ -91,7 +101,7 @@ function renderCardList(data) {
     .map((ele) => {
       return card(
         ele.image,
-        ele.title.slice(0, 30),
+        ele.name.slice(0, 30),
         ele.brand.toUpperCase(),
         ele.price,
         ele.rating

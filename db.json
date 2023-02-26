@@ -1024,26 +1024,28 @@
     {
       "id": 1,
       "username": "amir321",
-      "first_name": "Amir",
-      "last_name": "Bhat",
+      "first_name": "Mohsin",
+      "last_name": "Iqbal",
       "email": "aamir@gmail.com",
       "address": "Srinagar J&K 190015",
       "password": "12345",
-      "avatar": "https://i.pinimg.com/564x/c7/b7/b7/c7b7b75ea49a414fad84721676d4f868.jpg",
+      "avatar": "https://i.pinimg.com/564x/19/99/e0/1999e052d1f7263e4674294285f7c576.jpg",
       "phone_number": "8899990966"
     }
   ],
   "cart": [],
   "admin-data": [
     {
+      "id": 1,
       "username": "admin",
       "fullname": "Test-Admin",
       "password": "admin"
     },
     {
-      "username": "ammy",
-      "fullname": "Amir",
-      "password": "12345"
+      "username": "aamirfarookh",
+      "fullname": "Amir Bhat",
+      "password": "12345",
+      "id": 2
     }
   ],
   "orders": [
@@ -1096,11 +1098,11 @@
       "user_id": 1
     }
   ],
-  "feedback":[
+  "feedback": [
     {
-      "name":"Shubham",
-      "email":"shubhma@gmail.com",
-      "message":"Everything is allright"
+      "name": "Shubham",
+      "email": "shubhma@gmail.com",
+      "message": "Everything is allright"
     }
   ]
 }

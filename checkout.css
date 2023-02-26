@@ -195,7 +195,7 @@
         
         
       }
-      .otp-popup button{
+      .otp-popup button,#postDataBtn{
         background-color: red;
         color: white;
         padding: 10px 20px;

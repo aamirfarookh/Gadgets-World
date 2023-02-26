@@ -38,6 +38,10 @@ let paymentFormBtn = document.getElementById("payment-btn")
 
 
 
+
+
+
+
 //function to fetch Cart data
 async function fetchCartData(){
     try {
@@ -51,8 +55,16 @@ async function fetchCartData(){
     },0);
     // console.log(orders)
     if(totalBill==0){
-      totalDiv.innerHTML = `<h2>YOUR CART IS EMPTY!!</h2>`
+      totalDiv.innerHTML = `<div>
+      <h2>YOUR CART IS EMPTY!!</h2>
+      <button id=postDataBtn>BACK TO HOME<button>
+      <div>`
       paymentFormBtn.disabled=true;
+      let postOrdersBtn = document.getElementById("postDataBtn");
+      postOrdersBtn.addEventListener("click",()=>{
+      window.location.href ="dashboard.html"
+    
+      })
       
     }else{
       subTotal.textContent = "₹ " + totalBill +"/-";
@@ -86,24 +98,22 @@ setTimeout(() => {
     otpPopup.classList.add("display-visible")
 }, 2000);
 paymentForm.innerHTML =  `<div class="lds-facebook"><div></div><div></div><div></div></div>`;
+
 for(let i=0;i<cartData.length;i++){
     cartData[i].status="ordered"
     cartData[i].user_id =1
 }
+// for(let i=0;i<cartData.length;i++){
+//     fetch(`${baseServerUrl}orders`,{
+//     method:"POST",
+//     headers:{
+//         "Content-Type":"application/json"
+//     },
+//     body: JSON.stringify(cartData[i])
 
-for(let i=0;i<cartData.length;i++){
-    fetch(`${baseServerUrl}orders`,{
-        method:"POST",
-        headers:{
-            "Content-Type":"application/json"
-        },
-        body: JSON.stringify(cartData[i])
+// })
 
-    })
-    .then((res)=>{
-        console.log(res)
-    })
-}
+
 })
 
 
@@ -141,7 +151,7 @@ if(otpInput.value==otp){
             console.log(res)
         })
     }
-    cartData=[]
+    
     }, 2000);
 }
 else{

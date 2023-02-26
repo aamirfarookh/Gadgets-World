@@ -88,7 +88,7 @@ body {
     justify-content: space-between;
     gap: 10px;
   }
-  #cartBtn {
+  .products-btn {
     padding: 10px;
     font-size: 16px;
     border: none;
