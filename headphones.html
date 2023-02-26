@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-              body {
+        body {
     margin: 0;
     padding: 0;
   }
@@ -74,21 +74,26 @@
     text-decoration: underline;
     font-size: 22px;
   }
+
+ 
+ 
+  
         .searchD {
     width: 20%;
     margin: auto;
     display:flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 100px;
     margin-bottom: 20px;
 }
 .searchD > button {
     background-color: red;
     color: white;
+    border: red;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
-        #main {
+ #main {
             display: flex;
         }
         .filter {
@@ -103,9 +108,12 @@ display: flex;
 width: 100%;
 margin-top: 20px;
 box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
 }
+
 #container >div>div{
 width: 50%;
+
 }
 #container>div img{
 width: 60%;
@@ -152,6 +160,7 @@ width: 60%;
             stroke-linejoin="round"
             id="cart-btn"
           >
+          
             <path stroke="none" d="M0 0h24v24H0z" fill="none"  />
             <circle cx="6" cy="19" r="2" />
             <circle cx="17" cy="19" r="2" />
@@ -179,35 +188,36 @@ width: 60%;
         <a href="#">Refrigerators</a>
         <a href="#">Air Coolers</a>
       </div>
-
+     
+        
     <div class="searchD">
         <input id="sear" type="text" placeholder="Search Your Products...">
         <button id="searbtn">SEARCH</button>
    </div>
-    
+
 <div id="main">
 
- <div class="filter">
-<select name="" id="filt">
-    <option value="POCO">Poco</option>
-    <option value="REDMI">REDMI</option>
-    <option value="OPPO">Oppo</option>
-    <option value="realme">Realme</option>
-    <option value="MOTOROLA">Motorola</option>
-    <option value="SAMSUNG">SAMSUNG</option>
-</select>
- </div>   
-
-<div id="container">
-
-
-</div>
-</div>
+    <div class="filter">
+   <select name="" id="filt">
+       <option value="poco">Poco</option>
+       <option value="redmi">REDMI</option>
+       <option value="oppo">Oppo</option>
+       <option value="realme">Realme</option>
+       <option value="motorola">Motorola</option>
+       <option value="Samsung">SAMSUNG</option>
+   </select>
+    </div>   
+   
+   <div id="container">
+   
+   
+   </div>
+   </div>
 </body>
 <script>
-let cont=document.getElementById("container");
+  let cont=document.getElementById("container");
 
-let api="http://localhost:8080/mobiles";
+let api="http://localhost:8080/headphones";
 
 
 async function get(api){
@@ -223,6 +233,8 @@ async function get(api){
    } 
 }
 get(api)
+
+
 
 let filbtn= document.getElementById("searbtn");
 
@@ -261,6 +273,7 @@ showCard(data);
 }
 
 
+
 function showCard(data){
 
 console.log(data)
@@ -277,12 +290,14 @@ data.forEach((ele) => {
     let price=document.createElement("h2");
     let cartBtn=document.createElement("button");
     img.setAttribute("src",ele.image);
+    imgDiv.setAttribute("id","imgDiv")
      imgDiv.append(img)
 
      name.innerText=ele.title;
      desc.innerText=ele.description;
      price.innerText=`₹${ele.price}`;
      cartBtn.innerText="Add to cart";
+
      cartBtn.addEventListener("click",async function(){
     let data;
       try {
@@ -325,7 +340,7 @@ elDiv.append(name,desc,price,cartBtn)
  cont.append(card);
 });
 
-}
 
+}  
 </script>
 </html>
