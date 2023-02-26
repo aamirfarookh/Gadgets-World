@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+    background-color: #faf5f5;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  color: #121212;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 0 20px;
+  margin-bottom: 0.2rem;
+}
+header img {
+  height: 40px;
+}
+nav {
+  background-color: #a09e9e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  padding: 0 20px;
+  
+}
+nav ul {
+    width:80%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #a09e9e;
+  color:rgb(242, 66, 66);
+}
+nav li {
+  margin-right: 20px;
+  border-left: 2px solid rgb(242, 66, 66);
+  padding:5px;
+}
+nav a{
+    text-decoration: none;
+    color:rgb(242, 66, 66)
+}
+nav a:hover{
+    text-decoration: underline;
+}
+#container{
+    width:80%;
+    margin:auto;
+    margin-top: 2rem;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th, td {
+  text-align: left;
+  padding: 8px;
+  border-bottom: 1px solid #b9b5b5;
+}
+tr:nth-child(even){
+    background-color: #d4d1d1;
+
+}
+tr:nth-child(odd){
+    background-color: #eee;
+}
+th {
+  background-color: #eee;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Logo">
+        <h1>Admin Dashboard</h1>
+      </header>
+      <nav>
+        <p id="admin-name"></p>
+        <ul>
+          <li><a href="#">Add Products</a></li>
+          <li><a href="admin_signup.html">Add Admin</a></li>
+          <li><a href="#">Sales</a></li>
+          <li><a href="#">Check Feedback</a></li>
+          <li><a href="#">Order Management</a></li>
+          <li><a href="#">Manage Users</a></li>
+          <li><a href="admin_login.html">LOGOUT</a></li>  
+        </ul>
+        
+      </nav>
+    <div id="container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Subject</th>
+                    <th>Message</th>
+                </tr>
+                
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+</body>
+<script>
+async function fetchForm(){
+    try {
+        let fetReq = await fetch("http://localhost:8080/feedback")
+        let res = await fetReq.json();
+        console.log(res)
+        appendFormData(res)
+    } catch (error) {
+        
+    }
+}
+fetchForm();
+
+
+let cont = document.querySelector("tbody")
+function appendFormData(data){
+   
+    data.forEach((element) => {
+        let card = document.createElement("tr")
+
+        let name = document.createElement("td")
+        name.textContent=element.name
+        let email = document.createElement("td")
+        email.textContent=element.email
+        let subject = document.createElement("td")
+        subject.textContent=element.subject
+        let message = document.createElement("td")
+        message.textContent=element.message
+
+
+
+card.append(name,email,subject,message)
+cont.append(card)
+    });
+}
+
+</script>
+</html>
